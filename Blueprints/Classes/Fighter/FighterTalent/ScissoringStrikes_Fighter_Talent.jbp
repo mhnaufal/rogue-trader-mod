@@ -1,0 +1,69 @@
+{
+  "AssetId": "606c4c7beb504cb690f914964aead591",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexanderGusev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "bdcec557c14f81645a5cd4fe09e86757",
+        "stringkey": "b26955bb-6d3d-4818-898d-6097dc1a7cfc"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "48792c7eaaa70be448d83cb623e77902",
+        "stringkey": "6539b659-a4d5-4b43-8d0f-fce47dda2b7b"
+      }
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": [
+        {
+          "$type": "40a1bdb738834fb69a296a2677235b35, PrerequisiteFact",
+          "name": "$PrerequisiteFact$c3294bd728c546ec99ac80eec286ddcd",
+          "Not": false,
+          "m_Fact": "!bp_8016bc8096ff42638b138126d335b999",
+          "MinRank": 0
+        }
+      ]
+    },
+    "FeatureTypes": [
+      "Offense",
+      "Archetype"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "EquipmentUsage, Damage",
+      "MainGroup": "Damage"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

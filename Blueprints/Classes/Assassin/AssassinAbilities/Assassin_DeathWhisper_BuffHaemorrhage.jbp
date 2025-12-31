@@ -1,0 +1,198 @@
+{
+  "AssetId": "372208cc0f434c17abfb5140e8806ebc",
+  "Data": {
+    "$type": "618a7e0d54149064ab3ffa5d9057362c, BlueprintBuff",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$41240221-6093-48c6-afbf-0960b596edfe",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "ContextCaster",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "c10cf729af04472a900528c00b86b0fd, BlueprintPropertyGetter",
+              "name": "$BlueprintPropertyGetter$ddfd7c8a06804f2c87393bf9efd1cf18",
+              "Settings": {
+                "Progression": "DivStep",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 10,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "m_Property": "!bp_7c4aa6b9b053451d84a79f37faf7ba84"
+            },
+            {
+              "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
+              "name": "$FactRankGetter$26016434958f4347a5d50b7e53a895ba",
+              "Settings": {
+                "Progression": "MultiplyByModifier",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 10,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "m_Fact": "!bp_a3440024be304b199ba2c89325ad8afb",
+              "Aggregation": "Max",
+              "BuffWithCasterFromTargetType": false,
+              "Target": "CurrentEntity"
+            },
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$ce497970d7c047b48f94416c34cf80d7",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": -1,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "f13ba6e499da486e9ec3ddc458c6c110, DOTLogic",
+        "name": "$DOTLogic$d12cf06e-525a-4891-81f6-f2da389d7a0c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Type": "AssassinHaemorrhage",
+        "DamageType": "Rending",
+        "SaveType": "Unknown",
+        "Difficulty": 0
+      },
+      {
+        "$type": "b2e83cd85780453f854ebe9dac137c42, ArmorIgnoreOnTargetInitiator",
+        "name": "$ArmorIgnoreOnTargetInitiator$84b6b8cb-ea22-4069-a963-68f2a658a1ed",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "02322c486992c2449ab0a19892384b33, CheckReasonFactGetter",
+                "name": "$CheckReasonFactGetter$d550e782-04e8-4901-9ab5-00c8f1e18b88",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "m_Blueprint": "!bp_372208cc0f434c17abfb5140e8806ebc"
+              }
+            ]
+          }
+        },
+        "IgnoreDeflection": true,
+        "IgnoreArmourAbsorption": true
+      }
+    ],
+    "Author": "LeonidTolochenko",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "be32287a6d268c840b2979c4ce674006",
+        "stringkey": "6608e48c-0b6c-448f-ad97-6600454d7b02"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "24b1516afaeadef4c92d279f153e9d18",
+        "stringkey": "eced03a4-1c93-46d5-b67f-aaac7d4a92b4"
+      }
+    },
+    "m_Icon": {
+      "guid": "2a7fc539e743cc34aafefa1c8213b524",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "m_Flags": 0,
+    "m_SoundTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "m_MuffledTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "Stacking": "Replace",
+    "ProlongWhenRankAdded": false,
+    "PriorityProperty": "Value1",
+    "Initiative": "ByCaster",
+    "Ranks": 0,
+    "FxOnStart": {
+      "AssetId": ""
+    },
+    "FxOnRemove": {
+      "AssetId": ""
+    },
+    "m_FXSettings": null,
+    "ResourceAssetIds": [],
+    "PlayOnlyFirstHitSound": false,
+    "m_priorityInUI": 0,
+    "m_AbilityGroups": [
+      "!bp_d23f307bb38143da9d59aecf054dcba1",
+      "!bp_2fd4d53f56e74e22af221666661ccbba",
+      "!bp_0544f47812ee411eb3d5829315468fa7"
+    ],
+    "m_Cyclical": false,
+    "NeedCollapseStack": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

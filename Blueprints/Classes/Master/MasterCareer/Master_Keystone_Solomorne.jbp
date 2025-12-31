@@ -1,0 +1,271 @@
+{
+  "AssetId": "b83f88696cd848f894dc01e5ad0d0d1b",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "79d7b9273feb4554b09c82f69c0b62d6",
+    "m_Overrides": [
+      "HideNotAvailibleInUI",
+      "Comment",
+      "m_DisplayName",
+      "$AddFeatureIfHasFact$98cb1dfa-1f19-4e79-b058-4305cae72057",
+      "$AddFeatureIfHasFact$f403fa0a-49e0-45d8-896f-42ed4caed237",
+      "$AddFeatureIfHasFact$394672bd-c973-42db-bad4-51cf4891c1f5"
+    ],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$AddFacts$d23dfcda-c1aa-4f9a-8dd9-bb990024d7a1",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$AddFacts$d23dfcda-c1aa-4f9a-8dd9-bb990024d7a1"
+        },
+        "m_Overrides": [
+          "m_Facts"
+        ],
+        "m_Facts": [
+          "!bp_91469656b6fb406f9d9abd036b502b05",
+          "!bp_469ab777f2284aa18e1d242db2f9cc64",
+          "!bp_078bea05041540fa87a53b93d639f243",
+          "!bp_5955723361094eada17c84c6c9f84476",
+          "!bp_616f42e2f9a842f191fdeca28d1bbf0d",
+          "!bp_0cded06c29174502823f0f52154d8162"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "5930714e6c92d6a4c9e01295a4101d20, AddFactsToPet",
+        "name": "$AddFactsToPet$43cf47b9-27c3-456b-8f88-e424b1f48b75",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$AddFactsToPet$43cf47b9-27c3-456b-8f88-e424b1f48b75"
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_22daa3b8de304cf28719f21f817575f3",
+          "!bp_36faf0af70634955a243902b796d0eae",
+          "!bp_2f836a44d5114776ab2e8b692fdd4934",
+          "!bp_267ea941490e468aa0b6e262ea6fd171",
+          "!bp_87fc9b7904f6440ba14386ab1643a4f8",
+          "!bp_a16451e5ebe64fdfbe548cd011fa76b3",
+          "!bp_5d26d186e5e64867963abe9e4bef0c1b"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "789dd01d78384d1cb23fb6502108e6f2, ChangeUnitLevelTrigger",
+        "name": "$ChangeUnitLevelTrigger$16b56cbe-ba81-4d59-824d-33a6f871d87e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$ChangeUnitLevelTrigger$16b56cbe-ba81-4d59-824d-33a6f871d87e"
+        },
+        "m_Overrides": [],
+        "ActionOnChangeUnitLevel": {
+          "Actions": [
+            {
+              "$type": "7e9b6e3ec852e264e8fcd8c4b5956eee, AddFact",
+              "name": "$AddFact$33535c2afbbe57b19ef8f272add9533d",
+              "Unit": {
+                "$type": "9e61684a16394f879f8b2de216fcb960, PetByOwner",
+                "name": "$PetByOwner$5462aff470b1588e849e631fcd6e1763",
+                "OwnerEvaluator": {
+                  "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                  "name": "$FactOwner$f8d5b6e22c205ffaa036898b58c5eccf"
+                }
+              },
+              "m_Fact": "!bp_36faf0af70634955a243902b796d0eae"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "122ec7c91e97dfc4ea7a7ced0e5c7b61, PetKeystoneInfoComponent",
+        "name": "$PetKeystoneInfoComponent$239e1a5f-c2ef-482f-ab2d-f96aa52cb9fb",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$PetKeystoneInfoComponent$239e1a5f-c2ef-482f-ab2d-f96aa52cb9fb"
+        },
+        "m_Overrides": [],
+        "PetType": "Mastiff",
+        "PetInfoTitleName": {
+          "m_Key": "",
+          "m_OwnerString": "",
+          "m_OwnerPropertyPath": "",
+          "m_JsonPath": "",
+          "Shared": {
+            "assetguid": "b27ed92ac3763f042b6c3c5d87edc52a",
+            "stringkey": "8a7ab367-b742-4713-ad2e-2c7e26c47c2f"
+          }
+        },
+        "PetVideoPC": {
+          "AssetId": "8b54b3335df6efb48aa6bd8cfef4de00"
+        },
+        "PetVideoPS": {
+          "AssetId": "e6cdf78fa6fc6b046b9b010714e5e551"
+        },
+        "PetVideoXbox": {
+          "AssetId": "f4679b4f6e51f904fa5ce1296c5b0838"
+        },
+        "DescriptionReference": "!bp_f4329cee6e064b8b8f36a56497f72b49",
+        "KeyStats": [
+          {
+            "StatType": "WarhammerWeaponSkill"
+          },
+          {
+            "StatType": "WarhammerStrength"
+          }
+        ],
+        "CoreAbilitiesReferences": [
+          "!bp_3311f1213a1e452c874ce2cde5c03f59",
+          "!bp_78e7771b7c974111887e762d5e999a11",
+          "!bp_b642b445adc04242ba616c3e98125972"
+        ],
+        "PetUnitReference": "!bp_fffed8b281aa45fc9926d62d7aaf94c9",
+        "RecommendedFeatures": []
+      },
+      {
+        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
+        "name": "$AddFeatureIfHasFact$4dbf33dc-33ab-4a35-8355-37def9c9d42a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$AddFeatureIfHasFact$4dbf33dc-33ab-4a35-8355-37def9c9d42a"
+        },
+        "m_Overrides": [],
+        "m_CheckedFact": "!bp_dd6948ee596346a69733d0bb107c2f42",
+        "m_Feature": "!bp_38ed47c3d8df4ee7a128b713a51cb40b",
+        "Not": false
+      },
+      {
+        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
+        "name": "$AddFeatureIfHasFact$c6233bfa-6518-46cc-bfb6-0d8aed026a2e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$AddFeatureIfHasFact$c6233bfa-6518-46cc-bfb6-0d8aed026a2e"
+        },
+        "m_Overrides": [],
+        "m_CheckedFact": "!bp_06f4f78a9c1a472b85cd79a9a142153d",
+        "m_Feature": "!bp_e202927235194d9ba695ea250e904cf0",
+        "Not": false
+      },
+      {
+        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
+        "name": "$AddFeatureIfHasFact$b3fdbece-ab5e-4bcb-8a1a-298fa06bd0bd",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$AddFeatureIfHasFact$b3fdbece-ab5e-4bcb-8a1a-298fa06bd0bd"
+        },
+        "m_Overrides": [],
+        "m_CheckedFact": "!bp_1529e5a0e7844bf3bb8d0cc0501264d4",
+        "m_Feature": "!bp_ce95a986c4044c0ca07fd0db9915388c",
+        "Not": false
+      },
+      {
+        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
+        "name": "$AddFeatureIfHasFact$081909be-d209-4d30-8326-d6965b051aac",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$AddFeatureIfHasFact$081909be-d209-4d30-8326-d6965b051aac"
+        },
+        "m_Overrides": [],
+        "m_CheckedFact": "!bp_33725d84e95e4323ac46d8fbf899b250",
+        "m_Feature": "!bp_e272401f843a4fa29278e74dbb9c5731",
+        "Not": false
+      },
+      {
+        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
+        "name": "$AddFeatureIfHasFact$70ed3f03-3c18-4fbd-9c3a-57d5d736e10e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "79d7b9273feb4554b09c82f69c0b62d6",
+          "name": "$AddFeatureIfHasFact$70ed3f03-3c18-4fbd-9c3a-57d5d736e10e"
+        },
+        "m_Overrides": [],
+        "m_CheckedFact": "!bp_974496d72fbe4329b438ee15cf004bd2",
+        "m_Feature": "!bp_582bb17c04754121b4b31647865dfd32",
+        "Not": false
+      }
+    ],
+    "Author": "IlyaPolitko",
+    "Comment": "Кейстоун для Соломона (Мастиф)!",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "b19f682cbb3377541a9347d330ca3ebf",
+        "stringkey": "b96a1a60-ad20-4def-85a5-68f2e480a4c1"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "b704e7219b3269b4aa35eeda9946341c",
+        "stringkey": "17d5ca63-054f-4bc8-9ecf-a01f21ca5dbf"
+      }
+    },
+    "m_Icon": {
+      "guid": "0ef446b151f11b345888c57afa4901e3",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": true,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "Or",
+      "List": [
+        {
+          "$type": "40a1bdb738834fb69a296a2677235b35, PrerequisiteFact",
+          "name": "",
+          "Not": false,
+          "m_Fact": "!bp_cd1baf99dad544168bbf4962b3389d94",
+          "MinRank": 1
+        },
+        {
+          "$type": "40a1bdb738834fb69a296a2677235b35, PrerequisiteFact",
+          "name": "",
+          "Not": false,
+          "m_Fact": "!bp_8ca6cc2ee71748ddab3513339cf05ad6",
+          "MinRank": 1
+        }
+      ]
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

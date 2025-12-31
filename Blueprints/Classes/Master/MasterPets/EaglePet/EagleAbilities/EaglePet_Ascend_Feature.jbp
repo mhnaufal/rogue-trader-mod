@@ -1,0 +1,599 @@
+{
+  "AssetId": "71bb3db5c0bd4fed938e8cfc01968f7b",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "0cdbc172cfe945e3818c0d49fbd7d65f, TurnBasedModeEventsTrigger",
+        "name": "$TurnBasedModeEventsTrigger$867e970e-5c92-430f-afb2-9988be17d7ae",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "TriggerIfNotInCombat": false,
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "CombatStartActions": {
+          "Actions": []
+        },
+        "CombatEndActions": {
+          "Actions": [
+            {
+              "$type": "6e7c340ab284b5d4abb5b75a0a5da91a, RemoveFact",
+              "name": "$RemoveFact$34417ddd-e8d9-4283-a637-538bdbe79345",
+              "Unit": {
+                "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                "name": "$FactOwner$56ef4ec2-653c-456f-ba9e-45ed9f3dfeca"
+              },
+              "m_Fact": "!bp_e88c9a27d8264ec5aff21131072deceb"
+            },
+            {
+              "$type": "7e9b6e3ec852e264e8fcd8c4b5956eee, AddFact",
+              "name": "$AddFact$47a83dee-3af7-40b5-b557-229b695f60dd",
+              "Unit": {
+                "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                "name": "$FactOwner$54851743-c148-4292-ad09-8e2ba9cf80c9"
+              },
+              "m_Fact": "!bp_98362e16cc3a4e7f9ce63039186c2b23"
+            },
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$ad650658-ba64-41d0-924c-ac89148131c1",
+              "Comment": "Если есть Aerial Rush",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "9706de75454abeb48bd4cfa7f526a1c2, ContextConditionHasFact",
+                    "name": "$ContextConditionHasFact$b4ce4fa7-0c06-48a7-a216-480810939824",
+                    "Not": false,
+                    "m_Fact": "!bp_c367824c9c6e4f7188e35f6e2755bd78"
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": [
+                  {
+                    "$type": "7e9b6e3ec852e264e8fcd8c4b5956eee, AddFact",
+                    "name": "$AddFact$b14dc3cb-5f68-4ea8-bb64-8ada1d149109",
+                    "Unit": {
+                      "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                      "name": "$FactOwner$e6ced787-2437-46aa-8236-3784414d3940"
+                    },
+                    "m_Fact": "!bp_4746ee87d7e1461ca9054aeb44795508"
+                  },
+                  {
+                    "$type": "6e7c340ab284b5d4abb5b75a0a5da91a, RemoveFact",
+                    "name": "$RemoveFact$efd353e8-776d-4595-93ea-5f2b511b0c31",
+                    "Unit": {
+                      "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                      "name": "$FactOwner$b09aee1b-efeb-4422-a2fb-f6e3bd0f138d"
+                    },
+                    "m_Fact": "!bp_c367824c9c6e4f7188e35f6e2755bd78"
+                  }
+                ]
+              },
+              "IfFalse": {
+                "Actions": []
+              }
+            },
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$b1687bde-c2c8-4103-ae54-851e2fa09449",
+              "Comment": "Если есть Blinding Dive",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "9706de75454abeb48bd4cfa7f526a1c2, ContextConditionHasFact",
+                    "name": "$ContextConditionHasFact$20f0a912-b607-4568-88bb-eb692b811180",
+                    "Not": false,
+                    "m_Fact": "!bp_2abd1ef7c3bb4c77a2658637058fd294"
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": [
+                  {
+                    "$type": "7e9b6e3ec852e264e8fcd8c4b5956eee, AddFact",
+                    "name": "$AddFact$6a5619ac-159e-4d93-801f-bd4334f6b6f0",
+                    "Unit": {
+                      "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                      "name": "$FactOwner$7f946eec-9fbc-4c69-8ecd-8a5e50237acb"
+                    },
+                    "m_Fact": "!bp_105fd4d638f24615a649fd0ab63ebc4b"
+                  },
+                  {
+                    "$type": "6e7c340ab284b5d4abb5b75a0a5da91a, RemoveFact",
+                    "name": "$RemoveFact$10be6028-619f-4f9c-96b7-7e009454f224",
+                    "Unit": {
+                      "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                      "name": "$FactOwner$6032f2fa-f6e0-4169-a1f0-c6c735360d8e"
+                    },
+                    "m_Fact": "!bp_2abd1ef7c3bb4c77a2658637058fd294"
+                  }
+                ]
+              },
+              "IfFalse": {
+                "Actions": []
+              }
+            }
+          ]
+        },
+        "RoundStartActions": {
+          "Actions": []
+        },
+        "RoundEndActions": {
+          "Actions": []
+        },
+        "AnyUnitTurns": false,
+        "OnlyEnemyTurns": false,
+        "ActionsOnTheTurnOwner": false,
+        "UnitTurnStartActions": {
+          "Actions": []
+        },
+        "UnitTurnEndActions": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$e19a22a9b47846ae9ce7617aa42020ad",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                    "name": "$ContextConditionCasterHasFact$b0a2d40be7e75387ac188bf0e2117ee4",
+                    "Not": false,
+                    "m_Fact": "!bp_43252a1a60f5428bbd32b3bf77f9d6fb"
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": []
+              },
+              "IfFalse": {
+                "Actions": [
+                  {
+                    "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+                    "name": "$Conditional$333fd8707c1b5846a935405363c8572d",
+                    "Comment": "",
+                    "ConditionsChecker": {
+                      "Operation": "And",
+                      "Conditions": [
+                        {
+                          "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                          "name": "$ContextConditionCasterHasFact$f97a5988bb4c5f0ea34f913c6b9d1fa9",
+                          "Not": true,
+                          "m_Fact": "!bp_a81fce36709f49f78675fdec233f6a13"
+                        },
+                        {
+                          "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                          "name": "$ContextConditionCasterHasFact$36251f0ea5fa5ade989f3fb99a76c169",
+                          "Not": true,
+                          "m_Fact": "!bp_16d574347c794b48857e6abe7a99dc5b"
+                        },
+                        {
+                          "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                          "name": "$ContextConditionCasterHasFact$42f2990f68215e3b9df3bca0902f3dc0",
+                          "Not": true,
+                          "m_Fact": "!bp_41884e8e37e042ab86185c17b1a6c057"
+                        }
+                      ]
+                    },
+                    "IfTrue": {
+                      "Actions": [
+                        {
+                          "$type": "9a9711e7bb7840f48ad264059580b262, ContextActionOnContextCasterPet",
+                          "name": "$ContextActionOnContextCasterPet$68619614-9335-4276-a15f-83e779ed56c1",
+                          "Actions": {
+                            "Actions": [
+                              {
+                                "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+                                "name": "$Conditional$b415e18f-429b-4fc4-9c58-59ac1a16f39f",
+                                "Comment": "",
+                                "ConditionsChecker": {
+                                  "Operation": "And",
+                                  "Conditions": [
+                                    {
+                                      "$type": "9706de75454abeb48bd4cfa7f526a1c2, ContextConditionHasFact",
+                                      "name": "$ContextConditionHasFact$b80a1738-7649-496c-ac9f-2be4dac3f55b",
+                                      "Not": false,
+                                      "m_Fact": "!bp_1ce54cc931d842a0887afa4c72a11626"
+                                    }
+                                  ]
+                                },
+                                "IfTrue": {
+                                  "Actions": [
+                                    {
+                                      "$type": "2f9cfff2340b8c344ab4fd92c2eb61f2, ContextActionCastSpell",
+                                      "name": "$ContextActionCastSpell$dd16cdf1-5552-4cac-bdce-4dcf5e10d586",
+                                      "m_Spell": "!bp_cb1f704c33084038b1d80ee56b4ba32b",
+                                      "OverrideDC": false,
+                                      "DC": {
+                                        "ValueType": "Simple",
+                                        "Value": 0,
+                                        "ValueRank": "Default",
+                                        "ValueShared": "Damage",
+                                        "Property": "None",
+                                        "m_CustomProperty": null,
+                                        "PropertyName": "Value1"
+                                      },
+                                      "OverrideSpellLevel": false,
+                                      "SpellLevel": {
+                                        "ValueType": "Simple",
+                                        "Value": 0,
+                                        "ValueRank": "Default",
+                                        "ValueShared": "Damage",
+                                        "Property": "None",
+                                        "m_CustomProperty": null,
+                                        "PropertyName": "Value1"
+                                      },
+                                      "CastByTarget": true,
+                                      "UseFullAbilityCastCycle": false
+                                    }
+                                  ]
+                                },
+                                "IfFalse": {
+                                  "Actions": [
+                                    {
+                                      "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+                                      "name": "$Conditional$c8b37f1b-4647-43d7-a7a8-a3bed388ac97",
+                                      "Comment": "Проверка на Ascended",
+                                      "ConditionsChecker": {
+                                        "Operation": "And",
+                                        "Conditions": [
+                                          {
+                                            "$type": "72a5648a7abcbd748b5d2a601acb616d, ContextConditionHasBuff",
+                                            "name": "$ContextConditionHasBuff$d2154653-8c7d-4f0c-9387-8ab4b1b5f718",
+                                            "Not": true,
+                                            "m_Buff": "!bp_ec56854df2e84ef196a49079a43b5211"
+                                          }
+                                        ]
+                                      },
+                                      "IfTrue": {
+                                        "Actions": [
+                                          {
+                                            "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+                                            "name": "$ContextActionRemoveBuff$8c39ac2e-cd6a-4c2d-95fb-0882f8a97fe2",
+                                            "m_Buff": "!bp_53135057d69647a7854e578c5ef40bba",
+                                            "RemoveRank": false,
+                                            "RemoveSeveralRanks": false,
+                                            "RankNumber": {
+                                              "ValueType": "Simple",
+                                              "Value": 0,
+                                              "ValueRank": "Default",
+                                              "ValueShared": "Damage",
+                                              "Property": "None",
+                                              "m_CustomProperty": null,
+                                              "PropertyName": "Value1"
+                                            },
+                                            "m_CasterRanksRemovalPolicy": "Default",
+                                            "ToCaster": false
+                                          },
+                                          {
+                                            "$type": "2208984b829b49fd878da37b3413ce46, CastSpell",
+                                            "name": "$CastSpell$a395ed2f-cdcf-40ba-bbf1-9a8aa1556cba",
+                                            "Caster": {
+                                              "$type": "9e61684a16394f879f8b2de216fcb960, PetByOwner",
+                                              "name": "$PetByOwner$4ab2ef1e-ab33-45e0-abf1-b7b6bae79c67",
+                                              "OwnerEvaluator": {
+                                                "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                                                "name": "$FactOwner$7edfde96-f638-435c-a7e2-1409be1e2ecd"
+                                              }
+                                            },
+                                            "CasterPosition": null,
+                                            "TargetEntity": {
+                                              "$type": "9e61684a16394f879f8b2de216fcb960, PetByOwner",
+                                              "name": "$PetByOwner$18ab723d-86f0-4041-90f7-29dd08901502",
+                                              "OwnerEvaluator": {
+                                                "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                                                "name": "$FactOwner$74d7488b-fd62-444b-beb8-4040318afa69"
+                                              }
+                                            },
+                                            "TargetPoint": null,
+                                            "m_Ability": "!bp_92e3e63c740e4bcfac0f392246766acb",
+                                            "UseFullAbilityCastCycle": true,
+                                            "HitPolicy": "AutoHit",
+                                            "ActionToDoIfCastIsNotValid": {
+                                              "Actions": []
+                                            },
+                                            "DisableLog": false
+                                          }
+                                        ]
+                                      },
+                                      "IfFalse": {
+                                        "Actions": []
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "IfFalse": {
+                      "Actions": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "UnitInterruptTurnStartActions": {
+          "Actions": []
+        },
+        "UnitInterruptTurnEndActions": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$e0863d7d-40a2-4d0c-9cee-15f43de599bb",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                    "name": "$ContextConditionCasterHasFact$cda63f6c-fec5-4142-958c-b9e900e48003",
+                    "Not": false,
+                    "m_Fact": "!bp_43252a1a60f5428bbd32b3bf77f9d6fb"
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": []
+              },
+              "IfFalse": {
+                "Actions": [
+                  {
+                    "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+                    "name": "$Conditional$5ad1b2e4-dc06-4f37-9771-f4c13f9263b6",
+                    "Comment": "",
+                    "ConditionsChecker": {
+                      "Operation": "And",
+                      "Conditions": [
+                        {
+                          "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                          "name": "$ContextConditionCasterHasFact$8a623a42-7167-48ee-9b2f-a2d6fa7a5eb7",
+                          "Not": true,
+                          "m_Fact": "!bp_a81fce36709f49f78675fdec233f6a13"
+                        },
+                        {
+                          "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                          "name": "$ContextConditionCasterHasFact$72e38b77-6cf7-4e04-a446-7b399392bf49",
+                          "Not": true,
+                          "m_Fact": "!bp_16d574347c794b48857e6abe7a99dc5b"
+                        },
+                        {
+                          "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                          "name": "$ContextConditionCasterHasFact$5c777d52-bf61-4fea-ae1c-b2ada7769b15",
+                          "Not": true,
+                          "m_Fact": "!bp_41884e8e37e042ab86185c17b1a6c057"
+                        }
+                      ]
+                    },
+                    "IfTrue": {
+                      "Actions": [
+                        {
+                          "$type": "9a9711e7bb7840f48ad264059580b262, ContextActionOnContextCasterPet",
+                          "name": "$ContextActionOnContextCasterPet$7885c5cd-6fb2-4201-aff4-314772f0f6a0",
+                          "Actions": {
+                            "Actions": [
+                              {
+                                "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+                                "name": "$Conditional$1b50b485-3832-426f-9fa4-97256f97fd61",
+                                "Comment": "",
+                                "ConditionsChecker": {
+                                  "Operation": "And",
+                                  "Conditions": [
+                                    {
+                                      "$type": "9706de75454abeb48bd4cfa7f526a1c2, ContextConditionHasFact",
+                                      "name": "$ContextConditionHasFact$ec36a720-5bd8-4bc2-aa58-11ae05426fce",
+                                      "Not": false,
+                                      "m_Fact": "!bp_1ce54cc931d842a0887afa4c72a11626"
+                                    }
+                                  ]
+                                },
+                                "IfTrue": {
+                                  "Actions": [
+                                    {
+                                      "$type": "2f9cfff2340b8c344ab4fd92c2eb61f2, ContextActionCastSpell",
+                                      "name": "$ContextActionCastSpell$92015150-d51f-477c-98ee-a78cad3a59fb",
+                                      "m_Spell": "!bp_cb1f704c33084038b1d80ee56b4ba32b",
+                                      "OverrideDC": false,
+                                      "DC": {
+                                        "ValueType": "Simple",
+                                        "Value": 0,
+                                        "ValueRank": "Default",
+                                        "ValueShared": "Damage",
+                                        "Property": "None",
+                                        "m_CustomProperty": null,
+                                        "PropertyName": "Value1"
+                                      },
+                                      "OverrideSpellLevel": false,
+                                      "SpellLevel": {
+                                        "ValueType": "Simple",
+                                        "Value": 0,
+                                        "ValueRank": "Default",
+                                        "ValueShared": "Damage",
+                                        "Property": "None",
+                                        "m_CustomProperty": null,
+                                        "PropertyName": "Value1"
+                                      },
+                                      "CastByTarget": true,
+                                      "UseFullAbilityCastCycle": false
+                                    }
+                                  ]
+                                },
+                                "IfFalse": {
+                                  "Actions": [
+                                    {
+                                      "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+                                      "name": "$Conditional$0dda75de-f565-46af-b418-e834ecea741c",
+                                      "Comment": "Проверка на Ascended",
+                                      "ConditionsChecker": {
+                                        "Operation": "And",
+                                        "Conditions": [
+                                          {
+                                            "$type": "72a5648a7abcbd748b5d2a601acb616d, ContextConditionHasBuff",
+                                            "name": "$ContextConditionHasBuff$7460a77d-d552-4e6f-80a7-849046a6efab",
+                                            "Not": true,
+                                            "m_Buff": "!bp_ec56854df2e84ef196a49079a43b5211"
+                                          }
+                                        ]
+                                      },
+                                      "IfTrue": {
+                                        "Actions": [
+                                          {
+                                            "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+                                            "name": "$ContextActionRemoveBuff$7c249cf1-66ac-4685-98d2-535c543a5aba",
+                                            "m_Buff": "!bp_53135057d69647a7854e578c5ef40bba",
+                                            "RemoveRank": false,
+                                            "RemoveSeveralRanks": false,
+                                            "RankNumber": {
+                                              "ValueType": "Simple",
+                                              "Value": 0,
+                                              "ValueRank": "Default",
+                                              "ValueShared": "Damage",
+                                              "Property": "None",
+                                              "m_CustomProperty": null,
+                                              "PropertyName": "Value1"
+                                            },
+                                            "m_CasterRanksRemovalPolicy": "Default",
+                                            "ToCaster": false
+                                          },
+                                          {
+                                            "$type": "2208984b829b49fd878da37b3413ce46, CastSpell",
+                                            "name": "$CastSpell$c7869e25-9ae8-46fa-a8fa-c1b8616e8564",
+                                            "Caster": {
+                                              "$type": "9e61684a16394f879f8b2de216fcb960, PetByOwner",
+                                              "name": "$PetByOwner$7872d777-183d-4e67-a36b-dcf05285f41c",
+                                              "OwnerEvaluator": {
+                                                "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                                                "name": "$FactOwner$896dafbe-ec59-4c4f-8d4f-e15692f34831"
+                                              }
+                                            },
+                                            "CasterPosition": null,
+                                            "TargetEntity": {
+                                              "$type": "9e61684a16394f879f8b2de216fcb960, PetByOwner",
+                                              "name": "$PetByOwner$39b1f851-d950-4e52-be7e-87ca221e7d7c",
+                                              "OwnerEvaluator": {
+                                                "$type": "5490dbe723156cb459fa639153196db0, FactOwner",
+                                                "name": "$FactOwner$1d9e2fb4-ed6b-4d55-9a85-190bc28cd9c6"
+                                              }
+                                            },
+                                            "TargetPoint": null,
+                                            "m_Ability": "!bp_92e3e63c740e4bcfac0f392246766acb",
+                                            "UseFullAbilityCastCycle": true,
+                                            "HitPolicy": "AutoHit",
+                                            "ActionToDoIfCastIsNotValid": {
+                                              "Actions": []
+                                            },
+                                            "DisableLog": false
+                                          }
+                                        ]
+                                      },
+                                      "IfFalse": {
+                                        "Actions": []
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "IfFalse": {
+                      "Actions": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "DoNotApplyOnInterrupts": false
+      }
+    ],
+    "Author": "IlyaPolitko",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "edd7766e09742284fb2c23c394fae270",
+        "stringkey": "bddb7ab2-eeea-4c85-9c57-cecec6fa30c5"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "1140afe9157fb7940adc832d3a31da7d",
+        "stringkey": "ca2dee9f-7833-41ec-9947-b7236d609414"
+      }
+    },
+    "m_Icon": {
+      "guid": "5e50a4af41fe3a9479dc0f6c189402e8",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": true,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": true,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": [
+        {
+          "$type": "40a1bdb738834fb69a296a2677235b35, PrerequisiteFact",
+          "name": "$PrerequisiteFact$e62e3a675c174271bf2ac4bbe7c595e3",
+          "Not": false,
+          "m_Fact": "!bp_9afe9cd1f46748fd8ffbc960b61744da",
+          "MinRank": 1
+        }
+      ]
+    },
+    "FeatureTypes": [
+      "Support",
+      "Universal",
+      "Archetype"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
