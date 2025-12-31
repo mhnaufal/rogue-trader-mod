@@ -1,0 +1,71 @@
+{
+  "AssetId": "84e3ccf5a2194fbabfa216bc6b66272e",
+  "Data": {
+    "$type": "c8ff73feae580b142a9f43e0c61d7f32, BlueprintDialog",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlekseyVorobiev",
+    "Comment": "",
+    "FirstCue": {
+      "Cues": [
+        "!bp_22e8784610834c18a5be84ff302ff247",
+        "!bp_e5816f2aaba04693b5f07f638d570782"
+      ],
+      "Strategy": "First"
+    },
+    "StartPosition": null,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "StartActions": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$ac89384631e64dfeab669d6158d47a81",
+          "m_State": {
+            "Value": "Story",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": false
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$6a1b2c2e33e043a7a39fb87347eeed40",
+          "m_State": {
+            "Value": "Creepy",
+            "Group": "MusicStoryType"
+          },
+          "m_ProlongTillNextCombat": false
+        }
+      ]
+    },
+    "FinishActions": {
+      "Actions": []
+    },
+    "ReplaceActions": {
+      "Actions": []
+    },
+    "FeatureFreezed": false,
+    "TurnPlayer": true,
+    "TurnFirstSpeaker": true,
+    "IsLockCameraRotationButtons": false,
+    "IsNarratorText": false,
+    "Type": "Common",
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

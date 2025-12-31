@@ -1,0 +1,83 @@
+{
+  "AssetId": "55344a8c811440fea22a1b3b96cb522d",
+  "Data": {
+    "$type": "c8ff73feae580b142a9f43e0c61d7f32, BlueprintDialog",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VeronikaLarionova",
+    "Comment": "основной спикер - обычная Ирлиэт, как и в предыдущих ивентах",
+    "FirstCue": {
+      "Cues": [
+        "!bp_745cc5312a3a4a94834b3d942b36d2a3",
+        "!bp_7d36b6c89614441b96e260b30e30755c",
+        "!bp_8d6d799ea34447a6bd28484101270d96",
+        "!bp_3e05ddccd43c4782a1cae22635a07aa1"
+      ],
+      "Strategy": "First"
+    },
+    "StartPosition": null,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "StartActions": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$44953d59c6cf48e08913783500730c40",
+          "m_State": {
+            "Value": "Story",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": true
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$2edb1307a7924061838681d52786fdd3",
+          "m_State": {
+            "Value": "Mystery",
+            "Group": "MusicStoryType"
+          },
+          "m_ProlongTillNextCombat": true
+        }
+      ]
+    },
+    "FinishActions": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$ed0c10e04d6b4333b7d61f2a2f102734",
+          "m_State": {
+            "Value": "Setting",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": true
+        }
+      ]
+    },
+    "ReplaceActions": {
+      "Actions": []
+    },
+    "FeatureFreezed": false,
+    "TurnPlayer": true,
+    "TurnFirstSpeaker": true,
+    "IsLockCameraRotationButtons": false,
+    "IsNarratorText": false,
+    "Type": "Common",
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

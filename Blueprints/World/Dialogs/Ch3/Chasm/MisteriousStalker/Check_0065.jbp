@@ -1,0 +1,47 @@
+{
+  "AssetId": "b82ae877e57946ffb2cbb267d466c1c5",
+  "Data": {
+    "$type": "ab803aaa7a173f84e9172870c15e7493, BlueprintCheck",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "сложно",
+    "ParentAsset": "6955a3c63abf499b919e63d546c2340e",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "4d2b3bd16c3f2bf4ebb8a19907e2be7e, CueSeen",
+          "name": "$CueSeen$f4da65bb057846b1a29f49c9d6468a59",
+          "Not": true,
+          "m_Cue": "!bp_c8eb8acac7914e6f8dc1595e308c9cc7",
+          "CurrentDialog": false
+        }
+      ]
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Type": "SkillCarouse",
+    "Hidden": false,
+    "Difficulty": "Hard",
+    "DC": -60,
+    "DCModifiers": [],
+    "m_Success": "!bp_828932be0f434024aaf5afb5dc6c80e1",
+    "m_Fail": "!bp_68757d402a9643f8a6958c7c9458cfb5",
+    "OnCheckSuccessActions": {
+      "Actions": []
+    },
+    "OnCheckFailActions": {
+      "Actions": []
+    },
+    "m_UnitEvaluator": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

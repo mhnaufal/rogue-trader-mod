@@ -1,0 +1,141 @@
+{
+  "AssetId": "51cf256affbe473591e4120393569a17",
+  "Data": {
+    "$type": "51c5dfefb75a19a49a0dc708f3a2b76e, Gate",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_541ba046bf5f4d23a6baef01a5815128"
+        ],
+        "m_EndGate": "!bp_2e88146498344f8fb8de60245c63bdc2",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_ab1c40d92a414f7eabd1eadee4781943"
+        ],
+        "m_EndGate": "!bp_74da78ffc4be427b870bb2ce67b0fbf7",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_d76e5e1d182b41a4a17a12bfa575fc0b"
+        ],
+        "m_EndGate": "!bp_c6b393d2d52b4b6080de42cfddb629b0",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_206a1ada2dd64753bfa4a094a8e0389b"
+        ],
+        "m_EndGate": "!bp_3ee3226587524b668ee237b89917e807",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_d452efbcb0b643659c2b7e77a6ac315f"
+        ],
+        "m_EndGate": "!bp_9995d025fcc84ce0bcab530ac624e0d1",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_d5faeac554804ded94455d88781b043e",
+          "!bp_d691566464a346a5aa80aba299b903f5"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": null,
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_1333b6b9d07441e186b14728508ffa70",
+          "!bp_7227bf432f2b48aa86ee3fe9a6752a8e"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": null,
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_ae78fa4bada64898ba5898c916261be3",
+          "!bp_e066c6374a234797b1e2f0f6b4ea1651",
+          "!bp_2fb0fd158422425d93848c4a732d278c",
+          "!bp_4ad4a5b814504853a142330e091a5375",
+          "!bp_820ba41d08154563849c33ff288fb205"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_326d23f152a4482490507c47228ce9ad",
+          "!bp_17c01930af7845ec83b41932dea4efd8",
+          "!bp_9fa9b6396f9f4492a50c6ca44d85cfbb"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": null,
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

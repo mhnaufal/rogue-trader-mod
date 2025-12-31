@@ -1,0 +1,102 @@
+{
+  "AssetId": "9c13637e6d0c4f6bb03548f771a889b0",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "OlgaKellner",
+    "Comment": "",
+    "ParentAsset": "a7fa98ac36f04749a9a7f892dfb9c845",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "0a232f0d-58ba-4f1c-96b8-7196884c97a9",
+      "m_OwnerString": "9c13637e6d0c4f6bb03548f771a889b0",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\World\\Dialogs\\Ch0_Prologue\\TheodoraFirstConversation\\Cue_0045_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "be3026f011f344f448094a75ed64a9f5, Play3DSound",
+          "name": "$Play3DSound$31142bb3092c44ad8d9c32deccf821d0",
+          "SoundName": "NARR_Theodora_Vox",
+          "SoundSourceObject": {
+            "EntityNameInEditor": "Theodora_Vox",
+            "_entity_id": "d417c7cd-43a9-4ad4-9397-0515fbb94ba5",
+            "SceneAssetGuid": "7ce1fa21ac2b0e344860749e0b238d9b"
+          },
+          "SetSex": false,
+          "SetRace": false,
+          "SetCurrentSpeaker": false
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

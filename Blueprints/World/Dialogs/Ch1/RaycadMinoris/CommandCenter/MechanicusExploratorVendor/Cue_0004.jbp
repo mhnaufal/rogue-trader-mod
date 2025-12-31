@@ -1,0 +1,102 @@
+{
+  "AssetId": "a187876fa2774ab8bdfd0c16c6e46ca3",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "интеррапт Паскаля",
+    "ParentAsset": "eeb6c7662c6b4e2ba0dd057b81fdc263",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "3a3bf411-e6da-4599-bfd8-946882faf3bf",
+      "m_OwnerString": "a187876fa2774ab8bdfd0c16c6e46ca3",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\World\\Dialogs\\Ch1\\RaycadMinoris\\CommandCenter\\MechanicusExploratorVendor\\Cue_0004_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": "!bp_e1cfcddc1dc447278762a0725753c394",
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "be3026f011f344f448094a75ed64a9f5, Play3DSound",
+          "name": "$Play3DSound$c52dcc28bc8e5450b91dff808cdcd488",
+          "SoundName": "CH01_NARR_ArcheoteckReactor_MainGate_BinaryAnthem_Play",
+          "SoundSourceObject": {
+            "EntityNameInEditor": "TechPriest_Reaction",
+            "_entity_id": "38a82480-9dfd-4a31-81c4-ad64769754e5",
+            "SceneAssetGuid": "ba11c96d81ccc3b409b73556422e3c59"
+          },
+          "SetSex": false,
+          "SetRace": false,
+          "SetCurrentSpeaker": false
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

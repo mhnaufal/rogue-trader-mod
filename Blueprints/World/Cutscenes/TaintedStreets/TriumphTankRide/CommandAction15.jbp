@@ -1,0 +1,39 @@
+{
+  "AssetId": "16b2ead2cdce483f9ff7f8c13ce66265",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "KonstantinKuzenkov",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "b416216a964543c4e89e50cd51b22cf7, SetSoundState",
+          "name": "$SetSoundState$f8abd17f4193480bbe65267224eb0723",
+          "m_State": {
+            "Value": "WallaStop",
+            "Group": "NARR_TaintedStreetsWalla"
+          }
+        },
+        {
+          "$type": "12f52f92a7d3efe47b69ba8b41d4e47d, Play2DSound",
+          "name": "$Play2DSound$888c4898c05e5cb8a0f36b16882d66ea",
+          "SoundName": "NARR_TaintedStreet_ParadeCrowd_CutScn_Stop",
+          "SetSex": false,
+          "SetRace": false
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

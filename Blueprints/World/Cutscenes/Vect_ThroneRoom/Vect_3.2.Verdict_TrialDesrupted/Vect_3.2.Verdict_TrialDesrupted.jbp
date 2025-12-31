@@ -1,0 +1,79 @@
+{
+  "AssetId": "caf1019fbed34bb8946d6c863ef7b4fd",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": "!bp_f229775156014bcc861730a4c9c69fe4",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": "!bp_f229775156014bcc861730a4c9c69fe4",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": true,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "12f52f92a7d3efe47b69ba8b41d4e47d, Play2DSound",
+          "name": "$Play2DSound$a5c47abc646f57b396998b77318f81e0",
+          "SoundName": "NARR_VectThroneRoom_TechEvent_WeatherShutOff",
+          "SetSex": false,
+          "SetRace": false
+        },
+        {
+          "$type": "12f52f92a7d3efe47b69ba8b41d4e47d, Play2DSound",
+          "name": "$Play2DSound$c9719cfd24ad4679a2f3bf96808fb32c",
+          "SoundName": "NARR_VectThroneRoom_TechEvent_AmbShutReset",
+          "SetSex": false,
+          "SetRace": false
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

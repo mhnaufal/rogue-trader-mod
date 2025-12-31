@@ -1,0 +1,123 @@
+{
+  "AssetId": "c3ba5214e3e9454db4c0f50249a19ed1",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_c1b5476b15fd4f28951f98a672ee7f19"
+        ],
+        "m_EndGate": "!bp_901dc673da75401cbbd4067046186b98",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_fda4b993e2c04876b5f86d86d97d7289"
+        ],
+        "m_EndGate": "!bp_901dc673da75401cbbd4067046186b98",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_44a1858f8a8540f89770cad5f1834bf4",
+          "!bp_ce04a674c27b4ac8bcd4d73e70b58e4c"
+        ],
+        "m_EndGate": "!bp_8f2ddda2daeb4d2d8717597e9ba26a1f",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_0ee6a3c4ee66400a8dd5a1d02f2ec2ad"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_40ea8d77e7f7484399d043e0eb986218"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Reaction",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": true,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "PauseAndRestart",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": [
+        {
+          "$type": "0e0c1fe99d7862d4492bcd1535939a9a, StartDialog",
+          "name": "$StartDialog$44fb8c711eaf48fe8de2e43b8aa40424",
+          "DialogueOwner": null,
+          "m_Dialogue": "!bp_0ce77cffb1e945d39ef306b3a7f29ce8",
+          "DialogEvaluator": null,
+          "SpeakerName": {
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": null
+          }
+        }
+      ]
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "b416216a964543c4e89e50cd51b22cf7, SetSoundState",
+          "name": "$SetSoundState$7fefc933dc87585f9d8f13f58f51fdf7",
+          "m_State": {
+            "Value": "None",
+            "Group": "NARR_Lure4_GeneDialogue"
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

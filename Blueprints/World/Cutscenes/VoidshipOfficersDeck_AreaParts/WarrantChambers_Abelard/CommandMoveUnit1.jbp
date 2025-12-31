@@ -1,0 +1,47 @@
+{
+  "AssetId": "38dc59b8dd794e6f8955ff3b06db338b",
+  "Data": {
+    "$type": "dfbf27283a9d4924cb6f705e71ffe1a9, CommandMoveUnit",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Unit": {
+      "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+      "name": "$PlayerCharacter$edfbd48cd5b84cc0901e5cd69ff7f228"
+    },
+    "Target": {
+      "$type": "ee272e7d88aff6648b4c1b052228fdc7, LocatorPosition",
+      "name": "$LocatorPosition$ff4d70af2c3f4829811d9dba586d1847",
+      "Locator": {
+        "EntityNameInEditor": "WarrantChambers_RT_Locator_1",
+        "_entity_id": "9410e2c5-a5cd-4124-990b-f14903c024cd",
+        "SceneAssetGuid": "e1d50dd3d01c3c3429ed484d1c8b0edb"
+      },
+      "Offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "ApproachRadius": 0.0,
+    "Orientation": null,
+    "Animation": "Walk",
+    "OverrideSpeed": false,
+    "Speed": 5.0,
+    "DisableAvoidance": true,
+    "RunAway": false,
+    "m_Timeout": 20.0,
+    "m_SnapToGridInCombat": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "AssetId": "c7c76f31f6574c7f9efa5d4ec5b7f846",
+  "Data": {
+    "$type": "de1b6b4bab9b223478a7bc8835ca81d7, BlueprintEtude",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "fec4340333b7d1f4189d73aa8ff10eee, EtudePlayTrigger",
+        "name": "$EtudePlayTrigger$8634a657-59cd-4dcc-a2ee-8128f4610496",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_Once": false,
+        "m_IgnoreAlreadyProcessedActivation": false,
+        "Conditions": {
+          "Operation": "And",
+          "Conditions": []
+        },
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "507aef8c6c6218c49aaf0987b355f400, PlayCutscene",
+              "name": "$PlayCutscene$21679828ea6c4cc99819f1087a0c90b1",
+              "m_Cutscene": "!bp_fe236c09e1d04d088a1c69973b2db010",
+              "PutInQueue": false,
+              "CheckExistence": true,
+              "Parameters": {
+                "Parameters": []
+              }
+            },
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$bcefda10-6f00-4236-94a8-cf24599cfe35",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+                    "name": "$EtudeStatus$f38fadcc-e12e-4bf1-aece-2be8e49d2dfa",
+                    "Not": false,
+                    "m_Etude": "!bp_03ae275088364927923cf19ca3e27e8d",
+                    "NotStarted": false,
+                    "Started": false,
+                    "Playing": true,
+                    "CompletionInProgress": false,
+                    "Completed": false
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": [
+                  {
+                    "$type": "0edf8920d3df9b54c9db189bdad67cac, HideUnit",
+                    "name": "$HideUnit$4e132523-a014-4280-a7a0-335d6e13ecb5",
+                    "Target": {
+                      "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+                      "name": "$UnitFromSpawner$ec85ba93-fa1b-4f1c-8909-11c3e3d40d77",
+                      "Spawner": {
+                        "EntityNameInEditor": "Bath_servant",
+                        "_entity_id": "16350c42-cf74-4a88-85ab-7e3ac1d05360",
+                        "SceneAssetGuid": "587079923bc84c64da454f4f1855da95"
+                      }
+                    },
+                    "Unhide": false,
+                    "Fade": false
+                  }
+                ]
+              },
+              "IfFalse": {
+                "Actions": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "b2970e0dadd194546bbf27a691e55d4c, DeactivateTrigger",
+        "name": "$DeactivateTrigger$981004a6-a499-45c5-9408-0dd8bf092c6e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Conditions": {
+          "Operation": "And",
+          "Conditions": []
+        },
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$4e4c7f2c-f978-488c-8f14-f69e061e61fb",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+                    "name": "$EtudeStatus$a55cd5e9-09f2-4dd9-84b8-5e9db2e8c1c1",
+                    "Not": false,
+                    "m_Etude": "!bp_03ae275088364927923cf19ca3e27e8d",
+                    "NotStarted": false,
+                    "Started": false,
+                    "Playing": true,
+                    "CompletionInProgress": false,
+                    "Completed": false
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": [
+                  {
+                    "$type": "0edf8920d3df9b54c9db189bdad67cac, HideUnit",
+                    "name": "$HideUnit$f8712a90-6700-4a1e-b8a4-edaf9e82a5a8",
+                    "Target": {
+                      "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+                      "name": "$UnitFromSpawner$061b1fce-e5d4-4c7d-be5f-beaedf0a4ca0",
+                      "Spawner": {
+                        "EntityNameInEditor": "Bath_servant",
+                        "_entity_id": "16350c42-cf74-4a88-85ab-7e3ac1d05360",
+                        "SceneAssetGuid": "587079923bc84c64da454f4f1855da95"
+                      }
+                    },
+                    "Unhide": true,
+                    "Fade": false
+                  }
+                ]
+              },
+              "IfFalse": {
+                "Actions": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "Author": "KseniyaUrchenko",
+    "Comment": "",
+    "m_Parent": "!bp_816843c2602e4e55b520a081b8b73205",
+    "ActivationCondition": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "342eb5cf69e9d0e48917ff4215600e0b, FlagInRange",
+          "name": "$FlagInRange$7dd1e9c6-92f2-4770-93b4-7f8c2ad95d14",
+          "Not": false,
+          "m_Flag": "!bp_706f9a18d8d94ecfba416b3357a7d946",
+          "MinValue": 1,
+          "MaxValue": 999
+        },
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$91a0ab38-f70c-4fbc-bf9e-c7e5f83967b9",
+          "Not": false,
+          "m_Etude": "!bp_2b870ce787b44c34a690546c8a4da1ba",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": true,
+          "CompletionInProgress": false,
+          "Completed": false
+        },
+        {
+          "$type": "ee651e222f282454fbd2821c9ea18a72, AnotherEtudeOfGroupIsPlaying",
+          "name": "$AnotherEtudeOfGroupIsPlaying$aea535cc724754ffa16508fb81324d33",
+          "Not": true,
+          "m_Group": "!bp_6bf491b89a8c475aa4e22dfa7d26a7d0"
+        }
+      ]
+    },
+    "CompletionCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_Synchronized": [],
+    "m_LinkedAreaPart": "!bp_255859109cec4a042ade1613d80b25a4",
+    "m_LinkedCampaigns": [],
+    "m_IncludeAreaParts": true,
+    "m_AddedAreaMechanics": [],
+    "m_StartsWith": [],
+    "m_StartsOnComplete": [],
+    "m_StartsParent": false,
+    "m_CompletesParent": false,
+    "m_ConflictingGroups": [
+      "!bp_d5cf803df1c344d8ba8a0ddc6cef9157",
+      "!bp_6bf491b89a8c475aa4e22dfa7d26a7d0"
+    ],
+    "Priority": 400
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

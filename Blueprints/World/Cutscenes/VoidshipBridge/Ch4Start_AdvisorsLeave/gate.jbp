@@ -1,0 +1,58 @@
+{
+  "AssetId": "7e2206f87c4b4b539cf694c7c2029ac8",
+  "Data": {
+    "$type": "51c5dfefb75a19a49a0dc708f3a2b76e, Gate",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "KseniyaUrchenko",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_d6d428711e47410bb5ed46deb2778a79"
+        ],
+        "m_EndGate": "!bp_9c789fd79d2d46b381282456558b4a68",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_baf29f053b4e4f37ba45af175baf51fe"
+        ],
+        "m_EndGate": "!bp_9c789fd79d2d46b381282456558b4a68",
+        "m_Repeat": false,
+        "Comment": null,
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_2f373c7fbe4c40d5b11d8e83334da3eb",
+          "!bp_e23cd86b4ffd40f6bd9a38d7bbe133f7"
+        ],
+        "m_EndGate": "!bp_8dd53325ee074260862ba8d0c18a6518",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "AssetId": "8cd386816bc144f6aa52dc9ded0dc8c5",
+  "Data": {
+    "$type": "c8ff73feae580b142a9f43e0c61d7f32, BlueprintDialog",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlekseyVorobiev",
+    "Comment": "",
+    "FirstCue": {
+      "Cues": [
+        "!bp_a9a0f2f2ae784e808e1ea43c328f2d3d",
+        "!bp_2df2bf1a569a4171b3f4dace2fa321b5"
+      ],
+      "Strategy": "First"
+    },
+    "StartPosition": null,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "StartActions": {
+      "Actions": [
+        {
+          "$type": "6ab8dd2cc3ba43e8b76882f981bf2b99, StartEtude",
+          "name": "$StartEtude$9af3334ede224cba887bb4a948bf2d62",
+          "Etude": "!bp_15c8777c7926424d8379b6c72b815a15",
+          "EtudeEvaluator": null,
+          "Evaluate": false,
+          "StartImmediately": false
+        }
+      ]
+    },
+    "FinishActions": {
+      "Actions": []
+    },
+    "ReplaceActions": {
+      "Actions": []
+    },
+    "FeatureFreezed": false,
+    "TurnPlayer": true,
+    "TurnFirstSpeaker": true,
+    "IsLockCameraRotationButtons": false,
+    "IsNarratorText": false,
+    "Type": "Common",
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

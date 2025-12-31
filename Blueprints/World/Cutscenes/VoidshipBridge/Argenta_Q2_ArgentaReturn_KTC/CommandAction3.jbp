@@ -1,0 +1,38 @@
+{
+  "AssetId": "a691d068bbc2484aa2011a6c5d2e8a69",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+          "name": "$HideMapObject$0634618e-6b09-47e5-bf0a-f7bd15a05df9",
+          "MapObject": {
+            "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+            "name": "$MapObjectFromScene$cfe87fcb-d0ec-4de5-a0c9-cbcfd3c7428c",
+            "MapObject": {
+              "EntityNameInEditor": "BlackScreen_ForArgentaKTC",
+              "_entity_id": "97bbe85d-9ee4-425c-b2a3-de35115d7182",
+              "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+            }
+          },
+          "Unhide": false
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

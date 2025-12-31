@@ -1,0 +1,84 @@
+{
+  "AssetId": "b4f86c56fffe4a45a6aa8f48605e5bd5",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "KseniyaUrchenko",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "0652c1b85291c994f8411a22deb2b6ec, Spawn",
+          "name": "$Spawn$7676fc05821e452083b81e5790877d81",
+          "Spawners": [
+            {
+              "EntityNameInEditor": "LowerDeskOfficer",
+              "_entity_id": "5203f3d4-9d81-472e-9563-5f4b99ae23c8",
+              "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+            }
+          ],
+          "ActionsOnSpawn": {
+            "Actions": []
+          }
+        },
+        {
+          "$type": "0edf8920d3df9b54c9db189bdad67cac, HideUnit",
+          "name": "$HideUnit$7ce941f099de4d15853a100f893ed80a",
+          "Target": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$9aa789f4f4a044e6927b9c9f9cbc2c2d",
+            "Spawner": {
+              "EntityNameInEditor": "LowerDeskOfficer",
+              "_entity_id": "5203f3d4-9d81-472e-9563-5f4b99ae23c8",
+              "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+            }
+          },
+          "Unhide": true,
+          "Fade": false
+        },
+        {
+          "$type": "38b104786c153ae409ee91b85544a4a5, TranslocateUnit",
+          "name": "$TranslocateUnit$1a17e4c7-0d67-4779-9f82-cd28498de99d",
+          "Unit": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$252a07e043ab4a29b2c85455e9641072",
+            "Spawner": {
+              "EntityNameInEditor": "LowerDeskOfficer",
+              "_entity_id": "5203f3d4-9d81-472e-9563-5f4b99ae23c8",
+              "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+            }
+          },
+          "translocatePosition": {
+            "EntityNameInEditor": "KTC_Visitor1_Start",
+            "_entity_id": "03226ef8-3ca8-43e4-813c-7cbea316be31",
+            "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+          },
+          "translocatePositionEvaluator": null,
+          "m_PrecisePosition": false,
+          "m_CopyRotation": true,
+          "translocateOrientationEvaluator": {
+            "$type": "e11ac2cb26534343ba689a3fdd4de609, LocatorOrientation",
+            "name": "$LocatorOrientation$56f54c53-798f-454c-8563-e8f99129892a",
+            "LocatorEval": null,
+            "Locator": {
+              "EntityNameInEditor": "KTC_Visitor1_Start",
+              "_entity_id": "03226ef8-3ca8-43e4-813c-7cbea316be31",
+              "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

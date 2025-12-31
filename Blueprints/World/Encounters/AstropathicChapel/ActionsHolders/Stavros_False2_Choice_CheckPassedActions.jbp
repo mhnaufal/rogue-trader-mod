@@ -1,0 +1,101 @@
+{
+  "AssetId": "39e3ab3736a24bc8835ca6da1fab7f2e",
+  "Data": {
+    "$type": "63bb90208198450095c55997ebc6ae0a, ActionsHolder",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "Actions": {
+      "Actions": [
+        {
+          "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+          "name": "$Conditional$435fc70d-8694-4f3a-8520-e38261659634",
+          "Comment": "",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "fcc336266b98019488d20a50d120e05c, FlagUnlocked",
+                "name": "$FlagUnlocked$b186168b-890d-46fd-a4bb-68dd36b5a73a",
+                "Not": false,
+                "m_ConditionFlag": "!bp_0a533eb6bd2c42fda37403415900b483",
+                "ExceptSpecifiedValues": false,
+                "SpecifiedValues": []
+              }
+            ]
+          },
+          "IfTrue": {
+            "Actions": [
+              {
+                "$type": "576a514e5164d254f936cd4ce788ae6a, RunActionHolder",
+                "name": "$RunActionHolder$e534a2a9-6074-4980-8265-31f1c32b55af",
+                "Comment": "",
+                "Holder": "!bp_51e45c2a526e4a1d8186b7cb3359895f"
+              }
+            ]
+          },
+          "IfFalse": {
+            "Actions": [
+              {
+                "$type": "f4ef63ec9a4741d4bae871a91255f89a, IncrementFlagValue",
+                "name": "$IncrementFlagValue$f24f95d8-9cbc-452c-825e-221e42ed63b6",
+                "m_Flag": "!bp_59eaca35a482410f9b6db88997165372",
+                "Value": {
+                  "$type": "9054151c7eb2e854ca7109522b1c3dde, IntConstant",
+                  "name": "$IntConstant$9b83f887-b5a4-4bc3-ac80-b5e381bcd0e1",
+                  "Value": 1
+                },
+                "UnlockIfNot": true
+              },
+              {
+                "$type": "576a514e5164d254f936cd4ce788ae6a, RunActionHolder",
+                "name": "$RunActionHolder$0d68c919-2595-405e-a34d-5dffce2f5f6a",
+                "Comment": "Урон в пати за ошибку",
+                "Holder": "!bp_8b2de769d359479d9263a87aad9b5dec"
+              },
+              {
+                "$type": "4a2be3982ea87e44f8d704b9a6330f57, UnlockFlag",
+                "name": "$UnlockFlag$83d3a827-d3b1-48eb-a04e-9dc737fde767",
+                "m_flag": "!bp_0a533eb6bd2c42fda37403415900b483",
+                "flagValue": 1
+              },
+              {
+                "$type": "507aef8c6c6218c49aaf0987b355f400, PlayCutscene",
+                "name": "$PlayCutscene$3831c1ec-0525-4dd9-a786-a60a5f349e12",
+                "m_Cutscene": "!bp_9c54a2874b744e3c8e2a6d1258fa889d",
+                "PutInQueue": false,
+                "CheckExistence": true,
+                "Parameters": {
+                  "Parameters": []
+                }
+              },
+              {
+                "$type": "0c996f778c13abb408bdd05f7f6fe317, AttachBuff",
+                "name": "$AttachBuff$0b8baf04-892d-46d1-91c3-7d0cb85fc4e2",
+                "m_Buff": "!bp_d5cae147e7374272a2d20477dbf220bb",
+                "Target": {
+                  "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+                  "name": "$UnitFromSpawner$e6960fd2-b40d-4686-b9e3-d4b539426a41",
+                  "Spawner": {
+                    "EntityNameInEditor": "Spawner [Astropath_M] (2)",
+                    "_entity_id": "479e56a5-4bd2-4666-94f4-90bbd0e774c0",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Duration": null,
+                "UseEndCondition": false,
+                "EndCondition": "RemainAfterCombat",
+                "AddFactSource": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

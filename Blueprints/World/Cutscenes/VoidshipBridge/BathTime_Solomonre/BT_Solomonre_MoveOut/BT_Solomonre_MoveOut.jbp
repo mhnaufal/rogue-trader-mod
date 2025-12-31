@@ -1,0 +1,90 @@
+{
+  "AssetId": "12d3beadae3a481fb56626bfa54f35b5",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_8533645743ca42e083fea2f70e205eda"
+        ],
+        "m_EndGate": "!bp_c14249375b804839aba328bd2bf07e28",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_7135547629074e3aa2801df9d41adcad"
+        ],
+        "m_EndGate": "!bp_c14249375b804839aba328bd2bf07e28",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Reaction",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Freezeless": false,
+    "Sleepless": true,
+    "AllowCopies": false,
+    "LockControl": true,
+    "ShowPets": false,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": [
+        {
+          "$type": "0e571e9f07a314048afedff605fa53ce, LockFlag",
+          "name": "$LockFlag$1ef98a15127157e8acbf8064133828f2",
+          "m_Flag": "!bp_2fc2e53f4ec24a85a050d9296ddefc32"
+        }
+      ]
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "0e571e9f07a314048afedff605fa53ce, LockFlag",
+          "name": "$LockFlag$c86bb514-f73d-416a-8f2c-2515367ef0be",
+          "m_Flag": "!bp_2fc2e53f4ec24a85a050d9296ddefc32"
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

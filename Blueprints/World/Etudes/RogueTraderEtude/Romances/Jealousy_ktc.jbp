@@ -1,0 +1,141 @@
+{
+  "AssetId": "a2d433e049274e1fbf0d044b2d444db1",
+  "Data": {
+    "$type": "de1b6b4bab9b223478a7bc8835ca81d7, BlueprintEtude",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "fec4340333b7d1f4189d73aa8ff10eee, EtudePlayTrigger",
+        "name": "$EtudePlayTrigger$2cba605f-215f-4a50-b064-316dfcdd3564",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_Once": false,
+        "m_IgnoreAlreadyProcessedActivation": false,
+        "Conditions": {
+          "Operation": "And",
+          "Conditions": []
+        },
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "507aef8c6c6218c49aaf0987b355f400, PlayCutscene",
+              "name": "$PlayCutscene$8608dec3-27a1-423d-9956-63ec5467a6c5",
+              "m_Cutscene": "!bp_1492b4965db64a1db0cd9da054529bcf",
+              "PutInQueue": false,
+              "CheckExistence": true,
+              "Parameters": {
+                "Parameters": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "b2970e0dadd194546bbf27a691e55d4c, DeactivateTrigger",
+        "name": "$DeactivateTrigger$d6657137-6249-4924-9b2e-f115629e0248",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "Return Solomorne",
+        "Conditions": {
+          "Operation": "And",
+          "Conditions": []
+        },
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "38b104786c153ae409ee91b85544a4a5, TranslocateUnit",
+              "name": "$TranslocateUnit$ed083c8583b043ef9bbf8dd9425959d3",
+              "Unit": {
+                "$type": "7aafe88b061e08e44aa3e725e8d8ff00, CompanionInParty",
+                "name": "$CompanionInParty$be911c2137fe4cab976997bc1ffec442",
+                "m_Companion": "!bp_a699795d21f74159abb00f9a217fa97d",
+                "IncludeActive": true,
+                "IncludeDetached": false,
+                "IncludeRemote": true,
+                "IncludeExCompanions": false,
+                "IncludeDead": false,
+                "Index": 0
+              },
+              "translocatePosition": {
+                "EntityNameInEditor": "SolomorneDefaultLoc",
+                "_entity_id": "9daa30ff-3a91-4c4b-a070-81d81fcb1ec1",
+                "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+              },
+              "translocatePositionEvaluator": null,
+              "m_PrecisePosition": true,
+              "m_RestrictByHeightDifference": false,
+              "m_CopyRotation": true,
+              "translocateOrientationEvaluator": {
+                "$type": "e11ac2cb26534343ba689a3fdd4de609, LocatorOrientation",
+                "name": "$LocatorOrientation$b0e2c06f1ecd4907aa460ab2f2637d48",
+                "LocatorEval": null,
+                "Locator": {
+                  "EntityNameInEditor": "SolomorneDefaultLoc",
+                  "_entity_id": "9daa30ff-3a91-4c4b-a070-81d81fcb1ec1",
+                  "SceneAssetGuid": "7a723978f014d39478eef0dd4f23b912"
+                }
+              },
+              "m_ActionsOnSuccess": {
+                "Actions": []
+              },
+              "m_ActionsOnFail": {
+                "Actions": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "m_Parent": "!bp_54989fa6df774246af0b588059fb14e5",
+    "ActivationCondition": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "ee651e222f282454fbd2821c9ea18a72, AnotherEtudeOfGroupIsPlaying",
+          "name": "$AnotherEtudeOfGroupIsPlaying$c3a801f2-df86-43b2-9bd2-feacc52a0216",
+          "Not": true,
+          "m_Group": "!bp_6bf491b89a8c475aa4e22dfa7d26a7d0"
+        }
+      ]
+    },
+    "CompletionCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_Synchronized": [],
+    "m_LinkedAreaPart": "!bp_255859109cec4a042ade1613d80b25a4",
+    "m_LinkedCampaigns": [],
+    "m_IncludeAreaParts": true,
+    "m_AddedAreaMechanics": [],
+    "m_StartsWith": [],
+    "m_StartsOnComplete": [],
+    "m_StartsParent": false,
+    "m_CompletesParent": false,
+    "m_ConflictingGroups": [
+      "!bp_6bf491b89a8c475aa4e22dfa7d26a7d0",
+      "!bp_d5cf803df1c344d8ba8a0ddc6cef9157",
+      "!bp_7bfa59b4261b4e19881d15984500ee76",
+      "!bp_d886b6cb032940fc8ca4f8e3ef1907ac",
+      "!bp_53b7bd512b874e0e9c3b0faee8b8a75a",
+      "!bp_788e12f961374e3abd92039c59a3a123",
+      "!bp_eb636d7b288a489fb2839bc43482a884",
+      "!bp_04767dbce304406e963a4aa48b66c9ee"
+    ],
+    "Priority": 50
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "AssetId": "2271da8d13654b8488d9b5e15db3455f",
+  "Data": {
+    "$type": "c8ff73feae580b142a9f43e0c61d7f32, BlueprintDialog",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "OlgaKellner",
+    "Comment": "",
+    "FirstCue": {
+      "Cues": [
+        "!bp_1da82ca5e51c44ccac733c6279a734e9"
+      ],
+      "Strategy": "First"
+    },
+    "StartPosition": null,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "StartActions": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$cdcd436f9dc7498781cf22fe933685ce",
+          "m_State": {
+            "Value": "Story",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": true
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$36f2cc37ba9442ea9422add7d86ba11d",
+          "m_State": {
+            "Value": "Creepy",
+            "Group": "MusicStoryType"
+          },
+          "m_ProlongTillNextCombat": true
+        },
+        {
+          "$type": "be3026f011f344f448094a75ed64a9f5, Play3DSound",
+          "name": "$Play3DSound$f21ae51667085cb9bc287ddca98a013a",
+          "SoundName": "NARR_VoidshipBridge_ChaosDialogue_Whispers_Play",
+          "SoundSourceObject": {
+            "EntityNameInEditor": "ChaosAltart_Worship",
+            "_entity_id": "b41e3471-61b3-42be-bc7c-48310eb8422a",
+            "SceneAssetGuid": "2aae221059a3ed34ea5b2d327f10c080"
+          },
+          "SetSex": false,
+          "SetRace": false,
+          "SetCurrentSpeaker": false
+        }
+      ]
+    },
+    "FinishActions": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$9e113271553e4159ae5f04a4c6667584",
+          "m_State": {
+            "Value": "Setting",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": true
+        },
+        {
+          "$type": "be3026f011f344f448094a75ed64a9f5, Play3DSound",
+          "name": "$Play3DSound$4e6ed90538495627aff6a7518810a73a",
+          "SoundName": "NARR_VoidshipBridge_ChaosDialogue_Whispers_Stop",
+          "SoundSourceObject": {
+            "EntityNameInEditor": "ChaosAltart_Worship",
+            "_entity_id": "b41e3471-61b3-42be-bc7c-48310eb8422a",
+            "SceneAssetGuid": "2aae221059a3ed34ea5b2d327f10c080"
+          },
+          "SetSex": false,
+          "SetRace": false,
+          "SetCurrentSpeaker": false
+        }
+      ]
+    },
+    "ReplaceActions": {
+      "Actions": []
+    },
+    "FeatureFreezed": false,
+    "TurnPlayer": true,
+    "TurnFirstSpeaker": true,
+    "IsLockCameraRotationButtons": false,
+    "IsNarratorText": false,
+    "Type": "Common",
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

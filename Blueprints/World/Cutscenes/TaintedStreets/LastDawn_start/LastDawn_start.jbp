@@ -1,0 +1,178 @@
+{
+  "AssetId": "7839297c531f4c69a5ad33660d9d5896",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_41ba204caefb4ebfa2005cac19a3ed3a"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_7e445ab368e84bcf95306f6d2c84c38f",
+          "!bp_81494c33ff8a4d0bac281123d75247eb"
+        ],
+        "m_EndGate": "!bp_a922b35bef164934a6fa6341cfbc1029",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_f8df3181841d46c697e33bbbab57e643",
+          "!bp_9c5693c9ecaf40d7b27aaae244a05fed",
+          "!bp_447ed57253ce44e4a02940ea1d6f0557"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_44e9b8188422494a91a7609882a53187"
+        ],
+        "m_EndGate": "!bp_7bea24722d414319ba771a70c3567535",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_348673cc6b4443ccb5da21ae0beaf59e",
+          "!bp_6845951474c844b7b52627b9db84ad6d"
+        ],
+        "m_EndGate": "!bp_c77a0a09ea8044468cf5b8add18ccff9",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_0184b2710e934adaa391b55320ee6df8"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_c02aa362c5f44de883db47eab07928a0",
+          "!bp_46d7d85e12f943499958f6bc113eff1e"
+        ],
+        "m_EndGate": "!bp_8f54d02e203f434e9fc91bdd448052e5",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_05b4e4b1b38948108e288ee96758d0ee"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_893e332de6e94b1b8b9211f8c935f8a0"
+        ],
+        "m_EndGate": "!bp_73ce7a57a04d4d548885e509ca7462c1",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": true,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "6ab8dd2cc3ba43e8b76882f981bf2b99, StartEtude",
+          "name": "$StartEtude$efd511ebe5ea443c8c6bc82b99b1a5c6",
+          "Etude": "!bp_7d86289b77564653b817796ec87da4fd",
+          "EtudeEvaluator": null,
+          "Evaluate": false,
+          "StartImmediately": false
+        },
+        {
+          "$type": "8072988edd00cce40bc433869828e6b3, TeleportParty",
+          "name": "$TeleportParty$32bf006d-24c4-4cb9-861c-7484beee0adb",
+          "m_exitPositon": "!bp_e257745928c5e294db4e697921803fc3",
+          "AutoSaveMode": "None",
+          "ForcePauseAfterTeleport": false,
+          "AfterTeleport": {
+            "Actions": [
+              {
+                "$type": "09697d9710264407a9c32060cfe8a2c7, CompleteEtude",
+                "name": "$CompleteEtude$870300b7-36a0-4721-8b58-be1ddae0d72e",
+                "Etude": "!bp_b566d9369966415598c79a8d165c1f40",
+                "EtudeEvaluator": null,
+                "Evaluate": false
+              }
+            ]
+          }
+        },
+        {
+          "$type": "b416216a964543c4e89e50cd51b22cf7, SetSoundState",
+          "name": "$SetSoundState$15e0880e3e824117aeabe61388171d4b",
+          "m_State": {
+            "Value": "None",
+            "Group": "NARR_TaintedStreet_LastDawnStart_CutScn"
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

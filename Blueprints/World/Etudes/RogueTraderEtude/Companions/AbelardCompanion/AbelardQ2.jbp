@@ -1,0 +1,45 @@
+{
+  "AssetId": "fb0aad428d384e98a24fbba4a7c11489",
+  "Data": {
+    "$type": "de1b6b4bab9b223478a7bc8835ca81d7, BlueprintEtude",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_Parent": "!bp_22a45625754d4b2bb6f940c404a16e40",
+    "ActivationCondition": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "49ab5e967cc13354493c3f9395e55611, QuestStatus",
+          "name": "$QuestStatus$d5bf1e227b384dd7bdf1d77bf53430d3",
+          "Not": false,
+          "m_Quest": "!bp_b8d5549b7e734d5c9b25da4e9d782f0f",
+          "State": "Started"
+        }
+      ]
+    },
+    "CompletionCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_Synchronized": [],
+    "m_LinkedAreaPart": null,
+    "m_LinkedCampaigns": [],
+    "m_IncludeAreaParts": true,
+    "m_AddedAreaMechanics": [],
+    "m_StartsWith": [
+      "!bp_f4644cbe030c4c71a7ca19652d6bfbe6",
+      "!bp_749ecdf03d6f4172bcc2eb62fc083d9e"
+    ],
+    "m_StartsOnComplete": [],
+    "m_StartsParent": false,
+    "m_CompletesParent": false,
+    "m_ConflictingGroups": [],
+    "Priority": 0
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

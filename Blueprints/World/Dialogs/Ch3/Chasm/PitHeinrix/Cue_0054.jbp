@@ -1,0 +1,104 @@
+{
+  "AssetId": "be86e6faf7cd4bb2b45f92a4be4d437b",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "OlgaKellner",
+    "Comment": "Дать игроку временный дебаф\nВынуть хейнрикса из машины, поставить на одно колено с айдлом \"уставший/замученный\"",
+    "ParentAsset": "47fc416426734df782fc6a22f7956efd",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "198ae157-c41f-43be-9ec0-458bf9e9f7c8",
+      "m_OwnerString": "be86e6faf7cd4bb2b45f92a4be4d437b",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\World\\Dialogs\\Ch3\\Chasm\\PitHeinrix\\Cue_0054_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": "!bp_70e4973d9cef400da93e0b5672dcd014",
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "be3026f011f344f448094a75ed64a9f5, Play3DSound",
+          "name": "$Play3DSound$569ea2f55c0f4c83aa6528229580d5f0",
+          "SoundName": "NARR_Prison_HeinrixSave",
+          "SoundSourceObject": {
+            "EntityNameInEditor": "HeinrixSave",
+            "_entity_id": "3a199e84-d1f5-43ef-a001-bbcfa37e609d",
+            "SceneAssetGuid": "a681b5764d836cd4dbffa296e123d8a7"
+          },
+          "SetSex": false,
+          "SetRace": false,
+          "SetCurrentSpeaker": false
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [
+        "!bp_013296e462a24259b16cda84fbfff743"
+      ],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

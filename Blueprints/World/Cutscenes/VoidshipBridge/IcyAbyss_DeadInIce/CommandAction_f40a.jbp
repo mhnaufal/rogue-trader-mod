@@ -1,0 +1,66 @@
+{
+  "AssetId": "f40a4ca4ab8a4de9aaa7b53dbc9629e8",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "7d6c4f7ff596e5e4086531c0f96ac650, Unrecruit",
+          "name": "$Unrecruit$eab05e85-eba2-411d-bf90-844695acb73c",
+          "m_CompanionBlueprint": "!bp_70e4973d9cef400da93e0b5672dcd014",
+          "OnUnrecruit": {
+            "Actions": [
+              {
+                "$type": "279d4ee480d04f2b99e22da75adf77d6, UnequipAllItems",
+                "name": "$UnequipAllItems$190ae13f-56a3-4baa-9b5a-d259deedc8a1",
+                "Target": {
+                  "$type": "7aafe88b061e08e44aa3e725e8d8ff00, CompanionInParty",
+                  "name": "$CompanionInParty$c08c605d-a3b3-42cb-8b43-218f49f45d27",
+                  "m_Companion": "!bp_70e4973d9cef400da93e0b5672dcd014",
+                  "IncludeActive": false,
+                  "IncludeDetached": false,
+                  "IncludeRemote": false,
+                  "IncludeExCompanions": true,
+                  "IncludeDead": true,
+                  "Index": 0
+                },
+                "DestinationContainer": {
+                  "$type": "ac0b2a9e4daea5c42b85d77e48d5a304, UnitInventory",
+                  "name": "$UnitInventory$94d771f5-5d7c-46ab-ae33-0ca067fc5bd5",
+                  "Unit": {
+                    "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+                    "name": "$PlayerCharacter$2cc09130-d2c9-450b-a5eb-3bd418da9350"
+                  }
+                },
+                "Silent": false
+              }
+            ]
+          }
+        },
+        {
+          "$type": "eefa4c5532569b74d9ae18b954372790, DetachBuff",
+          "name": "$DetachBuff$f9e7d5d246e84b5184fe0f2c1d471048",
+          "m_Buff": "!bp_2368e0cb0f3b4d1aa905a3f3454ecbdd",
+          "Target": {
+            "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+            "name": "$PlayerCharacter$36379562d0904e788a9682ecc61efecd"
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

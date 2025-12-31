@@ -1,0 +1,71 @@
+{
+  "AssetId": "cf12128446b74c3e8f235ed3116ff604",
+  "Data": {
+    "$type": "c8ff73feae580b142a9f43e0c61d7f32, BlueprintDialog",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "OlgaKellner",
+    "Comment": "",
+    "FirstCue": {
+      "Cues": [
+        "!bp_0b1780a7254f45ee9b82c95818e42030",
+        "!bp_ebcc3c35473a4773b0d7aace4b913a10"
+      ],
+      "Strategy": "First"
+    },
+    "StartPosition": null,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "StartActions": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$9798374cfd2548f4a4799d610eae0dc6",
+          "m_State": {
+            "Value": "Story",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": true
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$e116b04f4ad64d44921a9ba1d9fe7d01",
+          "m_State": {
+            "Value": "HardChoice",
+            "Group": "MusicStoryType"
+          },
+          "m_ProlongTillNextCombat": true
+        }
+      ]
+    },
+    "FinishActions": {
+      "Actions": []
+    },
+    "ReplaceActions": {
+      "Actions": []
+    },
+    "FeatureFreezed": false,
+    "TurnPlayer": true,
+    "TurnFirstSpeaker": true,
+    "IsLockCameraRotationButtons": false,
+    "IsNarratorText": false,
+    "Type": "Common",
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

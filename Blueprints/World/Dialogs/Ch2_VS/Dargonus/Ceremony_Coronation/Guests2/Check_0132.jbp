@@ -1,0 +1,39 @@
+{
+  "AssetId": "cf1071dbf4f54aa9b01e22233b38d9ba",
+  "Data": {
+    "$type": "ab803aaa7a173f84e9172870c15e7493, BlueprintCheck",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "средняя сложность",
+    "ParentAsset": "8c5fbf92351449079479c8cfa082c3af",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Type": "SkillLoreImperium",
+    "Hidden": false,
+    "Difficulty": "Normal",
+    "DC": -20,
+    "DCModifiers": [],
+    "m_Success": "!bp_507679f543f1435fb0447dcd465ef56b",
+    "m_Fail": "!bp_909da3fbed3143f59ad9e75dd69fe094",
+    "OnCheckSuccessActions": {
+      "Actions": []
+    },
+    "OnCheckFailActions": {
+      "Actions": []
+    },
+    "m_UnitEvaluator": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

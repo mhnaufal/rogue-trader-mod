@@ -1,0 +1,117 @@
+{
+  "AssetId": "5cd67c94d8154e24ba748bc3c97ebba2",
+  "Data": {
+    "$type": "63bb90208198450095c55997ebc6ae0a, ActionsHolder",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AntonKharybin",
+    "Comment": "",
+    "Actions": {
+      "Actions": [
+        {
+          "$type": "f4ef63ec9a4741d4bae871a91255f89a, IncrementFlagValue",
+          "name": "$IncrementFlagValue$1c0cd58b92b44060b4c94230aede1097",
+          "m_Flag": "!bp_3236573e07604960aa4908fdef834394",
+          "Value": {
+            "$type": "9054151c7eb2e854ca7109522b1c3dde, IntConstant",
+            "name": "$IntConstant$962aa05e9e704fb09f6989c51a2ab7f8",
+            "Value": 1
+          },
+          "UnlockIfNot": true
+        },
+        {
+          "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+          "name": "$Conditional$24db41708a2e416084e26236f8f38210",
+          "Comment": "Даём баф и обжективу",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "342eb5cf69e9d0e48917ff4215600e0b, FlagInRange",
+                "name": "$FlagInRange$23d69b2dd55e43c4a0d6f0c6be511c8d",
+                "Not": false,
+                "m_Flag": "!bp_3236573e07604960aa4908fdef834394",
+                "MinValue": 3,
+                "MaxValue": 999
+              },
+              {
+                "$type": "e77a58dedc8350a4faa55f5e66b9f575, ObjectiveStatus",
+                "name": "$ObjectiveStatus$6c3b11c9c2934d858f2074f829eda11c",
+                "Not": true,
+                "m_QuestObjective": "!bp_d197382188494be6ae1ddfaeddb3732a",
+                "State": "Started"
+              },
+              {
+                "$type": "e77a58dedc8350a4faa55f5e66b9f575, ObjectiveStatus",
+                "name": "$ObjectiveStatus$27405344c167443f9bf1e055796ff4f6",
+                "Not": true,
+                "m_QuestObjective": "!bp_d197382188494be6ae1ddfaeddb3732a",
+                "State": "Completed"
+              }
+            ]
+          },
+          "IfTrue": {
+            "Actions": [
+              {
+                "$type": "0c996f778c13abb408bdd05f7f6fe317, AttachBuff",
+                "name": "$AttachBuff$4ec3c076b66643ff87b6de2db72e966e",
+                "m_Buff": "!bp_f0d6db77852149a3aa3de39f1a5bd27c",
+                "Target": {
+                  "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+                  "name": "$PlayerCharacter$987368bb328b4aacbc480ae001c84587"
+                },
+                "Duration": null,
+                "UseEndCondition": false,
+                "EndCondition": "RemainAfterCombat",
+                "AddFactSource": false
+              },
+              {
+                "$type": "3af21dd61b640c941b5704f3df91e16d, GiveObjective",
+                "name": "$GiveObjective$2ed85350bfc740538dde6a9367789a46",
+                "m_Objective": "!bp_d197382188494be6ae1ddfaeddb3732a"
+              }
+            ]
+          },
+          "IfFalse": {
+            "Actions": [
+              {
+                "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+                "name": "$Conditional$579943228ffc4d91a1c29ea261f00368",
+                "Comment": "",
+                "ConditionsChecker": {
+                  "Operation": "And",
+                  "Conditions": [
+                    {
+                      "$type": "e77a58dedc8350a4faa55f5e66b9f575, ObjectiveStatus",
+                      "name": "$ObjectiveStatus$01b1d8c8-87fe-44b9-b03e-42ec1e1b07a4",
+                      "Not": true,
+                      "m_QuestObjective": "!bp_d197382188494be6ae1ddfaeddb3732a",
+                      "State": "Started"
+                    }
+                  ]
+                },
+                "IfTrue": {
+                  "Actions": [
+                    {
+                      "$type": "576a514e5164d254f936cd4ce788ae6a, RunActionHolder",
+                      "name": "$RunActionHolder$735bf1c483214f5395f7b9d62bb1ad6b",
+                      "Comment": "",
+                      "Holder": "!bp_c286a696e38f4a2f8ce2ba4e337e41d6"
+                    }
+                  ]
+                },
+                "IfFalse": {
+                  "Actions": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "AssetId": "f95b27ee9ed445209db62b772c674f1a",
+  "Data": {
+    "$type": "63bb90208198450095c55997ebc6ae0a, ActionsHolder",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "Actions": {
+      "Actions": [
+        {
+          "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+          "name": "$Conditional$464646a4-f87b-40f4-86ad-cbb403e1ac0a",
+          "Comment": "",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "fcc336266b98019488d20a50d120e05c, FlagUnlocked",
+                "name": "$FlagUnlocked$3e9f27e1-6c29-46d5-931f-05366c2eeda5",
+                "Not": false,
+                "m_ConditionFlag": "!bp_a54469f4260f4986abe4b18389c1b1eb",
+                "ExceptSpecifiedValues": false,
+                "SpecifiedValues": []
+              }
+            ]
+          },
+          "IfTrue": {
+            "Actions": [
+              {
+                "$type": "576a514e5164d254f936cd4ce788ae6a, RunActionHolder",
+                "name": "$RunActionHolder$c27f5d64-7851-46d8-acf3-727feda0a44d",
+                "Comment": "",
+                "Holder": "!bp_51e45c2a526e4a1d8186b7cb3359895f"
+              }
+            ]
+          },
+          "IfFalse": {
+            "Actions": [
+              {
+                "$type": "4a2be3982ea87e44f8d704b9a6330f57, UnlockFlag",
+                "name": "$UnlockFlag$f9b37444-1c0b-403e-9ba2-1e9a4cf88a95",
+                "m_flag": "!bp_a54469f4260f4986abe4b18389c1b1eb",
+                "flagValue": 1
+              },
+              {
+                "$type": "f4ef63ec9a4741d4bae871a91255f89a, IncrementFlagValue",
+                "name": "$IncrementFlagValue$43e550ec-3a46-4b62-b4b5-ab30c3e6e5c2",
+                "m_Flag": "!bp_59eaca35a482410f9b6db88997165372",
+                "Value": {
+                  "$type": "9054151c7eb2e854ca7109522b1c3dde, IntConstant",
+                  "name": "$IntConstant$344917a5-695e-4bdb-91e6-c7ec14e171ae",
+                  "Value": 1
+                },
+                "UnlockIfNot": true
+              },
+              {
+                "$type": "507aef8c6c6218c49aaf0987b355f400, PlayCutscene",
+                "name": "$PlayCutscene$420a5dc4-e4a4-4d61-ab24-80490875c6e4",
+                "m_Cutscene": "!bp_9c54a2874b744e3c8e2a6d1258fa889d",
+                "PutInQueue": false,
+                "CheckExistence": true,
+                "Parameters": {
+                  "Parameters": []
+                }
+              },
+              {
+                "$type": "d6438d31eff349d4bf1ec872cfc0a001, UnitsFromSpawnersInUnitGroup",
+                "name": "$UnitsFromSpawnersInUnitGroup$10edb930-2ba7-4f25-84b0-651795e7e386",
+                "m_Group": {
+                  "EntityNameInEditor": "Assets5",
+                  "_entity_id": "709a73a4-1220-4754-846b-db8d77836ae4",
+                  "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                },
+                "Actions": {
+                  "Actions": [
+                    {
+                      "$type": "0edf8920d3df9b54c9db189bdad67cac, HideUnit",
+                      "name": "$HideUnit$ae2fda37-d685-4d6e-bdc1-7fb5805b0528",
+                      "Target": {
+                        "$type": "108c71e06af64dc8a69cb1290889fb18, UnitGroupUnit",
+                        "name": "$UnitGroupUnit$332b816d-b6d7-48d2-bc5c-a5fc5dad7a39"
+                      },
+                      "Unhide": false,
+                      "Fade": true
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "d6438d31eff349d4bf1ec872cfc0a001, UnitsFromSpawnersInUnitGroup",
+                "name": "$UnitsFromSpawnersInUnitGroup$8f6e89fc-a149-4bc8-93ce-0a6f4e50e02f",
+                "m_Group": {
+                  "EntityNameInEditor": "Assets1",
+                  "_entity_id": "c5add6b8-ec3b-419d-8cb4-7d2c96e4e4c5",
+                  "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                },
+                "Actions": {
+                  "Actions": [
+                    {
+                      "$type": "0edf8920d3df9b54c9db189bdad67cac, HideUnit",
+                      "name": "$HideUnit$7ea27a55-eac2-44c9-8e22-e643a3b3ecfd",
+                      "Target": {
+                        "$type": "108c71e06af64dc8a69cb1290889fb18, UnitGroupUnit",
+                        "name": "$UnitGroupUnit$6023e34a-eb74-4091-9d82-6b9f30b28140"
+                      },
+                      "Unhide": true,
+                      "Fade": true
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "4847fd6c11264ff4af657a8e278be3b8, HideEntity",
+                "name": "$HideEntity$4f818ef0-b83e-48cf-92e7-3863297d4b9b",
+                "Target": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$499e6f1b-6093-48df-8656-e018092899b4",
+                  "MapObject": {
+                    "EntityNameInEditor": "Stavros_False1",
+                    "_entity_id": "b0503fa1-f1b7-4d97-b26a-5ed60be9be6b",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": true
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$8c9aec72-b3f5-4f95-9dd4-e0f4214a4399",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$2ba67b93-b50d-4c5c-839f-8377be70d4b2",
+                  "MapObject": {
+                    "EntityNameInEditor": "Stavros_False_Choice1",
+                    "_entity_id": "c3c53d0f-e149-4a01-9af1-bbc1768b3335",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": true
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$28418c1c-5dd9-4189-aa9f-12ef10a9d8b8",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$9cc259d0-f0ba-4c05-9bf3-b2c89bcd6212",
+                  "MapObject": {
+                    "EntityNameInEditor": "Stavros_False2",
+                    "_entity_id": "2be5cc8d-bb5e-414a-8aa8-4e3271a4c915",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": true
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$fca4bfb8-11fe-430f-935e-a7d369df9995",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$c038dba2-aa73-4527-8c2b-4d678b18e662",
+                  "MapObject": {
+                    "EntityNameInEditor": "Stavros_False_Choice2",
+                    "_entity_id": "c988c497-468d-4cbc-b0ae-74f0daca9c2a",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": true
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$6195c563-0c75-4b0d-81ba-6bb2c48ff84a",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$d1cd0e06-27e5-467e-a3eb-df01371e13a9",
+                  "MapObject": {
+                    "EntityNameInEditor": "Stavros_True",
+                    "_entity_id": "caff872a-97f1-4164-a4e5-dc48704cb6f9",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": true
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$c91b0a56-3cb3-466d-a8a0-8ace69c1ecd8",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$395f1696-13ab-421f-b20e-b6903dfb13f4",
+                  "MapObject": {
+                    "EntityNameInEditor": "Stavros_True_Choice",
+                    "_entity_id": "06929109-64b4-4f74-9e71-dbca9c7bcd7d",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": true
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$bc60e39b-3988-4c89-a619-b5df416b99b0",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$a5bd25fd-64be-438f-9b12-7e3480fc7033",
+                  "MapObject": {
+                    "EntityNameInEditor": "Sevitsia_False1",
+                    "_entity_id": "bfe73440-aaea-4c35-ac9a-af8d37aae502",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": false
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$26547eaa-df36-46b3-9236-faf78cf4715d",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$0c495432-f795-45bf-84fa-87e68c0af0d5",
+                  "MapObject": {
+                    "EntityNameInEditor": "Sevitsia_False_Choice1",
+                    "_entity_id": "cb9577d1-3ca1-4fe6-8837-c9d1da02fe0a",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": false
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$30f9ae6b-87bf-4e0b-8771-2e7c4a38aeaf",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$6b304aa8-8eab-4bdf-bd21-e678c61aa8a1",
+                  "MapObject": {
+                    "EntityNameInEditor": "Sevitsia_False2",
+                    "_entity_id": "233c5053-5ba6-4fbc-b062-7ec2b4f61c83",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": false
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$74371e0c-ca09-4d1b-b949-baa53bd531ed",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$4cbe5ff5-751b-4f92-8fa7-a8a66fd03053",
+                  "MapObject": {
+                    "EntityNameInEditor": "Sevitsia_False_Choice2",
+                    "_entity_id": "5680d355-e40f-4a6a-ab0f-ca6f01a2c3b9",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": false
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$500e7720-5769-4a74-91ea-bbee1ec3cacc",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$abee2c26-c962-4011-b69b-cb10ef2d2528",
+                  "MapObject": {
+                    "EntityNameInEditor": "Sevitsia_True",
+                    "_entity_id": "37e23a83-e71f-4ec1-9276-a7edeac51a3d",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": false
+              },
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$ef1718bc-e7a8-428f-8ea6-7dadf2c25a8d",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$f3cfc04b-5565-4e50-ab15-510d02a137e3",
+                  "MapObject": {
+                    "EntityNameInEditor": "Sevitsia_True_Choice",
+                    "_entity_id": "8fef7572-063b-4e05-8fa5-c9a244a17858",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Unhide": false
+              },
+              {
+                "$type": "0c996f778c13abb408bdd05f7f6fe317, AttachBuff",
+                "name": "$AttachBuff$ed20cfd9-2122-4226-8956-51dc2cb877f8",
+                "m_Buff": "!bp_d5cae147e7374272a2d20477dbf220bb",
+                "Target": {
+                  "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+                  "name": "$UnitFromSpawner$3c02b9b5-9424-4c77-b848-ba1c7e4bd5c3",
+                  "Spawner": {
+                    "EntityNameInEditor": "Spawner [Serf_Sevitsia] (6)",
+                    "_entity_id": "42fb7f96-427f-4e77-883a-073c4c82ed55",
+                    "SceneAssetGuid": "8f1bccff0c5a2b3439fc0d68581af9c1"
+                  }
+                },
+                "Duration": null,
+                "UseEndCondition": false,
+                "EndCondition": "RemainAfterCombat",
+                "AddFactSource": false
+              },
+              {
+                "$type": "576a514e5164d254f936cd4ce788ae6a, RunActionHolder",
+                "name": "$RunActionHolder$737bb971-d1c7-4323-bd43-7977658b7c01",
+                "Comment": "Урон в пати за ошибку",
+                "Holder": "!bp_8b2de769d359479d9263a87aad9b5dec"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

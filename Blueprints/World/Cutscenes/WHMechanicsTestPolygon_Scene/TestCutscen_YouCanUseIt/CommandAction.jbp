@@ -1,0 +1,33 @@
+{
+  "AssetId": "c43c69808e9a4456aa4d446366b9254e",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "6e7c340ab284b5d4abb5b75a0a5da91a, RemoveFact",
+          "name": "$RemoveFact$c41ed9936e38500fab413a9a4f401455",
+          "Unit": {
+            "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+            "name": "$PlayerCharacter$6c49bbe21e5e5ddbadf151fb42d3f3ca"
+          },
+          "m_Fact": "!bp_3f59ef1fcd024364b0e2bbdd3b29d4fe"
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

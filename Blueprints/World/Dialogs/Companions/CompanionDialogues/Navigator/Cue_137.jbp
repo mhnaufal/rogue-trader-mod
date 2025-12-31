@@ -1,0 +1,137 @@
+{
+  "AssetId": "1fb84f972d994ec8a813f84aa1318b9c",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "MargaritaBeleckaya",
+    "Comment": "Если сломали романс в мини-ревности с компаньоном ДЛЦ\nповесить виньетку. на stop снять",
+    "ParentAsset": "7253beed662a4d568584956cba73399f",
+    "ShowOnce": true,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$fcbc599a-3ad5-4916-b475-ce72f2839812",
+          "Not": false,
+          "m_Etude": "!bp_ab81254c58fd43fcbaa0e8066f4cc8fc",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": true,
+          "CompletionInProgress": false,
+          "Completed": false
+        },
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$7912e905-bf60-4a00-9898-89e8de6e404d",
+          "Not": false,
+          "m_Etude": "!bp_471142502edc45b5b5b7855f5b85cf5b",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": false,
+          "CompletionInProgress": false,
+          "Completed": true
+        }
+      ]
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "5ef30a0e-9a32-4dd8-878d-e2848d4722eb",
+      "m_OwnerString": "1fb84f972d994ec8a813f84aa1318b9c",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\World\\Dialogs\\Companions\\CompanionDialogues\\Navigator\\Cue_137_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "0c996f778c13abb408bdd05f7f6fe317, AttachBuff",
+          "name": "$AttachBuff$7b932861-5517-48ca-bf89-930cfe9fcb93",
+          "m_Buff": "!bp_944465de3ccd4da0b4effffaa7419a8a",
+          "Target": {
+            "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+            "name": "$PlayerCharacter$1753fe16-8f62-4a4a-900c-3c1b1914ac2a"
+          },
+          "Duration": null,
+          "UseEndCondition": false,
+          "EndCondition": "RemainAfterCombat",
+          "AddFactSource": false
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": [
+        {
+          "$type": "eefa4c5532569b74d9ae18b954372790, DetachBuff",
+          "name": "$DetachBuff$35e3a840-b7dd-4670-a122-50b3fa3785b2",
+          "m_Buff": "!bp_944465de3ccd4da0b4effffaa7419a8a",
+          "Target": {
+            "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+            "name": "$PlayerCharacter$e9cf933b-c04a-4313-9788-52eefd1209bb"
+          }
+        }
+      ]
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [
+      "!bp_d4a4340664654138a64da3241fe083a5"
+    ],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

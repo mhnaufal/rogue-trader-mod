@@ -1,0 +1,50 @@
+{
+  "AssetId": "749e821db0e2480e8ac58435aa8807eb",
+  "Data": {
+    "$type": "962e4ff1f0264d03bba1bf1df5fc70ef, CommandUnitAttack",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Type": "BurstFire",
+    "Continuous": true,
+    "Unit": {
+      "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+      "name": "$UnitFromSpawner$499ee8d296ee41b4b407224ecee4a999",
+      "Spawner": {
+        "EntityNameInEditor": "YoungGuard",
+        "_entity_id": "0bb1c07d-7976-4f0e-b4c5-d13471cfee3d",
+        "SceneAssetGuid": "21688b9a17c78e249bfb655a6b1e40ef"
+      }
+    },
+    "Animation": "Walk",
+    "OverrideSpeed": false,
+    "Speed": 5.0,
+    "Target": {
+      "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+      "name": "$UnitFromSpawner$c4a1d465456a4ec5ba522016f5e627b3",
+      "Spawner": {
+        "EntityNameInEditor": "Cultist (5)",
+        "_entity_id": "c15f0095-ddf6-4ea6-afa2-70115df174a8",
+        "SceneAssetGuid": "21688b9a17c78e249bfb655a6b1e40ef"
+      }
+    },
+    "m_CustomWeapon": null,
+    "HitPolicy": "Default",
+    "DamagePolicy": "FxOnly",
+    "KillTarget": false,
+    "NeedLoS": false,
+    "EnableLog": false,
+    "MuteAttacker": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

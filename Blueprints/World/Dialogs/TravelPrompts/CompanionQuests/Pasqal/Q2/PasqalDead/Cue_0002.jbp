@@ -1,0 +1,103 @@
+{
+  "AssetId": "b13c9c3fdaf249128e192a370406a7c1",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlekseyVorobiev",
+    "Comment": "Колонизация - +Металл и +Механизмы",
+    "ParentAsset": "5385e3746b5346a5b796e2b6a3b7eac4",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "1de7c8f0-64eb-4825-9d26-7bbb236fc2e4",
+      "m_OwnerString": "b13c9c3fdaf249128e192a370406a7c1",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\World\\Dialogs\\TravelPrompts\\CompanionQuests\\Pasqal\\Q2\\PasqalDead\\Cue_0002_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": "!bp_566598ba5d904d0fb8031908d2f538fb"
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": []
+    },
+    "OnStop": {
+      "Actions": [
+        {
+          "$type": "8efa69193b5243b388e9ee4f6e8cc41e, GainColonyResources",
+          "name": "$GainColonyResources$b7f9680084f143e7848ef0b515e7d7a4",
+          "Resources": [
+            {
+              "Resource": "!bp_b9ab9cd20baf49baa0cebd96df45a101",
+              "Count": 3
+            },
+            {
+              "Resource": "!bp_fc09fa46dd574dc7a15071a929f0f20c",
+              "Count": 3
+            }
+          ]
+        }
+      ]
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

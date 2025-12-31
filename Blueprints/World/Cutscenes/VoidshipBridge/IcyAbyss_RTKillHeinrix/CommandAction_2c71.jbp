@@ -1,0 +1,57 @@
+{
+  "AssetId": "2c71e24f0b1d40c4801583c97d4b2b5e",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "7d6c4f7ff596e5e4086531c0f96ac650, Unrecruit",
+          "name": "$Unrecruit$5cce55fa730144e7b2962236b1eb8176",
+          "m_CompanionBlueprint": "!bp_70e4973d9cef400da93e0b5672dcd014",
+          "OnUnrecruit": {
+            "Actions": [
+              {
+                "$type": "279d4ee480d04f2b99e22da75adf77d6, UnequipAllItems",
+                "name": "$UnequipAllItems$8d0a8865897b43f896af90c01c12d156",
+                "Target": {
+                  "$type": "7aafe88b061e08e44aa3e725e8d8ff00, CompanionInParty",
+                  "name": "$CompanionInParty$84cb585e18214837a5f15af24b16e802",
+                  "m_Companion": "!bp_70e4973d9cef400da93e0b5672dcd014",
+                  "IncludeActive": false,
+                  "IncludeDetached": false,
+                  "IncludeRemote": false,
+                  "IncludeExCompanions": true,
+                  "IncludeDead": true,
+                  "Index": 0
+                },
+                "DestinationContainer": {
+                  "$type": "ac0b2a9e4daea5c42b85d77e48d5a304, UnitInventory",
+                  "name": "$UnitInventory$84a71fc440f5410db59d9a8091285675",
+                  "Unit": {
+                    "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+                    "name": "$PlayerCharacter$928a2366c20543e8a0bf7cd72d14db39"
+                  }
+                },
+                "Silent": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

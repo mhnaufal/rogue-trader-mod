@@ -1,0 +1,102 @@
+{
+  "AssetId": "6824978873b748eeaa945ec93c5419f3",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "KseniyaUrchenko",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_3780f5224f374a489055f97e54bfd7fb"
+        ],
+        "m_EndGate": "!bp_a827e31b7a9847bb92026d3cc9aa5eca",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_b721a2613c44457088693ad1bc42d453",
+          "!bp_fd2e9d121c394434864e3ea34cb1e7e8"
+        ],
+        "m_EndGate": "!bp_ba4cf7729e0c407fac4c62507dda8e3c",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": false,
+    "ShowOverlay": true,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "0e0c1fe99d7862d4492bcd1535939a9a, StartDialog",
+          "name": "$StartDialog$61a4868ac41144329fc058665db686f9",
+          "DialogueOwner": {
+            "$type": "7aafe88b061e08e44aa3e725e8d8ff00, CompanionInParty",
+            "name": "$CompanionInParty$d99ad736e903469b8e94b46700426b3d",
+            "m_Companion": "!bp_70e4973d9cef400da93e0b5672dcd014",
+            "IncludeActive": true,
+            "IncludeDetached": true,
+            "IncludeRemote": true,
+            "IncludeExCompanions": true,
+            "IncludeDead": false,
+            "Index": 0
+          },
+          "m_Dialogue": "!bp_c4d56acf0a1c491480731221f22079b1",
+          "DialogEvaluator": null,
+          "SpeakerName": {
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": null
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

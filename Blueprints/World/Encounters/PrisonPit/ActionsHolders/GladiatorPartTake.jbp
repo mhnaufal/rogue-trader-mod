@@ -1,0 +1,31 @@
+{
+  "AssetId": "9372880d0d9e4f379dd85a79e2967b6a",
+  "Data": {
+    "$type": "63bb90208198450095c55997ebc6ae0a, ActionsHolder",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "Actions": {
+      "Actions": [
+        {
+          "$type": "de11b243ffe6dbe449ab5340f716ab26, OpenLootContainer",
+          "name": "$OpenLootContainer$def8bcad73fc44b3a0b38bd4a8dbc340",
+          "MapObject": {
+            "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+            "name": "$MapObjectFromScene$e5924bc38860491595a070bd7978cd6e",
+            "MapObject": {
+              "EntityNameInEditor": "GladiatorLoot",
+              "_entity_id": "970c7df6-70cc-4207-aaec-9e4d5f5ed7f8",
+              "SceneAssetGuid": "74f2c8553e3791a4e87905b0142f0be1"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

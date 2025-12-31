@@ -1,0 +1,26 @@
+{
+  "AssetId": "30120fad8a9b47679c79be67af48df48",
+  "Data": {
+    "$type": "9d59dacab16c67d47ab0760668284391, CommandMarkUnitControlled",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Unit": {
+      "$type": "95469ff256aabcf409b9c5860a4c4ba9, NamedParameterUnit",
+      "name": "$NamedParameterUnit$41391343-a80d-4b36-bf98-269547b79eff",
+      "Parameter": "Unit"
+    },
+    "UnmarkAfter": 0.0
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

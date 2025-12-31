@@ -1,0 +1,95 @@
+{
+  "AssetId": "d7b25692136e4074adec9673cb46e4b7",
+  "Data": {
+    "$type": "c8ff73feae580b142a9f43e0c61d7f32, BlueprintDialog",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "FirstCue": {
+      "Cues": [
+        "!bp_56acf19a1f4548ce9cc61dadd39b0462",
+        "!bp_4e6a34ae5d16459d8e377a2a89151ee1"
+      ],
+      "Strategy": "First"
+    },
+    "StartPosition": null,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "StartActions": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$b1c8c5b9730d4f1999a7d93bee35a873",
+          "m_State": {
+            "Value": "Story",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": false
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$bcb936e7d0174e40905f93b9a4ca44c2",
+          "m_State": {
+            "Value": "PowerfulEnemy",
+            "Group": "MusicStoryType"
+          },
+          "m_ProlongTillNextCombat": false
+        },
+        {
+          "$type": "09697d9710264407a9c32060cfe8a2c7, CompleteEtude",
+          "name": "$CompleteEtude$64c5e07de41f540c9a6acda4dc4d8601",
+          "Etude": "!bp_baf2824ae56141179adad956ac139609",
+          "EtudeEvaluator": null,
+          "Evaluate": false
+        }
+      ]
+    },
+    "FinishActions": {
+      "Actions": [
+        {
+          "$type": "c99aa15b0ad07ce4db8044f7adfccaa5, ScriptZoneActivate",
+          "name": "$ScriptZoneActivate$c98a63c78ea6548d9c7b68a31862e8a6",
+          "ScriptZone": {
+            "EntityNameInEditor": "BarrierCutsceneSZ",
+            "_entity_id": "27522576-77dd-4f00-8275-bc9abe4d9778",
+            "SceneAssetGuid": "67b7a431171c7794189fc0f4436e8be9"
+          }
+        },
+        {
+          "$type": "09697d9710264407a9c32060cfe8a2c7, CompleteEtude",
+          "name": "$CompleteEtude$75e42226e4705367a822dc71de9dbf70",
+          "Etude": "!bp_baf2824ae56141179adad956ac139609",
+          "EtudeEvaluator": null,
+          "Evaluate": false
+        }
+      ]
+    },
+    "ReplaceActions": {
+      "Actions": []
+    },
+    "FeatureFreezed": false,
+    "TurnPlayer": true,
+    "TurnFirstSpeaker": false,
+    "IsLockCameraRotationButtons": false,
+    "IsNarratorText": false,
+    "Type": "Common",
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

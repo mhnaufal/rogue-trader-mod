@@ -1,0 +1,104 @@
+{
+  "AssetId": "b266891e6e8b47bc983eef94446ee2ce",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VeronikaLarionova",
+    "Comment": "",
+    "ParentAsset": "729826669d95483cb0ea4542cfc827dc",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "edd850b8-d248-4b5e-a97e-64122697e5f2",
+      "m_OwnerString": "b266891e6e8b47bc983eef94446ee2ce",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\World\\Dialogs\\Ch1\\NavisNobiliteStation\\NavisCogitator\\Cue_0052_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "be3026f011f344f448094a75ed64a9f5, Play3DSound",
+          "name": "$Play3DSound$ac6585b03d9b588aad4b004bbe3b9e39",
+          "SoundName": "NARR_NavisNobilte_CogitatorActivate",
+          "SoundSourceObject": {
+            "EntityNameInEditor": "ActivateCogitator",
+            "_entity_id": "eb92f951-ff2d-4d6a-8a02-2b986f4a228e",
+            "SceneAssetGuid": "8b082037757408441bf7b1503ab5cf95"
+          },
+          "SetSex": false,
+          "SetRace": false,
+          "SetCurrentSpeaker": false
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [
+      "!bp_70a5247bde784ecfb19f1e89eb609822"
+    ],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
