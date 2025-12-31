@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{66c982cd-7308-a7d2-d946-b3ce81088e83}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
+    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Debug" />
+     <None Include="Packages\jp.keijiro.shadergraphassets@1.0.4\Subgraph\NoiseFunctions.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\Lighting.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\ObjectSaturationAura\Shaders" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\Validate.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\OccludedObjectHighlighting\Shaders\OccludedObject.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\UI" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\GlobalMap\GlobalMapGBufferPass.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\ShaderLibrary\Sampling\Hammersley.cs.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\DeclareCustomPostProcessInputTexture.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\FogOfWar\Shaders\FogOfWar.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Lighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\package.json" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\UberPost.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\Input.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\CameraObjectClip" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\GlobalMap\GlobalMapForwardPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Debug.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDDebug.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Debugging\Debug.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Particles" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Unlit.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\HDROutput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_Integrated.cginc" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Shadows\ShadowCopyCacheConstantBuffer.cs.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\FogOfWar" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\CubemapArrayPreview.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Water\Water.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainGBufferPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\UnityInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\GPUSkinning.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\Fluid\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Shadows.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Sampling\SampleUVMappingInternal.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\RealtimeLights.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Random.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\Shadows\ShadowInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\ScreenSpaceReflections\StochasticSSR.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDCollision.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\ScreenSpaceReflections\ScreenSpaceReflections.compute" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\HDROutputDefines.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Unlit\UnlitInput.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Refraction.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Lit\LitForwardPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\StopNaN.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDMesh.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\Fluid\Shaders\FluidUtils.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Core.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\VertexCubeSlicing.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Lighting\LightDataConstantBuffer.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\ScreenSpaceReflections\ScreenSpaceReflections.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Debugging\DebugAdditionalPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Debugging\DebugAdditionalPass.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\UnityInstancing.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Skybox\Skybox-Cubed.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Water\WaterGBufferPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\EdgeAdaptiveSpatialUpsampling.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\VAT.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\LutBuilderLdr.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Lit\Lit.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Textures\SMAA" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\SDF2D.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Materials" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Collisions\Broadphase\BroadphaseType.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\OilPaint.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\GPUHashtable\LinearProbingHashtable.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Common.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\Utils\BrushPreview.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders\LensFlareCommon.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Data" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Lighting\LightCookieConstantBuffer.cs.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Decals\ProjectorDebug.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDMath.hlsl" />
+     <Folder Include="Packages\jp.keijiro.shadergraphassets@1.0.4\Subgraph" />
+     <None Include="Packages\com.unity.burst\ValidationConfig.json" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_Reinterleave_frag.cginc" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\ShaderLibrary" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\EntityLighting.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\Utils\TerrainLayerUtils.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Color.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\OccludedObjectHighlighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\DeclareOccludedObjectNoiseMap.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\ScreenCoordOverride.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\CopyDepthPass.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Macros.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Sampling\Fibonacci.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\MostRepresentativePoint.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\Core.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Water\WaterForwardPass.hlsl" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Forces\AxisDirection.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\GPUParallelSort\RadixSort.compute" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Collisions\ColliderType.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders\LocalVolumetricFogCulling.compute" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\CommonLighting.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Unlit\UnlitPasses.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Shadows" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\Highlighting\Shaders\HighlightingCut.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Debug\DebuggingCommon.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\FullscreenBlur" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Utilities\GeometryUtils.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_BlurY_frag.cginc" />
+     <None Include="Packages\com.unity.scriptablebuildpipeline@1.20.2\package.json" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders\ffx\ffx_a.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\Terrain.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Sampling\SampleUVMapping.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\MaskedColorTransform.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\FoveatedRendering.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\RenderPipelineResources" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders\VolumetricSceneVoxelization.compute" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Sampling" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\GLES3.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\BilateralUpsample\BilateralUpsampleConstants.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders\VolumetricLighting.compute" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Utilities" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Forces" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Terrain\TerrainLayerData.cs.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Lighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Lighting\LightCulling.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\GBufferUtils.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\BokehDepthOfField.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Lighting\DeferredLighting.compute" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\CommonMaterial.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Filtering.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\IndirectRendering\IndirectInstanceData.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\ShaderDebugPrint.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDCameraCulling.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Noise\BCCNoise8.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Lighting\DeferredLighting.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\Highlighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\AmbientOcclusion.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Lighting\DeferredLighting.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\Fluid" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\BilateralUpsample" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders\VolumetricApplyOpaque.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Debug\DebugViewEnums.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting\ProbeVolume\ProbeVolumeBlendStates.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Effects\WeatherSystem" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\Highlighting" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\Metal.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\GBuffer.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Sampling\Sampling.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\Vulkan.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\GlobalMap" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\DistortionUtils.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\OccludedObjectHighlighting\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\Blit.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\PhysicalCamera.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\DBufferBlit.shader" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Collisions\Broadphase" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\MetaInput.hlsl" />
+     <Folder Include="Packages\com.unity.burst" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\LightCookie\LightCookie.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ValidationConfig.json" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\package.json" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDBodyAabb.compute" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\OccludedObjectHighlighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\ObjectSaturationAura\Shaders\ObjectSaturationAura.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Lighting" />
+     <Folder Include="Packages\jp.keijiro.vfxgraphassets\Subgraph" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Common.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Lit" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\ACES.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\GraniteShaderLibBase.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\Fluid\Shaders\FluidUtils.hlsl" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Collisions\CapsuleColliderDirection.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Utilities\Blit.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\ScreenSpaceCloudShadows.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Shadow" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_frag.cginc" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\SpaceFillingCurves.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\Shadows" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Textures\FilmGrain" />
+     <Folder Include="Packages\jp.keijiro.vfxgraphassets\Shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\OccludedObjectHighlighting\Shaders\OccludedObjectHighlightingComposite.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\PaniniProjection.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Unlit" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\RenderPipelineResources\FallbackShader.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\Fluid" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\LutBuilderHdr.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\Highlighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\CameraMotionVectors.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\FinalBlit.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_Blur.cginc" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting\ProbeVolume\DecodeSH.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\FogOfWar\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_BlurX_frag.cginc" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\VertexAnimation.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\VolumeRendering.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Effects\WeatherSystem\Shaders\LocationWeatherDataCombinationGenerator.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Version.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\Utils\CloneBrush.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Unlit\Unlit.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\NormalSurfaceGradient.hlsl" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Forces\ForceEmissionType.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\ParallaxMapping.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\DeclareColorPyramidTexture.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\Fluid\Shaders\Fluid.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\BRDF.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Shadows\ShadowData.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting\ProbeVolume\ProbeReferenceVolume.Debug.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Debugging\DebugData.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\SpaceTransforms.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainForwardLitPass.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Effects" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\GLCore.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Lighting\LightData.cs.hlsl" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\BC6H.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Particles\ParticlesForwardPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\Highlighting\Shaders\Highlighter.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\GLES2.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\SurfaceInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Particles\ParticlesInput.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\GlobalSamplers.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\SurfaceData.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDSingleDispatchSimulator.compute" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\GPUHashtable" />
+     <None Include="Packages\com.owlcat.core@0.0.45\package.json" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainCommon.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\Fluid\Shaders" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\LightCookie\LightCookieInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\SurfaceInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Bloom.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\CoreBlitColorAndDepth.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\ObjectSaturationAura\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\FSRCommon.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\CameraMotionBlur.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\Utils\LayerPreviewBlit.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\MetaPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Lit\LitMetaPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\SubpixelMorphologicalAntialiasingBridge.hlsl" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Particles\ParticleFlags.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\SphericalHarmonics.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Noise\ClassicNoise3D.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_DeinterleaveDepth_frag.cginc" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\OwlcatMetaPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainBase.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Noise\ClassicNoise2D.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Decals\ProjectorGUI.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\ColorPyramidPS.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Lit\LitInput.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Data\Textures\CoherentNoise" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\VFXGraph" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting\ProbeVolume\ProbeVolume.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting\ProbeVolume" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\MetaInput.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\RenderPipelineResources\Mesh" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Lighting\DeferredLighting.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\Utils\TerrainTools.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Skybox\Skybox-Panoramic.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\VFXGraph\VFXDefines.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\UnityInput.hlsl" />
+     <Folder Include="Packages\jp.keijiro.shadergraphassets@1.0.4" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_Deferred.cginc" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\CommonShadow.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\FogOfWar\Shaders\ScreenSpaceFogOfWar.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\BilateralUpsample\BilateralUpsample.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\SaturationOverlay.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\ApplyDistortion.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\Utils" />
+     <Folder Include="Packages\jp.keijiro.vfxgraphassets\Mesh\Materials" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Debugging\ShowLightSortingCurve.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\CameraObjectClip\Shaders\BakeNoise3D.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\Switch.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\FoveatedRendering_Metal.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\FinalPost.shader" />
+     <Folder Include="Packages\jp.keijiro.vfxgraphassets" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\Fullscreen.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDForceVolume.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\Input.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\GlobalMap\GlobalMap.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\DepthPyramid.compute" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Decals\Projector.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders\VolumetricShadowmapDownsample.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\OccludedObjectHighlighting\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Decals\DecalPass.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\TextureStack.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Texture.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\FogOfWar.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\UnityDOTSInstancing.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Particles\ParticlesGBufferPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\VFXGraph\VFXCommon.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\Highlighting\Shaders" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Data" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Shadows" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\VFXGraph\SubGraph" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\GaussianDepthOfField.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Lighting.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Daltonization.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Sampling\SampleUVMappingNormalInternal.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\PerPixelDisplacement.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Debugging" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\AreaLighting.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders\ffx\ffx_fsr1.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\IndirectRendering\IndirectCulling.compute" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders\ffx\ffx_cas.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\ShaderVariablesFunctions.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\ObjectSaturationAura" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Debugging\DebugData.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\ObjectMotionVectors.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\Fog.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Debugging\DebugInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\UnityInput.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Utilities" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Forces\ForceVolumeType.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Sampling\Hammersley.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Lighting" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders\ffx" />
+     <Folder Include="Packages\com.unity.scriptablebuildpipeline@1.20.2" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Constraints\ConstraintType.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\CommonDeprecated.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\CopyDepth.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\PositionBasedDynamics" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\VisualEffectVertex.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\IndirectRendering" />
+     <None Include="Packages\jp.keijiro.shadergraphassets@1.0.4\package.json" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders\DebugLocalVolumetricFog.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Hashes.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\CameraObjectClip\Shaders" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Data\Textures" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\BilateralUpsample\BilateralUpsample.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Decals\DecalInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\VolumetricLighting.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\BloomEnhanced.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\GlobalMap\GlobalMapInput.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Textures\BlueNoise16" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Lighting\DeferredReflections.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\ScreenSpaceReflections\WaaaghSSR.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Lighting\DeferredLighting.compute" />
+     <None Include="Packages\jp.keijiro.vfxgraphassets\package.json" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders\ffx\ffx_lpm.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\RadialBlur.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Debugging\DebugFullscreen.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\ScreenSpaceReflections\ScreenSpaceRaytrace.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\OccludedObjectHighlighting\Shaders\OccludedObject.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\Core.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Effects\WeatherSystem\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\ObjectSaturationAura\Shaders\ObjectSaturationAura.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\OccludedObjectHighlighting\Shaders" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Constraints" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\CopyDepthSimple.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\FullscreenBlur" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Textures" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders\VolumetricScatter.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\DeclareNormalsTexture.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Water" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\MedianBlur.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Lighting\LocalVolumetricFogGpuData.cs.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\GPUParallelSort" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\Shadows\Shadow.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Shadows" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDSkinning.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\GBufferUtils.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Noise\BCCNoise4.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\SubpixelMorphologicalAntialiasing.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\GPUHashtable\HashtableInclude.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\LightCookie" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API\D3D11.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\DeclareDepthTexture.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\OptimizedSpatialHashingBroadphase.compute" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\UI\UI-Default.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Debugging\Debug.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting\ProbeVolume\ShaderVariablesProbeVolumes.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\OccludedObjectHighlighting\Shaders\OccludedObjectHighlighter.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\MobileBlur.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\Highlighting\Shaders\HighlightingComposite.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\DebugInclude.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\PBDInput.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Debugging" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainMetaPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO\HBAO_DeinterleaveNormals_frag.cginc" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\OccludedObjectHighlighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Particles\ParticlesShadowCasterPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\GlobalIllumination.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\RealtimeLights.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\RealtimeLights.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Packing.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\GlobalMap\GlobalMapShadowCasterPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\Texture3DAtlas.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainBaseGen.shader" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Collisions" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\ScreenSpaceReflections" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\Utilities\BlitColorAndDepth.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\Lighting.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\PBDRender.hlsl" />
+     <Folder Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Particles" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\Fluid\Shaders\Fluid.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Terrain" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Debugging" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\DeclareDepthPyramid.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures\ObjectSaturationAura" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Tessellation.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\Textures\BlueNoise16\L" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Lit\LitShadowCasterPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\ShaderGraphFunctions.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Shadows\ShadowConstantBuffer.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\Shadows\ShadowInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Lit\LitGBufferPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\Debugging\DebugInput.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Noise" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\CoreBlit.shader" />
+     <None Include="Packages\com.owlcat.core@0.0.45\Runtime\Physics\PositionBasedDynamics\Forces\DirectionType.cs.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\BSDF.hlsl" />
+     <None Include="Packages\com.unity.scriptablebuildpipeline@1.20.2\ValidationExceptions.json" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Shadows\ShadowData.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\SubpixelMorphologicalAntialiasing.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\FinalBlit.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\Lighting\DeferredReflections.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Noise\SimplexNoise2D.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\HBAO" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Debug\Debugging3D.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\RendererFeatures" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\ImageBasedLighting.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Noise\SimplexNoise3D.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\CopyCachedShadows.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\ShaderLibrary\Sampling" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Utils\ColorPyramid.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Runtime\PostProcessing\Shaders\FSRCommon.hlsl" />
+     <Folder Include="Packages\jp.keijiro.vfxgraphassets\Mesh" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\GeometricTools.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\VolumetricLighting\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Lighting\ComputeTilesMinMaxZ.compute" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\Shadows" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\ShadowInput.hlsl" />
+     <None Include="Packages\com.unity.burst\Unity.Burst.Unsafe.xml" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Decals" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Terrain\TerrainShadowCasterPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\MetaInput.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Shaders\Skybox" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\PositionBasedDynamics\Shaders\ParticlesDebug.hlsl" />
+     <None Include="Packages\com.unity.burst\package.json" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\RendererFeatures\FullscreenBlur" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\VirtualTexturing.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\API" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\ShaderLibrary\Shadow\ShadowSamplingTent.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\Input.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Water\WaterInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Lighting\DeferredReflections.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Particles\Particles.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\PostProcessing\TemporalAA.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Shaders\Skybox\Skybox-Procedural.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\RendererFeatures\Highlighting\Shaders\HighlightingBlur.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\ShaderLibrary\UniversalDOTSInstancing.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\DxtCompressor\RenderPipeline\ShaderLibrary\SurfaceInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\RenderPipeline\ShaderLibrary\Shadows\Shadow.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Runtime\Waaagh\Debugging\ShadowsDebug.shader" />
+     <Reference Include="UnityEngine">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

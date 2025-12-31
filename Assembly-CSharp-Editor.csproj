@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{16a28bfc-ff1d-f4e3-501c-488d8fa6e2f3}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
+    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Templates\SharedCode.template.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Templates" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\Skinning.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\DistortionVectorsPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\Varyings.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\LookDev\CubeToLatlong.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\LookDev\Icons" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Overrides\Shaders\CurveBackground.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\PBRGBufferPass.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\SelectionPickingPass.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Resources" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Volume" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\LookDev\Compositor.shader" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\ProbeVolume\ProbePlacement.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\VFXOwlcatInput.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\PostProcessPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\PassDistortionVectors.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticlePlanarPrimitives\PassShadowCaster.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\VFXParticleDecal.template" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\UIDefaultPass.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\ProbeVolume\VoxelizeScene.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\PassForward.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Overrides\Shaders\TrackballEditor.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleHeader\VFXParticleCommonOwlcat.template" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\CustomRenderTexture" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\DecalInput.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\PassShadowCaster.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\SkyboxPass.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Overrides\Shaders" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\DecalPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\PassSelection.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\ShadowCasterPass.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\Icons" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\ShaderPass.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\Icons\LightUnitIcons" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\UnlitGBufferPass.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticlePlanarPrimitives\PassSelection.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\LightingMetaPass.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\VFXParticleMeshes.template" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Overrides" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\ProbeVolume\VoxelizeScene.shader" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleHeader\VFXParticleHeaderOwlcat.template" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\VFXPasses.template" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Volume\Icons" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\ProbeVolume\ProbeGIBaking.Dilate.cs.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticlePlanarPrimitives\PassVS.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\PBRForwardPass.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\ProbeVolume\ProbeVolumeCellDilation.compute" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticlePlanarPrimitives\PassGBuffer.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Includes\UnlitForwardPass.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\ProbeVolume\ProbeVolumeSubdivide.compute" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Lighting\ProbeVolume" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticlePlanarPrimitives\PassForward.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\VFXOwlcatVaryings.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\VAT.hlsl" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticlePlanarPrimitives\PassDistortionVectors.hlsl" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Gizmo" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\Gizmo\UnlitGizmo.shader" />
+     <Folder Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\LookDev" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\VFXParticlePlanarPrimitive.template" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\PassGBuffer.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticlePlanarPrimitives" />
+     <None Include="Packages\com.unity.render-pipelines.core@14.0.8\Editor\CustomRenderTexture\CustomRenderTextureShader.template" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\ShaderGraph\Templates\ShaderPass.template" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Overrides\Shaders\ShadowsMidtonesHighlightsCurves.shader" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph" />
+     <None Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleMeshes\PassVS.hlsl" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders" />
+     <Folder Include="Packages\com.owlcat.visual@0.1.192\Editor\Integration\VFXGraph\Shaders\Templates\ParticleHeader" />
+     <Reference Include="UnityEngine">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
