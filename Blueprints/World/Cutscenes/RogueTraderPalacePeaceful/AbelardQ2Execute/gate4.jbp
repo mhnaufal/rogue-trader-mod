@@ -1,0 +1,74 @@
+{
+  "AssetId": "c48d5ce568ba4fa68ecf1e6417cf36c7",
+  "Data": {
+    "$type": "51c5dfefb75a19a49a0dc708f3a2b76e, Gate",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_9747998fbeff4559a57ffcfb4d376670"
+        ],
+        "m_EndGate": "!bp_fdbaddcac8d74a4e90255e4cf0c0087a",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_552e49303e5746ddae9af328d1047bdf",
+          "!bp_852cbda72da8412a883a34b282991392",
+          "!bp_2fc071df446342859ac5fad64ae5a002"
+        ],
+        "m_EndGate": "!bp_fdbaddcac8d74a4e90255e4cf0c0087a",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_91d53a8939844e95a18bac14cc197960",
+          "!bp_7f4ad75fe1394b05805e19819400b788",
+          "!bp_bbc4fe3a86d44036877be35df3321975"
+        ],
+        "m_EndGate": "!bp_fdbaddcac8d74a4e90255e4cf0c0087a",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_dc9dc4e6d4ea4062b4a857cee2ea4434",
+          "!bp_f822cddb459f4e7f81c27fbaa6715247",
+          "!bp_3a457cdb5efe4b23ab0b1ea6d67e45b2",
+          "!bp_6d93b56c004d4eedbb2306f28b2e23fd"
+        ],
+        "m_EndGate": "!bp_fdbaddcac8d74a4e90255e4cf0c0087a",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

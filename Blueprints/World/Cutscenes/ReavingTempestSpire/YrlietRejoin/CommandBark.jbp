@@ -1,0 +1,45 @@
+{
+  "AssetId": "688a6ce58b4a45d2a36c30eb03d977f1",
+  "Data": {
+    "$type": "de5b317dc48ef484193a356ca566cb7e, CommandBarkUnit",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Text": "",
+    "SharedText": {
+      "assetguid": "b69d89f1621d7c04282ff72c94757124",
+      "stringkey": "6cd0725f-3690-4d92-8a95-2c2b6b780eee"
+    },
+    "Unit": {
+      "$type": "7aafe88b061e08e44aa3e725e8d8ff00, CompanionInParty",
+      "name": "$CompanionInParty$0b40f49b-da0a-405d-bd0a-7db14d3cd865",
+      "m_Companion": "!bp_20c5ce9f1e2bcf9448a7a0fd0850f5d2",
+      "IncludeActive": true,
+      "IncludeDetached": true,
+      "IncludeRemote": true,
+      "IncludeExCompanions": true,
+      "IncludeDead": false,
+      "Index": 0
+    },
+    "BarkDurationByText": true,
+    "AwaitFinish": true,
+    "CommandDurationShift": 0.0,
+    "ControlsUnit": false,
+    "IsSubText": false,
+    "OverrideBarkDuration": false,
+    "BarkDuration": 0.0,
+    "IsUnitOptional": false,
+    "m_SpeakerName": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

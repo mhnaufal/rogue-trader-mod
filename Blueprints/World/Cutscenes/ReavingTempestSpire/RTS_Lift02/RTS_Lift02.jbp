@@ -1,0 +1,123 @@
+{
+  "AssetId": "a1eddbfe70e6445096bc343cc23ebb12",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_d5c8486b23214859aad05049906d92e9"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_0809e01282314b96a5361c5d38ab2956"
+        ],
+        "m_EndGate": "!bp_44de464c185b4723a2f08ed27418dd45",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_64f3bbd3a7ac4053b1e5a8c25a30565d"
+        ],
+        "m_EndGate": "!bp_44de464c185b4723a2f08ed27418dd45",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_10fdae01c40546c1a00460bdc44f1ba1"
+        ],
+        "m_EndGate": "!bp_44de464c185b4723a2f08ed27418dd45",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Freezeless": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": true,
+    "ShowPets": false,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "8072988edd00cce40bc433869828e6b3, TeleportParty",
+          "name": "$TeleportParty$0ba949b6-c78b-42a4-b032-71cfed2ae30c",
+          "m_exitPositon": "!bp_02513e3d43774c6c9c777160594a0b6d",
+          "AutoSaveMode": "None",
+          "ForcePauseAfterTeleport": false,
+          "AfterTeleport": {
+            "Actions": [
+              {
+                "$type": "da1815e1ca093d14190aa9351c0c0f66, SwitchDoor",
+                "name": "$SwitchDoor$c80e3a8e-d91a-41d3-a79f-82f16f26d692",
+                "Door": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$475d4932-af58-4443-bae4-45603dbf7b74",
+                  "MapObject": {
+                    "EntityNameInEditor": "Сommoragh_arena_elevator",
+                    "_entity_id": "8679cf29-c301-4c96-9798-ba7ed505889d",
+                    "SceneAssetGuid": "7b3e68021d547fb438025a94ba8596c2"
+                  }
+                },
+                "UnlockIfLocked": false,
+                "CloseIfAlreadyOpen": true,
+                "OpenIfAlreadyClosed": true
+              },
+              {
+                "$type": "28f3698ba62041e09a5abcbe59a14725, MakeAutoSave",
+                "name": "$MakeAutoSave$47e32d0e-e25a-45f9-952e-005c17946193",
+                "SaveForImport": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
