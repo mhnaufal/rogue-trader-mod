@@ -1,0 +1,88 @@
+{
+  "AssetId": "3aeab5d66eaa40c09c264dcdfb4b0aa5",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "21dbbb0b719a4ce38c2152bf9ea6bbce, CounterAttack",
+        "name": "$CounterAttack$fa873cf1-821c-4aeb-92f7-ab7cbc12fc1d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Trigger": "AfterAnyAttack",
+        "GuardAllies": false,
+        "GuardAlliesRange": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "Limited": false,
+        "UsageLimit": {
+          "ValueType": "Simple",
+          "Value": 2,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CanUseInRange": true
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "cbed33d3-5005-4cd3-b4d8-29d340e8ae03",
+      "m_OwnerString": "3aeab5d66eaa40c09c264dcdfb4b0aa5",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Units\\NPC\\Unique\\Human\\Ch2_PascalEvent\\Abilities\\TarzusSkitarii_Feature_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "1c63b1e4-5e9b-4fee-812b-ad2d074ccc97",
+      "m_OwnerString": "3aeab5d66eaa40c09c264dcdfb4b0aa5",
+      "m_OwnerPropertyPath": "m_Description",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Units\\NPC\\Unique\\Human\\Ch2_PascalEvent\\Abilities\\TarzusSkitarii_Feature_m_Description.json",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "987689d5dff84f244beaf97ae1915103",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

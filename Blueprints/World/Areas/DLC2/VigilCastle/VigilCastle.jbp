@@ -1,0 +1,142 @@
+{
+  "AssetId": "0c9e3edb667c403a89fca816f6c0ce31",
+  "Data": {
+    "$type": "6181425e72507c148a67d77624419aec, BlueprintArea",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "f08a698ec9e44c24dab4d03a4c03eea2",
+        "stringkey": "959a99d6-cf6f-40f1-9531-90013d8db379"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "3b7d902c44e9c504c942ca510dc510af",
+        "stringkey": "eeb052e3-90fb-4a3e-b29d-a619ea272001"
+      }
+    },
+    "m_Icon": null,
+    "m_DynamicScene": {
+      "m_SceneAsset": {
+        "guid": "9bca01725c2ca184a872aa5101d77db5",
+        "fileid": 102900000
+      },
+      "m_SceneName": "VigilCastle_Mechanics_Default"
+    },
+    "m_StaticScene": {
+      "m_SceneAsset": {
+        "guid": "a70d20f79c9ddbc4a8bca82913bd7869",
+        "fileid": 102900000
+      },
+      "m_SceneName": "VigilCastle_Static_for_Art"
+    },
+    "m_StaticSceneConsoleOverride": {
+      "m_SceneAsset": null,
+      "m_SceneName": ""
+    },
+    "m_LightScene": {
+      "m_SceneAsset": {
+        "guid": "d6e341e6d758fe24aa2c088f5d8137e4",
+        "fileid": 102900000
+      },
+      "m_SceneName": "VigilCastle_Light"
+    },
+    "m_LightSceneConsoleOverride": {
+      "m_SceneAsset": null,
+      "m_SceneName": ""
+    },
+    "m_SceneOverrides": [],
+    "m_Bounds": {
+      "guid": "6d7a8c2bd76da2f4291c1d66efa4b22a",
+      "fileid": 11400000
+    },
+    "m_AudioTimeOfDayVariants": [
+      {
+        "m_SceneAsset": {
+          "guid": "2fb991cee5053044abc66348edc05b72",
+          "fileid": 102900000
+        },
+        "m_SceneName": "VigilCastle_Audio"
+      }
+    ],
+    "m_SoundBankNames": [
+      "AMB_LOC_VigilCastle",
+      "NARR_VigilCastle"
+    ],
+    "m_ManageBanksSeparately": false,
+    "m_UnloadBanksDelay": 2.0,
+    "MusicSetting": {
+      "Value": "ImperialWorld",
+      "Group": "MusicSettingType"
+    },
+    "m_IndoorType": "None",
+    "m_WeatherProfile": {
+      "m_WeatherProfile": null,
+      "m_Layers": []
+    },
+    "m_WeatherInclemencyMin": "Clear",
+    "m_WeatherInclemencyMax": "Storm",
+    "IsSingleLightScene": false,
+    "CameraRotationOnEnter": false,
+    "DefaultCameraRotation": 0.0,
+    "VailAffectsTheWeather": true,
+    "StartVailValueForLocation": 0,
+    "LocalMapRotationDeg": "Degree0",
+    "m_Parts": [],
+    "CameraScrollMultiplier": 1.0,
+    "CampingSettings": {
+      "CampingAllowed": true,
+      "HuntingDC": 15,
+      "DivineServiceDCBonus": 15,
+      "CamouflageDC": 10
+    },
+    "RandomEncounterSettings": {
+      "PerceptionDCModifier": 0,
+      "Tags": []
+    },
+    "ArtSetting": "Unspecified",
+    "AreaName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "f08a698ec9e44c24dab4d03a4c03eea2",
+        "stringkey": "959a99d6-cf6f-40f1-9531-90013d8db379"
+      }
+    },
+    "ExcludeFromSave": false,
+    "ChunkId": "Chapter4",
+    "LoadingScreenSprites": [
+      {
+        "Main": {
+          "AssetId": "77b14dc4c0e964f4493c7d3de723222d"
+        },
+        "Glitch": {
+          "AssetId": "ab63e25831025be4f990b904e72f3379"
+        }
+      }
+    ],
+    "m_DefaultPreset": "!bp_c974a88abf414f258a9aaa6fa66d5a0e",
+    "RelatedWorkspace": null,
+    "m_CR": 30,
+    "OverrideCorruption": false,
+    "CorruptionGrowth": 0,
+    "m_HotAreas": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

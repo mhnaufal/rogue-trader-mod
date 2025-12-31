@@ -1,0 +1,164 @@
+{
+  "AssetId": "1a24ca8bf78a4b86be2af2b261c5b5d1",
+  "Data": {
+    "$type": "d03eea79843045d18c110d9b79cd5c9f, BlueprintStarSystemMap",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "d2f2b57f9e34565468a9f2a530b5d499",
+        "stringkey": "210f1b39-6e75-4ff4-a2d8-bcbb1565de24"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_DynamicScene": {
+      "m_SceneAsset": {
+        "guid": "c3693e049c39cd24f8f935dca4ee7304",
+        "fileid": 102900000
+      },
+      "m_SceneName": "ExplorationSystem_14_Mechanics"
+    },
+    "m_StaticScene": {
+      "m_SceneAsset": {
+        "guid": "032b707d916ee4e42bfa92e88580b979",
+        "fileid": 102900000
+      },
+      "m_SceneName": "ExplorationSystem_14_Static"
+    },
+    "m_StaticSceneConsoleOverride": {
+      "m_SceneAsset": null,
+      "m_SceneName": ""
+    },
+    "m_LightScene": {
+      "m_SceneAsset": {
+        "guid": "be73ffd54def759418e9fc7c599dec28",
+        "fileid": 102900000
+      },
+      "m_SceneName": "ExplorationSystem_14_Light"
+    },
+    "m_LightSceneConsoleOverride": {
+      "m_SceneAsset": null,
+      "m_SceneName": ""
+    },
+    "m_SceneOverrides": [],
+    "m_Bounds": {
+      "guid": "db9b1f4f8fe93bc43bf3d455e7cc9952",
+      "fileid": 11400000
+    },
+    "m_AudioTimeOfDayVariants": [
+      {
+        "m_SceneAsset": {
+          "guid": "de6ff1fa6355798488a3a030fedb2978",
+          "fileid": 102900000
+        },
+        "m_SceneName": "ExplorationSystem_14_Audio"
+      }
+    ],
+    "m_SoundBankNames": [
+      "AMB_System1"
+    ],
+    "m_ManageBanksSeparately": false,
+    "m_UnloadBanksDelay": 2.0,
+    "MusicSetting": {
+      "Value": "Space",
+      "Group": "MusicSettingType"
+    },
+    "m_IndoorType": "None",
+    "m_WeatherProfile": {
+      "m_WeatherProfile": null,
+      "m_Layers": []
+    },
+    "m_WeatherInclemencyMin": "Clear",
+    "m_WeatherInclemencyMax": "Storm",
+    "IsSingleLightScene": false,
+    "CameraRotationOnEnter": false,
+    "DefaultCameraRotation": 0.0,
+    "VailAffectsTheWeather": true,
+    "StartVailValueForLocation": 0,
+    "LocalMapRotationDeg": "Degree0",
+    "m_Parts": [],
+    "CameraScrollMultiplier": 1.0,
+    "CampingSettings": {
+      "CampingAllowed": true,
+      "HuntingDC": 15,
+      "DivineServiceDCBonus": 15,
+      "CamouflageDC": 10
+    },
+    "RandomEncounterSettings": {
+      "PerceptionDCModifier": 0,
+      "Tags": []
+    },
+    "ArtSetting": "Unspecified",
+    "AreaName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "d2f2b57f9e34565468a9f2a530b5d499",
+        "stringkey": "210f1b39-6e75-4ff4-a2d8-bcbb1565de24"
+      }
+    },
+    "ExcludeFromSave": false,
+    "ChunkId": "Chapter1",
+    "LoadingScreenSprites": [],
+    "m_DefaultPreset": "!bp_71e9350c73d34b6981568370c3e3154f",
+    "RelatedWorkspace": null,
+    "m_CR": 0,
+    "OverrideCorruption": false,
+    "CorruptionGrowth": 0,
+    "m_HotAreas": [],
+    "SpaceCombatArea": null,
+    "Stars": [
+      {
+        "Star": "!bp_d0a9c48780d541cc95137471b18673a8",
+        "Name": {
+          "m_Key": "",
+          "m_OwnerString": "",
+          "m_OwnerPropertyPath": "",
+          "m_JsonPath": "",
+          "Shared": null
+        }
+      }
+    ],
+    "Planets": [
+      "!bp_23670b261cad448d8cd6d689ade4e6c9",
+      "!bp_ad2578d4715045738f4b0ab56fabb81b",
+      "!bp_bef5962d3f044d8583c18b61dbcc03d4",
+      "!bp_239a4718b9b341ea8db2f1deac7283d6",
+      "!bp_7d276b9626d541e599bb61284a284f4f"
+    ],
+    "OtherObjects": [],
+    "Anomalies": [],
+    "m_SystemScreenshots": [],
+    "BackgroundComposerConfig": {
+      "guid": "b4d9cda82b8ea4c4883db3f15f6fcce6",
+      "fileid": 11400000
+    },
+    "RomeSystemNumber": 24,
+    "PointsForResearchProgress": [],
+    "AnomaliesResearchProgress": [
+      {
+        "Conditions": null,
+        "Anomaly": "!bp_0cf02957a9a84800a1578cb19fc0ad0b"
+      }
+    ]
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "AssetId": "44ac5b05267f4130a9dac42f70567e9d",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_cfc7021a45c5457e8139898c7f4ab6e8",
+          "!bp_8f70268fd0c64b3cb9a3203d88031777"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Freezeless": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": false,
+    "ShowPets": false,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": [
+        {
+          "Name": "Unit",
+          "Type": "Unit",
+          "Evaluator": {
+            "$type": "5abcc51ecc3df064ebb6c4ec13a8a8e9, SpawnedUnit",
+            "name": "$SpawnedUnit$2c61e10ecd1546c299bca2f776ac83b6"
+          }
+        }
+      ]
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": []
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "AssetId": "26e12903e1914c5ba9f6de569447afc2",
+  "Data": {
+    "$type": "6181425e72507c148a67d77624419aec, BlueprintArea",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "07073d86bef8e364db387c543337712f",
+        "stringkey": "e50285bd-bb62-4f45-8fa4-ed6293604007"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "83294267dece99f4a98dd921e06548df",
+        "stringkey": "b0f2d968-528b-49ce-8758-96c96a6ae99d"
+      }
+    },
+    "m_Icon": null,
+    "m_DynamicScene": {
+      "m_SceneAsset": {
+        "guid": "284eef69a010d21479bbedaa8bddc85f",
+        "fileid": 102900000
+      },
+      "m_SceneName": "TreasureWorld_Mechanics"
+    },
+    "m_StaticScene": {
+      "m_SceneAsset": {
+        "guid": "ed246a872507b2f41905b593e779c35a",
+        "fileid": 102900000
+      },
+      "m_SceneName": "TreasureWorld_Static_for_art"
+    },
+    "m_StaticSceneConsoleOverride": {
+      "m_SceneAsset": null,
+      "m_SceneName": ""
+    },
+    "m_LightScene": {
+      "m_SceneAsset": {
+        "guid": "c8e9f8b32e6a1ad4e9ef0d51477423e9",
+        "fileid": 102900000
+      },
+      "m_SceneName": "TreasureWorld_Light"
+    },
+    "m_LightSceneConsoleOverride": {
+      "m_SceneAsset": null,
+      "m_SceneName": ""
+    },
+    "m_SceneOverrides": [],
+    "m_Bounds": {
+      "guid": "3e9f3252822401645b7f54bfa44ee766",
+      "fileid": 11400000
+    },
+    "m_AudioTimeOfDayVariants": [
+      {
+        "m_SceneAsset": {
+          "guid": "c5a83379828ff5543b471edb82619271",
+          "fileid": 102900000
+        },
+        "m_SceneName": "TreasureWorld_Audio"
+      }
+    ],
+    "m_SoundBankNames": [
+      "AMB_LOC_TreasureWorld",
+      "NARR_TreasureWorld"
+    ],
+    "m_ManageBanksSeparately": false,
+    "m_UnloadBanksDelay": 2.0,
+    "MusicSetting": {
+      "Value": "TreasureWorld",
+      "Group": "MusicSettingType"
+    },
+    "m_IndoorType": "None",
+    "m_WeatherProfile": {
+      "m_WeatherProfile": null,
+      "m_Layers": []
+    },
+    "m_WeatherInclemencyMin": "Clear",
+    "m_WeatherInclemencyMax": "Storm",
+    "IsSingleLightScene": false,
+    "CameraRotationOnEnter": false,
+    "DefaultCameraRotation": 0.0,
+    "VailAffectsTheWeather": true,
+    "StartVailValueForLocation": 0,
+    "LocalMapRotationDeg": "Degree0",
+    "m_Parts": [],
+    "CameraScrollMultiplier": 1.0,
+    "CampingSettings": {
+      "CampingAllowed": true,
+      "HuntingDC": 15,
+      "DivineServiceDCBonus": 15,
+      "CamouflageDC": 10
+    },
+    "RandomEncounterSettings": {
+      "PerceptionDCModifier": 0,
+      "Tags": []
+    },
+    "ArtSetting": "Unspecified",
+    "AreaName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "07073d86bef8e364db387c543337712f",
+        "stringkey": "e50285bd-bb62-4f45-8fa4-ed6293604007"
+      }
+    },
+    "ExcludeFromSave": false,
+    "ChunkId": "Prologue",
+    "LoadingScreenSprites": [
+      {
+        "Main": {
+          "AssetId": "e6a65523ae8890c46a72c984ea47824d"
+        },
+        "Glitch": {
+          "AssetId": "5bd702495df709c4aa54dc4400e0cff3"
+        }
+      }
+    ],
+    "m_DefaultPreset": "!bp_83060bd0ec094fbfbf6dcd306b8933ab",
+    "RelatedWorkspace": null,
+    "m_CR": 37,
+    "OverrideCorruption": false,
+    "CorruptionGrowth": 0,
+    "m_HotAreas": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
