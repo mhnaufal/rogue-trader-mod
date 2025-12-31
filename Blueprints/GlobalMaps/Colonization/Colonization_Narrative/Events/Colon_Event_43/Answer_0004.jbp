@@ -1,0 +1,142 @@
+{
+  "AssetId": "0b44acd392ed49debc93f198d4761f0e",
+  "Data": {
+    "$type": "df78945bb9f434e40b897758499cb714, BlueprintAnswer",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$5aee9f72-731c-4c0a-8933-f29d46eb4636",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": null
+      },
+      {
+        "$type": "34bf31b8b1354678ac0d3db2f79f2831, RewardChangeStatSecurity",
+        "name": "$RewardChangeStatSecurity$de104d17-62ff-4437-9244-25f498bea884",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_SecurityModifier": -1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": null
+      },
+      {
+        "$type": "b630897d1c2f4f41ab197acbe74d14b7, RequirementResourceUseDialog",
+        "name": "$RequirementResourceUseDialog$6d015b9a-dde8-488e-b72b-22cb7acffe73",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_fc09fa46dd574dc7a15071a929f0f20c",
+          "Count": 2
+        },
+        "UseProfitFactorInstead": true
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "Эффективность++\r\nМеханизмы-\r\nБезопасность-",
+    "ParentAsset": "80ed010f19d24b1da2058e331e502827",
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "d7786b40-5298-41b2-b56b-5de577703f51",
+      "m_OwnerString": "0b44acd392ed49debc93f198d4761f0e",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Colonization_Narrative\\Events\\Colon_Event_43\\Answer_0004_Text.json",
+      "Shared": null
+    },
+    "NextCue": {
+      "Cues": [
+        "!bp_a007d82763d344479338d8d414a6c9f9"
+      ],
+      "Strategy": "First"
+    },
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "ShowCheck": {
+      "Type": "Unknown",
+      "Difficulty": "Custom",
+      "DC": 0
+    },
+    "OnCheckSuccess": {
+      "Actions": []
+    },
+    "OnCheckFail": {
+      "Actions": []
+    },
+    "DebugMode": false,
+    "CharacterSelection": {
+      "SelectionType": "Clear",
+      "ComparisonStats": []
+    },
+    "ShowConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "SelectConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "RequireValidCue": false,
+    "AddToHistory": true,
+    "OnSelect": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "FakeChecks": [],
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

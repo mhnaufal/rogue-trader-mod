@@ -1,0 +1,124 @@
+{
+  "AssetId": "56cd5577c135427eb350ac9d640028c4",
+  "Data": {
+    "$type": "df78945bb9f434e40b897758499cb714, BlueprintAnswer",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "1545064d92184eef88475cffc5c2c321, RequirementProfitFactorCost",
+        "name": "$RequirementProfitFactorCost$912906da-01ee-4b1b-b2f3-f2bde6cf229d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "ProfitFactorCost": 3
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$014a5766-a53b-4fd2-9857-9d3ab26ab754",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 1,
+        "m_ApplyToAllColonies": true,
+        "m_Colony": null
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "Довольство + (на все колонии)\nПФ --",
+    "ParentAsset": "3bf7edd18e7d48b69592894907feb36f",
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "5a6e75bf-45b6-44a0-a3de-238e31173446",
+      "m_OwnerString": "56cd5577c135427eb350ac9d640028c4",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Colonization_Narrative\\Events\\Colon_Event_16\\Answer_0005_Text.json",
+      "Shared": null
+    },
+    "NextCue": {
+      "Cues": [
+        "!bp_bf85b28b5d4e48678abf4a47a65c39b1"
+      ],
+      "Strategy": "First"
+    },
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "ShowCheck": {
+      "Type": "Unknown",
+      "Difficulty": "Custom",
+      "DC": 0
+    },
+    "OnCheckSuccess": {
+      "Actions": []
+    },
+    "OnCheckFail": {
+      "Actions": []
+    },
+    "DebugMode": false,
+    "CharacterSelection": {
+      "SelectionType": "Clear",
+      "ComparisonStats": []
+    },
+    "ShowConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "SelectConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "RequireValidCue": false,
+    "AddToHistory": true,
+    "OnSelect": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "FakeChecks": [],
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

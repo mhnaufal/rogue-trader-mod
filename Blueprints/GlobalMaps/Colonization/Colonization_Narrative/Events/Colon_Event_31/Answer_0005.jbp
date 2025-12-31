@@ -1,0 +1,113 @@
+{
+  "AssetId": "6c0aba5961de4276b11f54a8cf0955da",
+  "Data": {
+    "$type": "df78945bb9f434e40b897758499cb714, BlueprintAnswer",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "103ff90d034f4fa29f5250f54ba296ed, RequirementReputation",
+        "name": "$RequirementReputation$fbb71dbe-4c27-46b4-81f6-b17eca1494ef",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Reputation": {
+          "Faction": "Drusians",
+          "MinLevelValue": 5
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "если есть репа с Друзианцами",
+    "ParentAsset": "6c2d65ee56804c3f98417c31b371770e",
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "70556dd9-5c9b-46a7-af10-c1bf684bdc37",
+      "m_OwnerString": "6c0aba5961de4276b11f54a8cf0955da",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Colonization_Narrative\\Events\\Colon_Event_31\\Answer_0005_Text.json",
+      "Shared": null
+    },
+    "NextCue": {
+      "Cues": [
+        "!bp_78a5f667e2dc44ac8ef4a21411235e76"
+      ],
+      "Strategy": "First"
+    },
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "ShowCheck": {
+      "Type": "Unknown",
+      "Difficulty": "Custom",
+      "DC": 0
+    },
+    "OnCheckSuccess": {
+      "Actions": []
+    },
+    "OnCheckFail": {
+      "Actions": []
+    },
+    "DebugMode": false,
+    "CharacterSelection": {
+      "SelectionType": "Clear",
+      "ComparisonStats": []
+    },
+    "ShowConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "SelectConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "RequireValidCue": false,
+    "AddToHistory": true,
+    "OnSelect": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "FakeChecks": [],
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

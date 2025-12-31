@@ -1,0 +1,140 @@
+{
+  "AssetId": "e38437edc7b74ae6bedd4e98fb82fe1d",
+  "Data": {
+    "$type": "df78945bb9f434e40b897758499cb714, BlueprintAnswer",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$acdc925d-4df0-4fa5-9499-40a0e3c95e7e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": -1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": null
+      },
+      {
+        "$type": "34bf31b8b1354678ac0d3db2f79f2831, RewardChangeStatSecurity",
+        "name": "$RewardChangeStatSecurity$c1e5205d-0bf4-430c-9798-37b27e637e9a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_SecurityModifier": -2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": null
+      },
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$68182caa-7ed0-4978-9d28-a05d353708d2",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": null
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "Довольство-\r\nЭффективность+",
+    "ParentAsset": "df112fc1369d402789b93537ebfabaaf",
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "2d9fea91-4d89-4411-8b72-8157be265925",
+      "m_OwnerString": "e38437edc7b74ae6bedd4e98fb82fe1d",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Colonization_Narrative\\Events\\Colon_Event_30\\Answer_0004_Text.json",
+      "Shared": null
+    },
+    "NextCue": {
+      "Cues": [
+        "!bp_9d7ad3731ed14368a024b22008633e43"
+      ],
+      "Strategy": "First"
+    },
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "ShowCheck": {
+      "Type": "Unknown",
+      "Difficulty": "Custom",
+      "DC": 0
+    },
+    "OnCheckSuccess": {
+      "Actions": []
+    },
+    "OnCheckFail": {
+      "Actions": []
+    },
+    "DebugMode": false,
+    "CharacterSelection": {
+      "SelectionType": "Clear",
+      "ComparisonStats": []
+    },
+    "ShowConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "SelectConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "RequireValidCue": false,
+    "AddToHistory": true,
+    "OnSelect": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "FakeChecks": [],
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

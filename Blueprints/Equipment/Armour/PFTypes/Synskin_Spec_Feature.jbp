@@ -1,0 +1,227 @@
+{
+  "AssetId": "f60ce16e46eb4e48a980528f96f44fde",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "919aa5bc2ad3469e8b637c3f73e98dea, WarhammerDodgeChanceModifierDefender",
+        "name": "$WarhammerDodgeChanceModifierDefender$199aeae5-9a67-4400-9afa-071d996e310d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "88a988badcc84ea8847e21626bee82e5, PropertyCalculatorGetter",
+                "name": "$PropertyCalculatorGetter$5ebfc49150d64b9fa0f4ebceda02e3ff",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Value": {
+                  "Operation": "G",
+                  "TargetType": "CurrentEntity",
+                  "FailSilentlyIfNoTarget": false,
+                  "Getters": [
+                    {
+                      "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+                      "name": "$SimplePropertyGetter$1f38b9ad-eee1-4c69-9f36-42675f62c420",
+                      "Settings": {
+                        "Progression": "AsIs",
+                        "m_CustomProgression": [],
+                        "m_StartLevel": 0,
+                        "m_StepLevel": 0,
+                        "Negate": false,
+                        "Limit": "None",
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Property": "Agility"
+                    },
+                    {
+                      "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                      "name": "$ContextValueGetter$0a853597-de80-400f-a620-c3bc77a487c1",
+                      "Settings": {
+                        "Progression": "AsIs",
+                        "m_CustomProgression": [],
+                        "m_StartLevel": 0,
+                        "m_StepLevel": 0,
+                        "Negate": false,
+                        "Limit": "None",
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Value": {
+                        "ValueType": "Simple",
+                        "Value": 40,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "Properties": "DodgeChance",
+        "DodgeChance": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "PercentDodgeModifier": false,
+        "PercentMultiplierModifier": false,
+        "SetMinimumDodgeChance": false,
+        "MinimumDodgeChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        }
+      },
+      {
+        "$type": "25d172d2be8f52f468b2050d14d59806, AddFactContextActions",
+        "name": "$AddFactContextActions$635831f5-edcc-408d-91ca-643717fa8452",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "DisableForLevelUpPreviewUnit": false,
+        "DisableWhenReapplying": false,
+        "Activated": {
+          "Actions": []
+        },
+        "Deactivated": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$d413d91e66ef436a88470a59c7fab821",
+              "m_Buff": "!bp_f4300301aa27458ea32c365e7f34e6f0",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "NewRound": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$f59967f6-641c-4656-9490-bb51be915a9f",
+              "m_Buff": "!bp_f4300301aa27458ea32c365e7f34e6f0",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "RoundEnd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$f078dda6-8a31-4408-9803-42bd9ef0620f",
+        "m_Flags": "Disabled",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Stat": "WarhammerAgility",
+        "CheckCaster": false
+      }
+    ],
+    "Author": "ElenaMironova",
+    "Comment": "Base Armor Property: +5% Dodge if wielders AGI more than 40",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

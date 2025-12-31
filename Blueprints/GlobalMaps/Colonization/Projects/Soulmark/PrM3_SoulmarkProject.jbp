@@ -1,0 +1,169 @@
+{
+  "AssetId": "6f74a3fcddab49d58e034796726876ab",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "6b753da00905420996556f7cd398267c, RewardReputation",
+        "name": "$RewardReputation$67082e9d-398d-4bcc-bed7-a8beae3f1b56",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Reputation": 2500,
+        "Faction": "Drusians"
+      },
+      {
+        "$type": "c8994546dfb24e6da61004bb7598afda, RewardSoulMark",
+        "name": "$RewardSoulMark$e70e61cc-1109-4106-9431-8408a3341ba8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "SoulMarkShift": {
+          "Direction": "Faith",
+          "Value": 10,
+          "CheckByRank": false,
+          "Rank": 0,
+          "Description": {
+            "m_Key": "2a817c66-b920-4ad2-8301-59d6012db15e",
+            "m_OwnerString": "6f74a3fcddab49d58e034796726876ab#$RewardSoulMark$e70e61cc-1109-4106-9431-8408a3341ba8",
+            "m_OwnerPropertyPath": "SoulMarkShift.Description",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Projects\\Soulmark\\PrM3_SoulmarkProject_SoulMarkShift.Description.json",
+            "Shared": null
+          }
+        }
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$7a248e11-503d-4044-83e9-9556244cf36b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_883a5e2be9384e9f941ec3abf65f5d73"
+      },
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$7ab5883c-204b-4e0d-aee8-4709318c5e61",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_883a5e2be9384e9f941ec3abf65f5d73"
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$7abf5cc5-204d-438f-90bf-349a92fd2219",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_f8e6d39f6e4045f78264c1481914edc5",
+          "Count": 1
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$5d8560ef-e4b9-4509-96ff-3ff6e92bfc20",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_7d5cb1d2264a40d8bff8350a8a09a464",
+          "Count": 3
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$c8ffa640-55fa-431d-ba4d-f96fc12089b2",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+          "Count": 1
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "0a20e18328f806d45bc0e0798a4195fe",
+        "stringkey": "582fab3e-6d00-401b-80ce-2908aeedd362"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "16dd98b3d0ac19b40b88913352bc2bb1",
+        "stringkey": "45896aee-27f6-4190-9c98-ac09128e07b2"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "663b9bdcee6e24b408d1f4927a5cc8ec",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "Rank": "Second"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

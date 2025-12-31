@@ -1,0 +1,164 @@
+{
+  "AssetId": "e52a5b8ea26943ec8000cdfab0fc6c5c",
+  "Data": {
+    "$type": "10f09e1ac5154b57a19ff614406abb9c, BlueprintQuestContract",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$b96072fc-188f-4f3d-9674-e3263ba2ed2f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_876fc13fdc10492b8444e045ac8f9ecc"
+      },
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$c693e24a-9e93-4dc6-a3ec-c91cb9e30b69",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_876fc13fdc10492b8444e045ac8f9ecc"
+      },
+      {
+        "$type": "34bf31b8b1354678ac0d3db2f79f2831, RewardChangeStatSecurity",
+        "name": "$RewardChangeStatSecurity$84b0320a-0b09-4113-a7a1-fe42bf2a345a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_SecurityModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_876fc13fdc10492b8444e045ac8f9ecc"
+      },
+      {
+        "$type": "feb2e0d661b64c6d8d255a0b8c3fb239, RequirementResourceUseOrder",
+        "name": "$RequirementResourceUseOrder$f697de87-50c5-4ebf-8494-9ff8a5966ee4",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_7d5cb1d2264a40d8bff8350a8a09a464",
+          "Count": 3
+        }
+      },
+      {
+        "$type": "feb2e0d661b64c6d8d255a0b8c3fb239, RequirementResourceUseOrder",
+        "name": "$RequirementResourceUseOrder$0ca6c4b9-4cf9-44e4-a578-cf57781981fe",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+          "Count": 3
+        }
+      },
+      {
+        "$type": "feb2e0d661b64c6d8d255a0b8c3fb239, RequirementResourceUseOrder",
+        "name": "$RequirementResourceUseOrder$294160d2-7775-4396-a1e5-a5999dfc2e6c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_d7fa105388694988a728956edf177b58",
+          "Count": 3
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "6cff415bf94189b488ab462dab6ecc24",
+        "stringkey": "9189be63-8155-4ac2-973b-7e921e24a938"
+      }
+    },
+    "Title": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "37fc3f87c5db96849b3807c7faf31e11",
+        "stringkey": "aa6770ae-60d8-4ad4-94e0-f04867321e4a"
+      }
+    },
+    "CompletionText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "RegionName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "Place": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ServiceMessage": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "Dlc": "None",
+    "m_Group": "Orders",
+    "m_DescriptionPriority": 0,
+    "m_Type": "Order",
+    "m_LastChapter": 0,
+    "m_Objectives": [
+      "!bp_7881ab9878294186a8abacde2825fce5"
+    ],
+    "m_IsRumourFalse": false,
+    "m_SilentQuestNotification": 0,
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

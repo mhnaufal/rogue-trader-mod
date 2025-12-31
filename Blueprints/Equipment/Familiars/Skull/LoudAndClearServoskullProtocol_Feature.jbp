@@ -1,0 +1,142 @@
+{
+  "AssetId": "69fd340db26640ceaf4d43ce7de18680",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$396b310b-c649-45f3-b479-97e8257820da",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": {
+                "assetguid": "c1cde2d2dba782449bd917b883e3af55",
+                "stringkey": "eb317de9-f13f-4a60-9941-c51726b06923"
+              }
+            },
+            "m_DescriptionFact": "!bp_69fd340db26640ceaf4d43ce7de18680",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_8a67b620eefd4b159368600d3abd2a8c",
+            "m_LinkKey": "DMG"
+          },
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": {
+                "assetguid": "ba80c478739db4d4c90336d418a7efa7",
+                "stringkey": "afa7fd90-777d-4728-9341-12f2841d164f"
+              }
+            },
+            "m_DescriptionFact": "!bp_69fd340db26640ceaf4d43ce7de18680",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value2",
+            "m_PropertySource": "!bp_8a67b620eefd4b159368600d3abd2a8c",
+            "m_LinkKey": "PEN"
+          }
+        ]
+      },
+      {
+        "$type": "9a8a0eefc6594af8a645c2d7b226385f, AddFactsToMaster",
+        "name": "$AddFactsToMaster$5776c749-b3d6-4726-a703-73ebae61bbea",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_ab2bbf5a978d4b499a7b5c60a03df015"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      }
+    ],
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "416df409089e32d4fb1b7db5f8223f9a",
+        "stringkey": "e954339a-6ac1-42ae-bf52-dd51426d0062"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "e08406eba2c72904cbf8a72968e36bdf",
+        "stringkey": "27651295-f2d8-471b-a742-9eac5d325779"
+      }
+    },
+    "m_Icon": {
+      "guid": "0ef446b151f11b345888c57afa4901e3",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

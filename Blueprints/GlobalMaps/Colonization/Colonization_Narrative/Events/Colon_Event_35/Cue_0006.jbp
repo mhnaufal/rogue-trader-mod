@@ -1,0 +1,99 @@
+{
+  "AssetId": "838ff3a030a2469f81fa0e50cc6570e5",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "OlgaKellner",
+    "Comment": "",
+    "ParentAsset": "295ad5d3eda748e2a0e98ea8c4932a12",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "d88ba569-c3db-4e0d-857e-d16dddf5e68b",
+      "m_OwnerString": "838ff3a030a2469f81fa0e50cc6570e5",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Colonization_Narrative\\Events\\Colon_Event_35\\Cue_0006_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "fad8e98d61f54ac7ac8ce20cc204b9ca, ChangeColonyStats",
+          "name": "$ChangeColonyStats$2e2345dc-70f2-450c-8a72-5b06cb71cccf",
+          "m_Colony": null,
+          "m_ApplyToCurrentColony": true,
+          "m_ApplyToAllColonies": false,
+          "m_ContentmentModifier": -1,
+          "m_SecurityModifier": 0,
+          "m_EfficiencyModifier": -2
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

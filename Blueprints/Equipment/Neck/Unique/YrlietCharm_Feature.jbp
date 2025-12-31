@@ -1,0 +1,103 @@
+{
+  "AssetId": "354e401f823f4ea0870c1b420a8c6061",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$AddFacts$6c606ee8-24d2-4a86-ae8c-ca8e8e34209c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_3782ba9d2a8446c3966daae913391534",
+          "!bp_365ad1a4ef1b4a47be74509c33b2be3b"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "18beb8746b848f6448d3ee6969a32467, WarhammerOverrideAbilityApCost",
+        "name": "$WarhammerOverrideAbilityApCost$7b10d30c-d8ab-4548-9cdb-2a8ff376faf9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "m_overrideMode": "Zero",
+        "m_newCost": 0,
+        "m_costBonus": 0,
+        "m_costMinimum": -1,
+        "m_Ability": "!bp_3782ba9d2a8446c3966daae913391534",
+        "m_AffectedGroup": null,
+        "m_AbilityGroupList": [],
+        "NotSelectedGroup": false,
+        "AffectOnlyMelee": false,
+        "AffectOnlyRanged": false,
+        "AffectOnlyAoE": false,
+        "AffectOnlyBurst": false,
+        "AffectOnlyHeavy": false
+      }
+    ],
+    "Author": "AlexanderGusev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

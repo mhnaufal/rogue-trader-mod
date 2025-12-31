@@ -1,0 +1,138 @@
+{
+  "AssetId": "d1bde03ac3ef404697479c5e6e4e9104",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d5f96b38298e4c8992d6c72731bc9ca7, RewardProfitFactor",
+        "name": "$RewardProfitFactor$a146cba8-7b3f-432e-a149-23ba03f1e7c1",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ProfitFactor": 3
+      },
+      {
+        "$type": "6b753da00905420996556f7cd398267c, RewardReputation",
+        "name": "$RewardReputation$8cc44881-0e59-44d6-ab7f-3af775c0538d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Reputation": 2500,
+        "Faction": "Drusians"
+      },
+      {
+        "$type": "c8994546dfb24e6da61004bb7598afda, RewardSoulMark",
+        "name": "$RewardSoulMark$f4586f84-932d-4964-b9f8-6a286d44a949",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "SoulMarkShift": {
+          "Direction": "Faith",
+          "Value": 10,
+          "CheckByRank": false,
+          "Rank": 0,
+          "Description": {
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": null
+          }
+        }
+      },
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$2c59b276-e796-4984-8724-38bfc4fff082",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_e798fea5c2f74d858e754186decdc064",
+          "Count": 6
+        }
+      },
+      {
+        "$type": "103ff90d034f4fa29f5250f54ba296ed, RequirementReputation",
+        "name": "$RequirementReputation$e365fc49-0152-40ac-8d1c-2dbecb96db94",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Reputation": {
+          "Faction": "Drusians",
+          "MinLevelValue": 4
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "7d50a6c8912625a44a36bc6bf698fe76",
+        "stringkey": "258ed5a6-846d-49f8-8342-cec718eb465d"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "65826a371a93c874791f9c37144cd557",
+        "stringkey": "0b3d5d08-8013-489e-abc4-ea0c236c47d4"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "6b4b44367adf52642ac0b67326aa8b09",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "Rank": "Second"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

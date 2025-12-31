@@ -1,0 +1,179 @@
+{
+  "AssetId": "9e2cca12208e459bb420448c9addbaf7",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "8aca928a2b4c46418249e0e714e71ddd, RewardStartContract",
+        "name": "$RewardStartContract$77cc19dd-a1e8-4e27-a661-50f1dffbfde2",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Objective": "!bp_cbb935f2ec244b4686fdf279f5a76e61"
+      },
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$bd0a716a-7022-44f2-b773-0e0c5ee46962",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_f8e6d39f6e4045f78264c1481914edc5",
+          "Count": 6
+        }
+      },
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$9909bab9-ab36-4234-a3a6-4cb85d944674",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+          "Count": 6
+        }
+      },
+      {
+        "$type": "6b753da00905420996556f7cd398267c, RewardReputation",
+        "name": "$RewardReputation$1be859d5-0503-4558-8c52-b18719f681b0",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Reputation": 2500,
+        "Faction": "Pirates"
+      },
+      {
+        "$type": "34bf31b8b1354678ac0d3db2f79f2831, RewardChangeStatSecurity",
+        "name": "$RewardChangeStatSecurity$400e1c96-a5ed-4cb6-a2ea-b0f707ad938b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_SecurityModifier": -1,
+        "m_ApplyToAllColonies": true,
+        "m_Colony": null
+      },
+      {
+        "$type": "6ffdadf391194bd1960f6bd0ee30a785, RequirementProfitFactorMinimum",
+        "name": "$RequirementProfitFactorMinimum$b386cf14-0e25-42ee-916d-b69ee5625a50",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ProfitFactorMinimum": 25
+      },
+      {
+        "$type": "1545064d92184eef88475cffc5c2c321, RequirementProfitFactorCost",
+        "name": "$RequirementProfitFactorCost$68d701d6-6dd8-47f0-b6fb-ba02e68ad425",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "ProfitFactorCost": 3
+      },
+      {
+        "$type": "103ff90d034f4fa29f5250f54ba296ed, RequirementReputation",
+        "name": "$RequirementReputation$3c58b927-6237-4f26-95f7-0ec43038afe5",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Reputation": {
+          "Faction": "Pirates",
+          "MinLevelValue": 5
+        }
+      },
+      {
+        "$type": "47b854d1c8dc4a22b15dea737ed17c4a, RequireStatSecurity",
+        "name": "$RequireStatSecurity$436123f9-4f52-4e43-be81-d4d76a686223",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_MinSecurityValue": 3
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "2648cb06f7f921347b8ca8869ba00b8f",
+        "stringkey": "9736f7a2-668b-4974-9513-3a9a6bc72f56"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "b747d10fd7f36464fa4638295254916e",
+        "stringkey": "7fe90d51-79b3-401c-8382-059dcba7b0ae"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "64f5db0ee50cf274ea88c5c3a5efe054",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "Rank": "Second"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

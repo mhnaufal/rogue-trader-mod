@@ -1,0 +1,79 @@
+{
+  "AssetId": "64309f0cc47848e2aeb3c8261f8a5c5d",
+  "Data": {
+    "$type": "618a7e0d54149064ab3ffa5d9057362c, BlueprintBuff",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$88ad4c7b-9a1b-4e81-b688-fb21175dea45",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Descriptor": "None",
+        "Stat": "Resolve",
+        "Value": 5
+      }
+    ],
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "820e685ab044d3542976a4ea7cb06fb8",
+        "stringkey": "f44ee9b1-d6a5-473e-8e8f-55ac10219d5c"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "7b5864f04d72ed04390ae9ecbad6d463",
+        "stringkey": "b6a143e9-4a4d-4cdd-940e-bd3d989225a7"
+      }
+    },
+    "m_Icon": {
+      "guid": "073f66300a87d8c4baa493bb4ca411de",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "m_Flags": "NeedsNoVisual",
+    "m_SoundTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "m_MuffledTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "Stacking": "Replace",
+    "ProlongWhenRankAdded": false,
+    "PriorityProperty": "Value1",
+    "Initiative": "ByOwner",
+    "Ranks": 0,
+    "FxOnStart": {
+      "AssetId": ""
+    },
+    "FxOnRemove": {
+      "AssetId": ""
+    },
+    "m_FXSettings": null,
+    "ResourceAssetIds": [],
+    "PlayOnlyFirstHitSound": false,
+    "m_priorityInUI": 0,
+    "m_AbilityGroups": [],
+    "m_Cyclical": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "AssetId": "e19d8739b8124ba3ba8f2bcbae6cd403",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$cfb19a66-08e3-4b56-8a1b-25c3c9a8b09a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_7d5cb1d2264a40d8bff8350a8a09a464",
+          "Count": 6
+        }
+      },
+      {
+        "$type": "c8994546dfb24e6da61004bb7598afda, RewardSoulMark",
+        "name": "$RewardSoulMark$a63e9ff9-7c1a-4f2b-bd42-c3a81e57d761",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "SoulMarkShift": {
+          "Direction": "Hope",
+          "Value": 10,
+          "CheckByRank": false,
+          "Rank": 0,
+          "Description": {
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": null
+          }
+        }
+      },
+      {
+        "$type": "34bf31b8b1354678ac0d3db2f79f2831, RewardChangeStatSecurity",
+        "name": "$RewardChangeStatSecurity$8bde333f-15ca-45f5-9730-ef53cb492c2f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_SecurityModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_e433f1613297486cb6ddec834f37dd95"
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$b04d2e4b-dd73-4045-bf08-8690de3960a3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_e433f1613297486cb6ddec834f37dd95"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "60f700b509d17034794dea073dde9b67",
+        "stringkey": "b32d3985-4597-496a-bd76-139864be9883"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "579a791feba540a439e6d3fc69079bbd",
+        "stringkey": "10aec931-e2e4-4ff4-9f11-23407ee80b58"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "1d69e7fccc6755a4ba285baa05304a8b",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "Rank": "Second"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

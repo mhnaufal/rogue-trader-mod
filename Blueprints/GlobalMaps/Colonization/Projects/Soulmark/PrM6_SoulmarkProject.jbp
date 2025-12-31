@@ -1,0 +1,155 @@
+{
+  "AssetId": "afff88b4be354b6bb36ab5e7256a61b2",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "c8994546dfb24e6da61004bb7598afda, RewardSoulMark",
+        "name": "$RewardSoulMark$72d78562-a7f0-4ba6-b83e-427437f353e9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "SoulMarkShift": {
+          "Direction": "Faith",
+          "Value": 20,
+          "CheckByRank": false,
+          "Rank": 0,
+          "Description": {
+            "m_Key": "caaf9aac-6d40-4909-9c7a-9e5b7af73338",
+            "m_OwnerString": "afff88b4be354b6bb36ab5e7256a61b2#$RewardSoulMark$72d78562-a7f0-4ba6-b83e-427437f353e9",
+            "m_OwnerPropertyPath": "SoulMarkShift.Description",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Projects\\Soulmark\\PrM6_SoulmarkProject_SoulMarkShift.Description.json",
+            "Shared": null
+          }
+        }
+      },
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$68704204-2843-431f-977a-8a1d3efd5352",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_e798fea5c2f74d858e754186decdc064",
+          "Count": 6
+        }
+      },
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$bb73a616-2cfc-4b6f-9f0c-c391eb79bc4a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 3,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_47400e8140a3434882459f2c95b54b7f"
+      },
+      {
+        "$type": "c36dd42905d24eebb3332d890c9fdf0c, RequirementBuiltAtLeastOneOfProjects",
+        "name": "$RequirementBuiltAtLeastOneOfProjects$1be10547-178a-481c-a593-3588a427d36f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Projects": [
+          "!bp_ee05df8ac8ca48babc7191d5a2520106",
+          "!bp_fe51077e9f9e428e8408e3077a4641f3",
+          "!bp_694cf1575bb4429fa588aa5d34eed8c1"
+        ]
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$36ba15bf-fb36-42a5-b86d-1318e79ada6d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_7d5cb1d2264a40d8bff8350a8a09a464",
+          "Count": 3
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "59ea53af3115fb74aaaa9b6e4fa42b74",
+        "stringkey": "8fef9d00-6e3c-4a24-9169-7fd83add1ea0"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "c4aaa7d16fc7e624a8c23f419cd215cd",
+        "stringkey": "78c33cf4-3fdb-45c9-834f-9c30e1cc29b3"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "876f90fa915c18040bb195fa4a339095",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$c42c34cd-b41b-481c-83b6-62aeac12c462",
+          "Not": false,
+          "m_Etude": "!bp_53dd73c394674cb3bb726b03b278fc1b",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": true,
+          "CompletionInProgress": false,
+          "Completed": false
+        }
+      ]
+    },
+    "Rank": "Fourth"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

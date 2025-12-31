@@ -1,0 +1,134 @@
+{
+  "AssetId": "68f80fdb9f3045e99120e9d97c9892a3",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d5f96b38298e4c8992d6c72731bc9ca7, RewardProfitFactor",
+        "name": "$RewardProfitFactor$ced2e032-cd4a-46ed-946e-22c8f0e60409",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ProfitFactor": 2
+      },
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$a165f899-4fe9-428d-9f62-90e836fd517d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_0a8a3c9ea1b444118d33ebcc24db10f7"
+      },
+      {
+        "$type": "65671d15080b4532a019b3576b24d6c1, RequirementNotBuiltProjectInColony",
+        "name": "$RequirementNotBuiltProjectInColony$e5584201-95b6-419d-a7c0-e50097fbdae4",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_NotBuiltProject": "!bp_4537e7c2d2e54131b4fbc0e4367a6299"
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$457d6e91-34ef-465b-9807-dd86b488acf8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_f8e6d39f6e4045f78264c1481914edc5",
+          "Count": 2
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$cb9b4401-6b06-4825-bbe7-504bc6411e09",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_b9ab9cd20baf49baa0cebd96df45a101",
+          "Count": 2
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "8393a9aeacbd6c84c860cd8586187ed7",
+        "stringkey": "9173b370-69ea-4e61-8e79-3378205a83dc"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "2f6589ee088d32e4a8fcabf8ae3430a9",
+        "stringkey": "51f20c30-3555-4066-b174-e68244af1fbf"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "7aa2465d3d2dd8c4690eb62c7320b985",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": [
+        {
+          "$type": "1fd3c7ebaa8a499d9e5f7ac9a43bf6af, StartChronicle",
+          "name": "$StartChronicle$fe7410f9-17fd-43fb-a8b6-c182ff4e39e2",
+          "m_Chronicle": "!bp_3c91150a58304cb99cd1cdc67330779d",
+          "m_ColonyBlueprint": "!bp_0a8a3c9ea1b444118d33ebcc24db10f7"
+        }
+      ]
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "Rank": "Second"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

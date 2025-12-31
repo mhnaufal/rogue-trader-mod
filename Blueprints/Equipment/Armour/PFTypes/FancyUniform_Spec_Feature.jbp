@@ -1,0 +1,206 @@
+{
+  "AssetId": "e6a9e18044f9497aa0247e56a60febb9",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "919aa5bc2ad3469e8b637c3f73e98dea, WarhammerDodgeChanceModifierDefender",
+        "name": "$WarhammerDodgeChanceModifierDefender$3eee8f0e-f8c5-48ef-bb02-e66bc2363ac3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "G",
+            "TargetType": "ContextCaster",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+                "name": "$SimplePropertyGetter$7cb6e424-8e07-4628-be17-f18cc4c701ff",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Property": "BallisticSkill"
+              },
+              {
+                "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                "name": "$ContextValueGetter$dca82462-5989-4379-a238-cf8a6126b850",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Value": {
+                  "ValueType": "Simple",
+                  "Value": 70,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              }
+            ]
+          }
+        },
+        "Properties": "DodgeChance",
+        "DodgeChance": {
+          "ValueType": "Simple",
+          "Value": 15,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "PercentDodgeModifier": false,
+        "PercentMultiplierModifier": false,
+        "SetMinimumDodgeChance": false,
+        "MinimumDodgeChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        }
+      },
+      {
+        "$type": "25d172d2be8f52f468b2050d14d59806, AddFactContextActions",
+        "name": "$AddFactContextActions$bdfdd8d3-3daa-4b03-af00-19b4c5e4d5be",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "DisableForLevelUpPreviewUnit": false,
+        "DisableWhenReapplying": false,
+        "Activated": {
+          "Actions": []
+        },
+        "Deactivated": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$b45537974c9c48cdb7435c75fa874c9b",
+              "m_Buff": "!bp_27fc0e6dd115432c8d25c9a01b1beff5",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "NewRound": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$1cfa79f7bc425418b5d02ec592d5438b",
+              "m_Buff": "!bp_27fc0e6dd115432c8d25c9a01b1beff5",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "RoundEnd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$5243fcf9-ddb2-4a5f-bbf6-d9a72c71b94c",
+        "m_Flags": "Disabled",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Stat": "WarhammerBallisticSkill",
+        "CheckCaster": false
+      }
+    ],
+    "Author": "ElenaMironova",
+    "Comment": "Base Armour Property: +15% Dodge if wielders BS more than 70.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

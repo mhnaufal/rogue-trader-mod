@@ -1,0 +1,161 @@
+{
+  "AssetId": "34b85b2841514256aac25560b25da4cc",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "9a8a0eefc6594af8a645c2d7b226385f, AddFactsToMaster",
+        "name": "$AddFactsToMaster$929c885e-eb4e-46d0-8b8d-aa868c7d6b67",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_7deac85922484a91acb17d7674cfbd73"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$aa014c45-9264-475a-9aca-90ccbc719d7a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": {
+                "assetguid": "9b5c238e69eda2a4d8bb4cc2100327a8",
+                "stringkey": "b1f3ddfb-0182-48df-96d8-8c8bd4ca4cf0"
+              }
+            },
+            "m_DescriptionFact": "!bp_34b85b2841514256aac25560b25da4cc",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_34b85b2841514256aac25560b25da4cc",
+            "m_LinkKey": "AGI"
+          }
+        ]
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$45af8f4f-10a2-40b2-9c68-1dea696c4fcb",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Mul",
+          "TargetType": "EvaluatedTarget",
+          "TargetEvaluator": {
+            "$type": "128b24c135cf4c5b97bbe868981c9c4c, MyOwner",
+            "name": "$MyOwner$63097f2f-6b76-432c-869c-795084160cc8"
+          },
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fb77900c7ec1461dadb27600db6e67cb, FactListGetter",
+              "name": "$FactListGetter$a529c922-4942-489b-ac6b-d2a2e94a5d3d",
+              "Settings": {
+                "Progression": "MultiplyByModifier",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 2,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "m_Facts": [
+                "!bp_1dbbd844e25b447e99f247c3a88aa5d4",
+                "!bp_98abe40f4ee642a28f2a3c31a7a9a588",
+                "!bp_9a84763298324cb1a7d276c4a5c05f56",
+                "!bp_a01a4fcd025748919454f4d94049d5ee",
+                "!bp_05f139cdaa0e42ec944d8b786282dc0e"
+              ],
+              "OnlyFromCaster": false,
+              "Caster": "CurrentEntity",
+              "MultiplyByRanks": false
+            }
+          ]
+        }
+      }
+    ],
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "ba87ed321e481034780d2ac6b515dad9",
+        "stringkey": "82530d2f-d69e-463b-9f1c-ce45a794c79a"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "c76965b78e3ffcc48a2fb62e1d94a7e6",
+        "stringkey": "22acc07e-8356-48d8-9847-d02d11dbc6c4"
+      }
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

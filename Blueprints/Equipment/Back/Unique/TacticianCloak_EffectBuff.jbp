@@ -1,0 +1,72 @@
+{
+  "AssetId": "3696e15dd6274bcb9d40a58c9a697bbe",
+  "Data": {
+    "$type": "618a7e0d54149064ab3ffa5d9057362c, BlueprintBuff",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$9f477a92-2463-46dc-a341-b0e79887ef28",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Descriptor": "None",
+        "Stat": "WarhammerFellowship",
+        "Value": 15
+      }
+    ],
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "032ff179d25b0344f957bc67fd925499",
+        "stringkey": "becd511d-0ccb-43d9-81b4-fd390f8d6d2d"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "m_Flags": "HiddenInUi, NeedsNoVisual",
+    "m_SoundTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "m_MuffledTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "Stacking": "Replace",
+    "ProlongWhenRankAdded": false,
+    "PriorityProperty": "Value1",
+    "Initiative": "ByCaster",
+    "Ranks": 99,
+    "FxOnStart": {
+      "AssetId": ""
+    },
+    "FxOnRemove": {
+      "AssetId": ""
+    },
+    "m_FXSettings": null,
+    "ResourceAssetIds": [],
+    "PlayOnlyFirstHitSound": false,
+    "m_AbilityGroups": [],
+    "m_Cyclical": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

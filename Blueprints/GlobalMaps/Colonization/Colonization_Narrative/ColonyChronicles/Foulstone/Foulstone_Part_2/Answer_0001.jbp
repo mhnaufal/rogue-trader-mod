@@ -1,0 +1,158 @@
+{
+  "AssetId": "cda85e2a42244be59e88b4271722634d",
+  "Data": {
+    "$type": "df78945bb9f434e40b897758499cb714, BlueprintAnswer",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$d1c21adb-1db8-4e7b-a658-8f85fd0cb686",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_883a5e2be9384e9f941ec3abf65f5d73"
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$c1769fbe-da22-4d3d-a321-5f528962a108",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_883a5e2be9384e9f941ec3abf65f5d73"
+      },
+      {
+        "$type": "cb27cbda91354399b9c6f462df7ef378, RewardAddFeature",
+        "name": "$RewardAddFeature$665de377-259c-4bcc-a263-66aa8d662c92",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_AddToParty": false,
+        "m_Unit": {
+          "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+          "name": "$PlayerCharacter$bf542a9abd04553bba7e8c08406ffded"
+        },
+        "m_Fact": "!bp_2afd6431ff66405d98c05d9b2d26c3c8"
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "",
+    "ParentAsset": "3deb69c83f6547bdbf7bc2a263b9f5bb",
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "b30234e7-a53d-4b5f-a510-883a38c1983f",
+      "m_OwnerString": "cda85e2a42244be59e88b4271722634d",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Colonization_Narrative\\ColonyChronicles\\Foulstone\\Foulstone_Part_2\\Answer_0001_Text.json",
+      "Shared": null
+    },
+    "NextCue": {
+      "Cues": [
+        "!bp_3737b8518ded47a092ddda68bf8a5b85"
+      ],
+      "Strategy": "First"
+    },
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "ShowCheck": {
+      "Type": "Unknown",
+      "Difficulty": "Custom",
+      "DC": 0
+    },
+    "OnCheckSuccess": {
+      "Actions": []
+    },
+    "OnCheckFail": {
+      "Actions": []
+    },
+    "DebugMode": false,
+    "CharacterSelection": {
+      "SelectionType": "Clear",
+      "ComparisonStats": []
+    },
+    "ShowConditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "4d2b3bd16c3f2bf4ebb8a19907e2be7e, CueSeen",
+          "name": "$CueSeen$1e6ec9cec84245f192a2f9455522802d",
+          "Not": false,
+          "m_Cue": "!bp_5e3c0e38d714475493c9f8609f76418d",
+          "CurrentDialog": false
+        }
+      ]
+    },
+    "SelectConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "RequireValidCue": false,
+    "AddToHistory": true,
+    "OnSelect": {
+      "Actions": [
+        {
+          "$type": "2ac5d227b9415e94d959e0c8198646db, ApplyTraitToColony",
+          "name": "$ApplyTraitToColony$8cf13dd8327a4c34b310fc6998fdeda6",
+          "Trait": "!bp_4810780e06094815893cb639b9b53dd9",
+          "m_Colony": "!bp_883a5e2be9384e9f941ec3abf65f5d73"
+        }
+      ]
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "FakeChecks": [],
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

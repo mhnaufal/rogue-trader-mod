@@ -1,0 +1,373 @@
+{
+  "AssetId": "cd2014fc37a44fe58e20a68f7f3ee4e2",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "c0a2f956ae0c481c8f8d1468d1ba6212, WarhammerModifyIncomingAttackDamage",
+        "name": "$WarhammerModifyIncomingAttackDamage$74a2dec7-80e9-4169-8e48-1f45a96b6997",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "5acb988246cb416eaf70c152840975b3, DamageTypeGetter",
+                "name": "$DamageTypeGetter$79b50c46d07042f78852856f94d20070",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "DamageType": "Toxic"
+              }
+            ]
+          }
+        },
+        "AdditionalDamageMin": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AdditionalDamageMax": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AdditionalArmorPenetration": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AdditionalAbsorption": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AdditionalDeflection": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AdditionalRighteousFuryChances": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "PercentDamageModifier": {
+          "ValueType": "Simple",
+          "Value": -50,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "OnlyFirstAttack": false,
+        "OnlyAgainstCaster": false,
+        "OnlyAgainstCasterPriorityTarget": false,
+        "OnlyAgainstDirection": false,
+        "ActionsOnlyOnMelee": false,
+        "DoNotUseOnDOTs": false,
+        "ActionsOnAttack": {
+          "Actions": []
+        },
+        "m_TargetBuff": null,
+        "Multiplier": 1.0,
+        "SpecificRangeType": false,
+        "WeaponRangeType": "Melee",
+        "MultiplyByBuffRank": false,
+        "m_StackingBuff": null,
+        "OnlyAgainstFact": false,
+        "m_CheckFact": null
+      },
+      {
+        "$type": "03db0cc2e8cca5f4ea4e29fd197ff65c, WarhammerDamageTriggerTarget",
+        "name": "$WarhammerDamageTriggerTarget$fa38d653-e797-4b81-a885-849b29cdb62f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "5acb988246cb416eaf70c152840975b3, DamageTypeGetter",
+                "name": "$DamageTypeGetter$de17cfc3-a242-4876-b493-7a17221127d0",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "DamageType": "Toxic"
+              }
+            ]
+          }
+        },
+        "TriggersForDamageOverTime": true,
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$99d8e1b91adc4f5686530c6b376eac61",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "9706de75454abeb48bd4cfa7f526a1c2, ContextConditionHasFact",
+                    "name": "$ContextConditionHasFact$01dfaa5347194895afef2ad754e48214",
+                    "Not": false,
+                    "m_Fact": "!bp_9eeb3cc7064e407ba025c8adf2b4d5e9"
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": [
+                  {
+                    "$type": "8abf85d8c6ea04343a2e4fe6bb27a3bb, ContextActionHealTarget",
+                    "name": "$ContextActionHealTarget$579e72b44bcb4a58b8c9cf80c582eba3",
+                    "UseMinMaxValues": false,
+                    "Value": {
+                      "DiceType": "Zero",
+                      "DiceCountValue": {
+                        "ValueType": "Simple",
+                        "Value": 0,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      },
+                      "BonusValue": {
+                        "ValueType": "CasterNamedProperty",
+                        "Value": 0,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "MinHealing": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "MaxHealing": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "Bonus": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    }
+                  }
+                ]
+              },
+              "IfFalse": {
+                "Actions": []
+              }
+            }
+          ]
+        },
+        "ActionsOnAttacker": {
+          "Actions": []
+        },
+        "ContextPropertyName": "Value2",
+        "PropertyToSave": "None"
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$3083e448-caa4-4182-93be-b9f7b04d4279",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "ContextCaster",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fb77900c7ec1461dadb27600db6e67cb, FactListGetter",
+              "name": "$FactListGetter$39891a181af949179c2311474e0eef18",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "m_Facts": [
+                "!bp_fb7efcba2dcc427da2324d4066daf2d5",
+                "!bp_3e429e5fe7bb4dc7895a9e3ad9b804a8",
+                "!bp_9eeb3cc7064e407ba025c8adf2b4d5e9",
+                "!bp_cbcf86f7262b4445958da0e2541b8c64",
+                "!bp_63c9dd53e5344e4bab52d8f15787f89a"
+              ],
+              "OnlyFromCaster": false,
+              "Caster": "CurrentEntity",
+              "MultiplyByRanks": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$0d0e1597-74f0-413d-a22e-70d443f54798",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": {
+                "assetguid": "bb521c4685b294f4291049418a4a3573",
+                "stringkey": "dc9d379b-d5e3-42fd-92f8-4e337857da09"
+              }
+            },
+            "m_DescriptionFact": "!bp_cd2014fc37a44fe58e20a68f7f3ee4e2",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_cd2014fc37a44fe58e20a68f7f3ee4e2",
+            "m_LinkKey": "Wounds"
+          }
+        ]
+      }
+    ],
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "2154f72065b577e4ca0773efd5bf2097",
+        "stringkey": "dcd85ea7-6a8a-41cf-8541-35fd19d025f9"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "200b313e48aedd1459cda16637925dde",
+        "stringkey": "02fac253-9bed-419f-8e1e-4efe1e08f382"
+      }
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

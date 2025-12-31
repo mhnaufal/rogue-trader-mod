@@ -1,0 +1,163 @@
+{
+  "AssetId": "4562813379844b1cbaba785f7b587dff",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "cb27cbda91354399b9c6f462df7ef378, RewardAddFeature",
+        "name": "$RewardAddFeature$8b7b96d8-35a2-4cf8-a194-9abb8fb50304",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_AddToParty": false,
+        "m_Unit": {
+          "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+          "name": "$PlayerCharacter$b90d9618f2104cffae4331bbd66df673"
+        },
+        "m_Fact": "!bp_9381071003a94db19efe59870cbe5bf3"
+      },
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$932b16a1-ec2a-4a07-b01e-4b0f1cecb612",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+          "Count": 6
+        }
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$8f1b57c8-0cce-442d-9a17-24537b166d77",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_876fc13fdc10492b8444e045ac8f9ecc"
+      },
+      {
+        "$type": "c36dd42905d24eebb3332d890c9fdf0c, RequirementBuiltAtLeastOneOfProjects",
+        "name": "$RequirementBuiltAtLeastOneOfProjects$ec5b36f5-8533-4a9a-af03-73a7a3cd5f5f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Projects": [
+          "!bp_ad7fe8db1f8745faaa1a5942d2ebe28d",
+          "!bp_2e5580d5171241428a5b0dd6f9bf47f5",
+          "!bp_9defb57de89742bbbf432532c3b54187"
+        ]
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$33428f03-ca5b-446c-9e70-35a932175a83",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_a3f69542b6fe484bbff66daa63fabb8e",
+          "Count": 3
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$5d72ee96-7412-491a-91e5-0844b2ccace1",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_f8e6d39f6e4045f78264c1481914edc5",
+          "Count": 3
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "46100d88baeb42a46b863b13d581dd0e",
+        "stringkey": "72670ddd-09dd-4f56-adc3-0186b46d9eca"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "a5f4e6542a183ee45a89cb0b102e0808",
+        "stringkey": "7c2c08ab-8acb-4446-97a3-83c272d33f77"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "64f5db0ee50cf274ea88c5c3a5efe054",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "Or",
+      "Conditions": [
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$3971d0ee-06e2-41a4-8388-656946f09186",
+          "Not": false,
+          "m_Etude": "!bp_53dd73c394674cb3bb726b03b278fc1b",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": true,
+          "CompletionInProgress": false,
+          "Completed": false
+        }
+      ]
+    },
+    "Rank": "Fourth"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "AssetId": "e4e7549dbc9841e5982c67942be1cfef",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$e86770dd-99d1-45eb-a728-c910149b55d4",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_3255d459d974470f8750a0d74dd6dfeb",
+          "Count": 2
+        }
+      },
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$03701503-60f5-4aec-8166-959dbeca6154",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_a3f69542b6fe484bbff66daa63fabb8e",
+          "Count": 6
+        }
+      },
+      {
+        "$type": "f1311382123a4b06a9954dae6bc822e3, RewardResourceProject",
+        "name": "$RewardResourceProject$dd62728b-98b9-408b-8f9a-ab3df0fd086a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Resource": {
+          "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+          "Count": 2
+        }
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$a4b8134f-e978-439a-8bbf-2fa4d3d9ab7b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": -1,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_0a8a3c9ea1b444118d33ebcc24db10f7"
+      },
+      {
+        "$type": "00d0b0c8771b486c90548c840664bf51, RequirementStatContentment",
+        "name": "$RequirementStatContentment$996c4335-b198-4cd1-ba93-95659d7c945f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_MinContentmentValue": 3
+      },
+      {
+        "$type": "d0d6c340d59f4a6eaba89d28c0f31ea3, RequirementBuiltProjectGlobal",
+        "name": "$RequirementBuiltProjectGlobal$16e8ca7c-f934-4b5d-9b14-03dbf3ec28ae",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_BuiltProject": "!bp_d5df142fc6be479fb5503c2ed6d38d44"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "fd025b11f86966242b548fdf64191eb9",
+        "stringkey": "18f92983-b552-4150-b341-882f94dd8c07"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "2a9344be50f9d24409ca9eddb82cdbd8",
+        "stringkey": "6e4037b1-df7c-40a1-a907-8321947e91a0"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "cbeb6e6ebe524aa47a7daf1224fb579c",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "Rank": "Second"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

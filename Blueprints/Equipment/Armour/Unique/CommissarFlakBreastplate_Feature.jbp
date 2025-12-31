@@ -1,0 +1,272 @@
+{
+  "AssetId": "36448362861f47a995b8ad22b7a77451",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "919aa5bc2ad3469e8b637c3f73e98dea, WarhammerDodgeChanceModifierDefender",
+        "name": "$WarhammerDodgeChanceModifierDefender$69d7bb4e-680d-4f53-9bfe-6a0578ea3da4",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "G",
+            "TargetType": "ContextCaster",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+                "name": "$SimplePropertyGetter$d90c334b-fcdf-4972-a68e-3bcf6ad836ed",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Property": "Intelligence"
+              },
+              {
+                "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                "name": "$ContextValueGetter$9aa4c536-d50f-499e-933c-f35c1999f279",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Value": {
+                  "ValueType": "Simple",
+                  "Value": 65,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              }
+            ]
+          }
+        },
+        "Properties": "DodgeChance",
+        "DodgeChance": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "PercentDodgeModifier": false,
+        "PercentMultiplierModifier": false,
+        "SetMinimumDodgeChance": false,
+        "MinimumDodgeChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$216ad8ca-6209-421c-8610-7d3e204e3790",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "WarhammerWeaponSkill",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "CasterProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "IntelligenceBonus",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$7eb76504-fe17-45c3-adcf-2df749a87da6",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "WarhammerBallisticSkill",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "CasterProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "IntelligenceBonus",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$e42d0bd5-30b7-46c7-b627-32e25204cb46",
+        "m_Flags": "Disabled",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Stat": "WarhammerIntelligence",
+        "CheckCaster": false
+      },
+      {
+        "$type": "25d172d2be8f52f468b2050d14d59806, AddFactContextActions",
+        "name": "$AddFactContextActions$dc40c8f0-7f99-48e3-b009-5b30e1592847",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "DisableForLevelUpPreviewUnit": false,
+        "DisableWhenReapplying": false,
+        "Activated": {
+          "Actions": []
+        },
+        "Deactivated": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$f7bc69c748bf4808ab2270ca8ba97677",
+              "m_Buff": "!bp_c3197d1185844a5cbe0521151b385b31",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "NewRound": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$82c35fbac12c5eedae411f5238c2d8b6",
+              "m_Buff": "!bp_c3197d1185844a5cbe0521151b385b31",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "RoundEnd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "ElenaMironova",
+    "Comment": "Base Armour Property: +10% dodge if wielders INT more than 65.\nWielder gains INT bonus to WS and BS.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

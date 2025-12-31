@@ -1,0 +1,99 @@
+{
+  "AssetId": "560e0dc061144ca68af616459f9b3902",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VeronikaLarionova",
+    "Comment": "получаем груз \"Люди\"",
+    "ParentAsset": "6b1784920c8646c6ac77c9a872730de9",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "cc5abb8f-370b-4015-8e3a-1a217f4bc994",
+      "m_OwnerString": "560e0dc061144ca68af616459f9b3902",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\StarSystemObjects\\ExplorationPlanetPoints\\LostColony\\Cue_2_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "8efa69193b5243b388e9ee4f6e8cc41e, GainColonyResources",
+          "name": "$GainColonyResources$e4bcfd929bae4a07a5e70adfde10168b",
+          "Resources": [
+            {
+              "Resource": "!bp_7d5cb1d2264a40d8bff8350a8a09a464",
+              "Count": 1
+            }
+          ]
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

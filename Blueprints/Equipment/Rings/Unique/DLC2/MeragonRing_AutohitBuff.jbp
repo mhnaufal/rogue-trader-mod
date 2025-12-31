@@ -1,0 +1,147 @@
+{
+  "AssetId": "9fa7997090c04025b7eb260281aa0d46",
+  "Data": {
+    "$type": "618a7e0d54149064ab3ffa5d9057362c, BlueprintBuff",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "05fab0d4998390a4cbf88da0ab1e4123, AddMechanicsFeature",
+        "name": "$AddMechanicsFeature$401621ba-ede2-4fde-a170-596fa50e5c54",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Feature": "AutoHit",
+        "m_Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "3d3ea03bc11a4a68ba661ee1b53388a8, CheckAbilityIsWeaponAbilityGetter",
+                "name": "$CheckAbilityIsWeaponAbilityGetter$a2d6f517856c50ba843279cc63c92616",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "OnlyHasAttackDelivery": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "$type": "961a1f33fbdad5c4ca08247f49b98c47, WarhammerAfterAttackRollTrigger",
+        "name": "$WarhammerAfterAttackRollTrigger$a461a92c-1a7b-46be-91c7-2862dedb871e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$046560fa122a50c2a60c8e85104c54a8",
+              "m_Buff": "!bp_9fa7997090c04025b7eb260281aa0d46",
+              "RemoveRank": true,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "triggerAfterAttack": true,
+        "onlyMeleeAttack": false,
+        "ActionsOnTarget": false,
+        "OnlyHit": false
+      }
+    ],
+    "Author": "ElenaMironova",
+    "Comment": "Ситуация с ранками вызвана тем, что афтераттакролл прокает даже на оригинальную атаку, которая убила. Поэтому приходится накладывать 2 стака и снимать по одному",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "e24b47d1fd961dc479ad9792cb0e14af",
+        "stringkey": "ffa7bedb-20b3-4dc3-a8c3-8a70798a7ad2"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "8fc1f6584e0b03944b9cdaa3806e289a",
+        "stringkey": "b16cd2f9-c789-43e9-a388-a4bcfb06f1ae"
+      }
+    },
+    "m_Icon": {
+      "guid": "1959779ee485daa41af5f50994f77962",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "m_Flags": 0,
+    "m_SoundTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "m_MuffledTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "Stacking": "Rank",
+    "ProlongWhenRankAdded": false,
+    "PriorityProperty": "Value1",
+    "Initiative": "ByCaster",
+    "Ranks": 2,
+    "FxOnStart": {
+      "AssetId": ""
+    },
+    "FxOnRemove": {
+      "AssetId": ""
+    },
+    "m_FXSettings": "!bp_9323a32ddcda4191869f7ff843b6fcd2",
+    "ResourceAssetIds": [],
+    "PlayOnlyFirstHitSound": false,
+    "m_priorityInUI": 0,
+    "m_AbilityGroups": [],
+    "m_Cyclical": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

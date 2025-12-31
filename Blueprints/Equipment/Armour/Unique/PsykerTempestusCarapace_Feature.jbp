@@ -1,0 +1,342 @@
+{
+  "AssetId": "2a9b207610c644caa41e30fe8b9befb1",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "25d172d2be8f52f468b2050d14d59806, AddFactContextActions",
+        "name": "$AddFactContextActions$27804021-8a72-4c0b-9d79-fef4ad50e5fa",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "DisableForLevelUpPreviewUnit": false,
+        "DisableWhenReapplying": false,
+        "Activated": {
+          "Actions": []
+        },
+        "Deactivated": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$cb701383827f4fe9b9db0692e3c5a9b3",
+              "m_Buff": "!bp_c8f097f49d6b48d887b4b9d70d31b6a7",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "NewRound": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$26870751f0035f09b785c0ab42e2d979",
+              "m_Buff": "!bp_c8f097f49d6b48d887b4b9d70d31b6a7",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        },
+        "RoundEnd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "635dc8ac062d4b6b911d8a84c7ce7832, PsychicPhenomenaGlobalTrigger",
+        "name": "$PsychicPhenomenaGlobalTrigger$62f9d326-5d3e-4c21-a535-3d8d62add91f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Actions": {
+          "Actions": []
+        },
+        "OnlyPhenomenaActions": {
+          "Actions": [
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$96521b0c-5c19-46c1-b040-2089c64fc930",
+              "m_Buff": "!bp_92828ef24b394422a9e5bcc8828fbd20",
+              "BuffEndCondition": "CombatEnd",
+              "Permanent": true,
+              "DurationValue": {
+                "BonusValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                },
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": false,
+              "AsChild": false,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "Simple",
+                "Value": 1,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            }
+          ]
+        },
+        "OnlyPerilsActions": {
+          "Actions": [
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$bdafcda9-3a34-4399-89f2-17c89f4cedf0",
+              "m_Buff": "!bp_92828ef24b394422a9e5bcc8828fbd20",
+              "BuffEndCondition": "CombatEnd",
+              "Permanent": true,
+              "DurationValue": {
+                "BonusValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                },
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": false,
+              "AsChild": false,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "Simple",
+                "Value": 1,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "186465aada0f422b966541bbf050c271, WarhammerArmorBonus",
+        "name": "$WarhammerArmorBonus$72fd6541-ec8f-4b48-a2d9-ec4c4b7c699e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "G",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+                "name": "$SimplePropertyGetter$83a2c7e840c4597f8c4714bcd2510465",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Property": "Willpower"
+              },
+              {
+                "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                "name": "$ContextValueGetter$e62ac59437795ba2adbf7887fb16cb41",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Value": {
+                  "ValueType": "Simple",
+                  "Value": 50,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              }
+            ]
+          }
+        },
+        "BonusDeflectionValue": {
+          "ValueType": "Simple",
+          "Value": 2,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": true,
+          "ModifierType": "ValAdd"
+        },
+        "BonusAbsorptionValue": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "ForceDeflectionMinimum": false,
+        "PctDeflectionMinimum": 0,
+        "DeflectionMinimumValue": 0,
+        "ForceAbsorptionMinimum": false,
+        "PctAbsorptionMinimum": 0,
+        "AbsorptionMinimumValue": 0,
+        "ModifierDescriptor": "None"
+      },
+      {
+        "$type": "1bd8f9b17dea44eebf0ed90c8dc7cdcc, ModifierPsychicPhenomenaChance",
+        "name": "$ModifierPsychicPhenomenaChance$469c9c54-5d89-4eb9-8a3a-b470cc79d446",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "AdditionChanceOnPsychicPhenomena": {
+          "ValueType": "Simple",
+          "Value": -10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AdditionChanceOnPerilsOfWarp": {
+          "ValueType": "Simple",
+          "Value": -10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        }
+      }
+    ],
+    "Author": "ElenaMironova",
+    "Comment": "<b>Base Armour Property:</b> Deflection +2 if wielders WIL more than 50.\nThis armour reduces the chance of triggering Psychic Phenomena by 10%. In case any Psychic Phenomena or Peril of Warp wielder gets additional +1 Psy Rating until combat end.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

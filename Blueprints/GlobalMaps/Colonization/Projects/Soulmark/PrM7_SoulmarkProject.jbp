@@ -1,0 +1,173 @@
+{
+  "AssetId": "bd205d7512f247acbf7afdef28f45efa",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "cb27cbda91354399b9c6f462df7ef378, RewardAddFeature",
+        "name": "$RewardAddFeature$4d283225-55cf-46a3-9f0d-44fabdbade6f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_AddToParty": false,
+        "m_Unit": {
+          "$type": "822dcce931786aa4d80ba3b89862e9d6, PlayerStarship",
+          "name": "$PlayerStarship$2926d4fff67241c8826889d7df4fcc08"
+        },
+        "m_Fact": "!bp_fa52a48548a448ff9e0ffc7b568037ec"
+      },
+      {
+        "$type": "c8994546dfb24e6da61004bb7598afda, RewardSoulMark",
+        "name": "$RewardSoulMark$bad6a00c-e503-4f3a-9092-ea136e39b841",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "SoulMarkShift": {
+          "Direction": "Hope",
+          "Value": 10,
+          "CheckByRank": false,
+          "Rank": 0,
+          "Description": {
+            "m_Key": "cf877293-f93f-489e-918f-5e92dc548752",
+            "m_OwnerString": "bd205d7512f247acbf7afdef28f45efa#$RewardSoulMark$bad6a00c-e503-4f3a-9092-ea136e39b841",
+            "m_OwnerPropertyPath": "SoulMarkShift.Description",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\Colonization\\Projects\\Soulmark\\PrM7_SoulmarkProject_SoulMarkShift.Description.json",
+            "Shared": null
+          }
+        }
+      },
+      {
+        "$type": "2aa503c54af44bd5b74037ea4f833dfb, RewardChangeStatEfficiency",
+        "name": "$RewardChangeStatEfficiency$bb98814d-f4e3-4905-8305-dd8dc849d783",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_EfficiencyModifier": 2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_876fc13fdc10492b8444e045ac8f9ecc"
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$a3f179e0-ce0a-4fbd-ad11-a1bbc51f6dc3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 2,
+        "m_ApplyToAllColonies": false,
+        "m_Colony": "!bp_876fc13fdc10492b8444e045ac8f9ecc"
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$431d86b4-4802-4f8e-83e1-d1c09367f0bc",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+          "Count": 1
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$97f5d2a6-21a7-48b1-b301-1d17f5f4798b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_b9ab9cd20baf49baa0cebd96df45a101",
+          "Count": 1
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$cab0236a-b4c3-41ad-ad49-ade7af5ac54a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_f8e6d39f6e4045f78264c1481914edc5",
+          "Count": 2
+        }
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "130fd2929d807b94db1603b8eb4541e3",
+        "stringkey": "f540103d-949b-48c0-876e-47432b2dfb8c"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "9173a8615b3c67c44933ad4423224b12",
+        "stringkey": "98a2c47b-9fc1-4ee8-9fa5-4af32e8731d2"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "3121f2d4847ac234e9d86cba44dc7bfe",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "Rank": "Second"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "AssetId": "6833de3c1e9c42218ba2ab3e2c3b5356",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VeronikaLarionova",
+    "Comment": "если есть нужный компонент",
+    "ParentAsset": "62d46f261dad41e3a33383e36c59d0a9",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "a39b89cb076a6ba4eaaf7dbd22494793, PlayerStarshipHasComponent",
+          "name": "$PlayerStarshipHasComponent$2a7f663c-db6e-4151-8a15-11a4c1b85fc0",
+          "Not": false,
+          "m_Items": [
+            "!bp_094a82bfc02e4ca8bde7475f2c03cfd5",
+            "!bp_7ad832ebf46b4c9dbdf18c0c5a66dad1",
+            "!bp_7924905692bb470c8053a4de76023478",
+            "!bp_e94226d1ecbd442f857d463e63381aef",
+            "!bp_b994673c37e642f0bd151ac71ca373c4"
+          ]
+        }
+      ]
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "02dd2966-339d-409b-8369-f087f511816e",
+      "m_OwnerString": "6833de3c1e9c42218ba2ab3e2c3b5356",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\StarSystemObjects\\ExplorationPlanetPoints\\IceMelting\\Cue_0007_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "31abd123cda0b4147b509219dbb097a0, SetObjectiveStatus",
+          "name": "$SetObjectiveStatus$a22d4a504c3140eba3953c42a9c50b6a",
+          "Status": "Complete",
+          "m_Objective": "!bp_b301688bdf0a4f32b3698855ce4f1566",
+          "StartObjectiveIfNone": false
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [
+      "!bp_3faa69e5c9294c2192715567e8dea096"
+    ],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

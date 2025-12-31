@@ -1,0 +1,193 @@
+{
+  "AssetId": "3a55547fa5694af793327b6a5fac5fc6",
+  "Data": {
+    "$type": "86139952581c4e7fa135794685e236f9, BlueprintColonyProject",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "1cf6ddd24787436dba7a7e4832eb52ce, RewardItem",
+        "name": "$RewardItem$ec35e550-3df3-4c5d-8d88-c450bb2ff3b4",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Item": "!bp_4158054f16214c129f2bca3167f892f6",
+        "m_Count": 5
+      },
+      {
+        "$type": "84b99720cae34d2f93405bff58fbbfb7, RewardConsumable",
+        "name": "$RewardConsumable$262cd970-db8b-4a84-89c6-397abf6662de",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_Item": "!bp_4158054f16214c129f2bca3167f892f6",
+        "m_MaxCount": 5,
+        "m_SegmentsToRefill": 1000
+      },
+      {
+        "$type": "c8994546dfb24e6da61004bb7598afda, RewardSoulMark",
+        "name": "$RewardSoulMark$0b1ed5c7-0ff8-4d47-ba66-122a6b5c6373",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "SoulMarkShift": {
+          "Direction": "Faith",
+          "Value": 20,
+          "CheckByRank": false,
+          "Rank": 0,
+          "Description": {
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": null
+          }
+        }
+      },
+      {
+        "$type": "2a09d956d9324196867de1714fc59e1e, RewardChangeStatContentment",
+        "name": "$RewardChangeStatContentment$0ac71855-1a2d-4210-a101-cd26b5ab9392",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_ContentmentModifier": 3,
+        "m_ApplyToAllColonies": true,
+        "m_Colony": null
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$c2e8c466-274c-4d55-a623-2717ca2b4ad7",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_e798fea5c2f74d858e754186decdc064",
+          "Count": 3
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$5d03df60-13f1-4b47-b1e8-a545c13522f1",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_f8e6d39f6e4045f78264c1481914edc5",
+          "Count": 3
+        }
+      },
+      {
+        "$type": "e358bb9eda304804bc36c2b8b0e704e5, RequirementResourceUseProject",
+        "name": "$RequirementResourceUseProject$45af0584-d746-4eaf-9a55-4def15006e23",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "Resource": {
+          "Resource": "!bp_b9ab9cd20baf49baa0cebd96df45a101",
+          "Count": 4
+        }
+      },
+      {
+        "$type": "d0d6c340d59f4a6eaba89d28c0f31ea3, RequirementBuiltProjectGlobal",
+        "name": "$RequirementBuiltProjectGlobal$709c32cb-996c-4a6f-90bf-a5bfb75c5fad",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "HideInUI": false,
+        "m_BuiltProject": "!bp_d954f235460a42508ebcff3c1be4cff6"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_Name": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "1b00205c261dc8641907d34159bbb891",
+        "stringkey": "9422d527-1fbf-49c3-8a63-da3ce69759b6"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "8b2d6bc6afe448f4b9fa00eb0b318df8",
+        "stringkey": "412a5da6-f2b8-432f-9231-4623fe19b616"
+      }
+    },
+    "m_MechanicString": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "c4cf7a1f148646642b374bab49fc2ff7",
+      "fileid": 21300000
+    },
+    "IsStartingProject": false,
+    "SegmentsToBuild": 200,
+    "ActionsOnStart": {
+      "Actions": []
+    },
+    "ActionsOnFinish": {
+      "Actions": []
+    },
+    "AvailabilityConditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$b529438b-375f-4b70-920e-2fbfeb4de321",
+          "Not": false,
+          "m_Etude": "!bp_53dd73c394674cb3bb726b03b278fc1b",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": true,
+          "CompletionInProgress": false,
+          "Completed": false
+        }
+      ]
+    },
+    "Rank": "Fourth"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
