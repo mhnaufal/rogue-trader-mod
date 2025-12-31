@@ -1,0 +1,54 @@
+{
+  "AssetId": "a26a806bd5344f7aa86d1a227abdb318",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "2a580ffc7fd649d7a9cdad06b33c8ef9, SpawnByUnitGroup",
+          "name": "$SpawnByUnitGroup$307434fe15c54910ab815391f6ac5f87",
+          "m_Group": {
+            "EntityNameInEditor": "SpacewolvesCombatGroup",
+            "_entity_id": "a0529c1e-8f23-4348-b690-fca9dd6da6e4",
+            "SceneAssetGuid": "f08b258bab2692447b69f52135878ad7"
+          },
+          "ActionsOnSpawn": {
+            "Actions": []
+          }
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$d733e8f1bb574293a75dfc6be4488ea2",
+          "m_State": {
+            "Value": "Story",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": false
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$dcee425f6cdd4d4b93eb13f7a5716048",
+          "m_State": {
+            "Value": "ImperiumOfMenNoIntro",
+            "Group": "MusicStoryType"
+          },
+          "m_ProlongTillNextCombat": false
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

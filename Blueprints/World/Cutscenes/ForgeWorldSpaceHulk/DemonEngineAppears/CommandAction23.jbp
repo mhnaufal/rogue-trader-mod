@@ -1,0 +1,42 @@
+{
+  "AssetId": "669a7c9178fd4bf9bbff2f9b326de6a4",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "EfanovIlya",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$b132c81e10e85e1183eb5071da86dbab",
+          "m_State": {
+            "Value": "BossFight",
+            "Group": "MusicState"
+          },
+          "m_ProlongTillNextCombat": true
+        },
+        {
+          "$type": "00ca6afae3a5475aad9aebf040370af8, SetForcedSoundState",
+          "name": "$SetForcedSoundState$cdc83c9ff2dd42b0b08eb1813beb5224",
+          "m_State": {
+            "Value": "Generic",
+            "Group": "MusicBossFightType"
+          },
+          "m_ProlongTillNextCombat": true
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

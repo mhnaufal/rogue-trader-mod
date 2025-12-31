@@ -1,0 +1,176 @@
+{
+  "AssetId": "957da6eefbc54b6db933276fde3fe522",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_8ca897bc1f93465891a0028c61797737"
+        ],
+        "m_EndGate": "!bp_610cfceb835d44ffa33586d01c3dccd0",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_c3e9e6b885a84c028fd9a0764a238901",
+          "!bp_ae3872a984bf43428fd66d471a13b67e"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_15095df1ab514245b620bd4d609564fa"
+        ],
+        "m_EndGate": "!bp_69490a2bbd124bda8e4e8ad953f0b7ad",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_c255c13eb236470bbddd2ed55866aa18"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_66f809b536b8458590e48fa921ecf740"
+        ],
+        "m_EndGate": "!bp_52c3ad602fe64d05883f3b0a94109f9b",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_a2609f6e41ce4a4bb521e2dfd89358bd"
+        ],
+        "m_EndGate": "!bp_b40379aba681482ab45f1f054c82986e",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_d9b5b72d1ed246fcb17520eeef419327",
+          "!bp_ca8fc2919f06482c8b153d13356e9bfe",
+          "!bp_d5f615264aec4382a822d0c7b4c95484"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_56ff6948a9404c5b96ee43fcd7851421"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": null,
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_d8c0aa87608d471ab15b50d9d6d60aaa"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Freezeless": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": true,
+    "ShowPets": false,
+    "ShowOverlay": true,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+          "name": "$HideMapObject$0b5bd95fc4ec4286a563dd41b3492686",
+          "MapObject": {
+            "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+            "name": "$MapObjectFromScene$582267467c714932af6d2106a112dbbf",
+            "MapObject": {
+              "EntityNameInEditor": "ReleasePsykers",
+              "_entity_id": "d0ffd9e0-dd4d-45d4-a408-12b12cc4838d",
+              "SceneAssetGuid": "4518817abf192854ca8e92a962d1c334"
+            }
+          },
+          "Unhide": false
+        },
+        {
+          "$type": "cbc450c881049cb43a3d474b0a176122, StartCombat",
+          "name": "$StartCombat$89ee394370aa4e9987907a2572df5c82",
+          "Unit1": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$314d1f09279f43209a2e5d21db6041a1",
+            "Spawner": {
+              "EntityNameInEditor": "Defiler",
+              "_entity_id": "22b91f3e-6cff-41d9-8f94-8f24ecfaa14d",
+              "SceneAssetGuid": "4518817abf192854ca8e92a962d1c334"
+            }
+          },
+          "Unit2": {
+            "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+            "name": "$PlayerCharacter$26f5b6f92dd74c1fbdd5b28bb06eb9af"
+          },
+          "AmbushPlayer": false
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

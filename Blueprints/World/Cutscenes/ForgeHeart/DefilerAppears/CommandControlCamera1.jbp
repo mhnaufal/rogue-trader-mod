@@ -1,0 +1,125 @@
+{
+  "AssetId": "ae3872a984bf43428fd66d471a13b67e",
+  "Data": {
+    "$type": "955b28ccab87414899465e01b0412d33, CommandControlCamera",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "TimingMode": "Snap",
+    "FixedTime": 3.0,
+    "Move": true,
+    "MoveTarget": {
+      "$type": "ee272e7d88aff6648b4c1b052228fdc7, LocatorPosition",
+      "name": "$LocatorPosition$cbe8a0796e884d0eb9cc91c01f32c838",
+      "Locator": {
+        "EntityNameInEditor": "DefilerSceneCamera2_v2",
+        "_entity_id": "e73f25ae-1b04-4bd0-97ee-02be3be03471",
+        "SceneAssetGuid": "4518817abf192854ca8e92a962d1c334"
+      },
+      "Offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "MoveSpeed": 0.0,
+    "MoveCurve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "inWeight": 0.0,
+        "outTangent": 0.0,
+        "outWeight": 0.629166663,
+        "weightedMode": 2,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "inWeight": 0.6958333,
+        "outTangent": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": 1,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      }
+    ],
+    "Rotate": true,
+    "RotateTarget": {
+      "$type": "e11ac2cb26534343ba689a3fdd4de609, LocatorOrientation",
+      "name": "$LocatorOrientation$7ad6d0c3de8c4e1dbb840549f651b527",
+      "LocatorEval": null,
+      "Locator": {
+        "EntityNameInEditor": "DefilerSceneCamera2_v2",
+        "_entity_id": "e73f25ae-1b04-4bd0-97ee-02be3be03471",
+        "SceneAssetGuid": "4518817abf192854ca8e92a962d1c334"
+      }
+    },
+    "RotateSpeed": 0.0,
+    "RotateCurve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "inWeight": 0.0,
+        "outTangent": 0.0,
+        "outWeight": 0.575,
+        "weightedMode": 2,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "inWeight": 0.579166651,
+        "outTangent": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": 1,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      }
+    ],
+    "Zoom": true,
+    "ZoomTarget": 0.0,
+    "ZoomSpeed": 0.0,
+    "ZoomCurve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "inWeight": 0.0,
+        "outTangent": 0.0,
+        "outWeight": 0.5375,
+        "weightedMode": 2,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "inWeight": 0.6166667,
+        "outTangent": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": 1,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      }
+    ]
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

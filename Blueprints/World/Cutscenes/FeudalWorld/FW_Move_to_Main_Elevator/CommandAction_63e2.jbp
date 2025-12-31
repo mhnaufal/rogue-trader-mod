@@ -1,0 +1,48 @@
+{
+  "AssetId": "63e2e2c6de774f92a0fe719dd89f87c7",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "EugeneIvanov",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+          "name": "$HideMapObject$e77d27c2608b4a04bdf87c4fe32a1324",
+          "MapObject": {
+            "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+            "name": "$MapObjectFromScene$7ebe1bfb794647b5af4c0789ecf7bcc7",
+            "MapObject": {
+              "EntityNameInEditor": "ArbitesCyberMastiff_Animator",
+              "_entity_id": "0b6d0d79-f270-44e8-b0c0-bf705e670598",
+              "SceneAssetGuid": "4007197374125f74b866dfb4ba8b268b"
+            }
+          },
+          "Unhide": false
+        },
+        {
+          "$type": "72dccdfcda9347f19b578730b030b8b5, ControllableActionSetActive",
+          "name": "$ControllableActionSetActive$6f3e75c96a3a465086a5babbbe982cc3",
+          "Active": true,
+          "IdOfObject": {
+            "EntityNameInEditor": "ArbitesCyberMastiff_Timeline",
+            "_entity_id": "89ad9f3d-ae7a-43b1-a5ef-921d7d541300",
+            "SceneAssetGuid": "Assets/Scenes/DLC2/FeudalWorld/FeudalWorld_Timeline_Mechanics_Mechanics.unity"
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

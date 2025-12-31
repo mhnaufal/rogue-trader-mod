@@ -1,0 +1,47 @@
+{
+  "AssetId": "df5f554c600040c786fbed67f145dc50",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AntonKharybin",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "be3026f011f344f448094a75ed64a9f5, Play3DSound",
+          "name": "$Play3DSound$9083f826512d4b63a78350d148a5fbbd",
+          "SoundName": "NARR_IdiraTheDoor_BlastDoor_Play",
+          "SoundSourceObject": {
+            "EntityNameInEditor": "Wall_FX",
+            "_entity_id": "1d9af547-c831-48e0-9565-698720e534c8",
+            "SceneAssetGuid": "44dd7c02aa7e2464a959927da447635b"
+          },
+          "SetSex": false,
+          "SetRace": false,
+          "SetCurrentSpeaker": false
+        },
+        {
+          "$type": "72dccdfcda9347f19b578730b030b8b5, ControllableActionSetActive",
+          "name": "$ControllableActionSetActive$13b2257faee3459593cfb524941576cb",
+          "Active": true,
+          "IdOfObject": {
+            "EntityNameInEditor": "FW_Explosion_Palace",
+            "_entity_id": "921ca23d-902f-4b59-818e-f2a59ea12395",
+            "SceneAssetGuid": "Assets/Scenes/DLC2/FeudalWorld/FeudalWorld_Mechanics.unity"
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
