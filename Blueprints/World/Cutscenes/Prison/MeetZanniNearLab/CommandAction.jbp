@@ -1,0 +1,48 @@
+{
+  "AssetId": "5d9712ed12954a549c58af0854a8c80c",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "0652c1b85291c994f8411a22deb2b6ec, Spawn",
+          "name": "$Spawn$bc4438f2aedf4eb0b73da03bbf17968e",
+          "Spawners": [
+            {
+              "EntityNameInEditor": "ZanniForMeeting",
+              "_entity_id": "7565391d-e168-4f12-b8aa-ed82eb625013",
+              "SceneAssetGuid": "49b22a1d8a24dbc4eb9b5efaf7b57df1"
+            }
+          ],
+          "ActionsOnSpawn": {
+            "Actions": [
+              {
+                "$type": "7e9b6e3ec852e264e8fcd8c4b5956eee, AddFact",
+                "name": "$AddFact$c6479b98d208423fbf506da8a777bfd1",
+                "Unit": {
+                  "$type": "5abcc51ecc3df064ebb6c4ec13a8a8e9, SpawnedUnit",
+                  "name": "$SpawnedUnit$616909045261458dac1a9265d11cb8cb"
+                },
+                "m_Fact": "!bp_10e88555d11e40c8ad06b2728a9f01ad"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

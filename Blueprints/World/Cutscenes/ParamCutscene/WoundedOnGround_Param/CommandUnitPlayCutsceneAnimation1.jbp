@@ -1,0 +1,50 @@
+{
+  "AssetId": "6c3ac8d60f014b0d9259d86c836fabdf",
+  "Data": {
+    "$type": "5d582208451380241b50fe71a9d94298, CommandUnitPlayCutsceneAnimation",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "m_Unit": {
+      "$type": "95469ff256aabcf409b9c5860a4c4ba9, NamedParameterUnit",
+      "name": "$NamedParameterUnit$bb70a931-863e-4283-a8dc-c53a0bc58a12",
+      "Parameter": "Unit"
+    },
+    "m_CutsceneClipWrapper": null,
+    "m_CutsceneClipWrapperLink": {
+      "AssetId": "1b824ba70fd071440b7b0bc600df3c6b"
+    },
+    "m_WaitForCurrentAnimation": false,
+    "m_ExitBeforeDone": false,
+    "m_StopAfterTransition": false,
+    "m_CrossfadeIn": 0.1,
+    "m_CrossfadeOut": 0.1,
+    "RandomDelayBeforeAnimation": false,
+    "m_RandomDelayMin": 0.0,
+    "m_RandomDelayMax": 0.0,
+    "m_LockRotation": true,
+    "m_MarkUnit": false,
+    "m_OnlyIfIdle": false,
+    "m_FiniteLoop": false,
+    "m_FiniteLoopDuration": 0.0,
+    "m_FiniteLoopRandomDuration": false,
+    "m_FiniteLoorDurationMax": 0.0,
+    "m_Timeout": 20.0,
+    "m_UseAvatarMask": false,
+    "m_AvatarMask": null,
+    "m_RerunBeforeReleaseAnimation": false,
+    "m_DontMatchCrossfade": false,
+    "MuteAttacker": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

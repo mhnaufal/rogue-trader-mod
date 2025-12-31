@@ -1,0 +1,69 @@
+{
+  "AssetId": "839d88f1a76c47b6a30c4ef4520dcc09",
+  "Data": {
+    "$type": "c13acfdc96afb6641b748bc39e972c97, CommandMoveParty",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "m_UnitsList": "ActiveUnits",
+    "Targets": [
+      {
+        "EntityNameInEditor": "PatryMiddle01",
+        "_entity_id": "48bdcfed-14b1-4d61-bc62-e19590a9f08e",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      },
+      {
+        "EntityNameInEditor": "PatryMiddle02",
+        "_entity_id": "8c6b9d10-6882-453b-8590-d555a0b01fd7",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      },
+      {
+        "EntityNameInEditor": "PatryMiddle03",
+        "_entity_id": "2dd67f49-0501-4ab3-82e1-439c339ddf9a",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      },
+      {
+        "EntityNameInEditor": "PatryMiddle04",
+        "_entity_id": "1fed7de0-50d6-48be-885c-d5f5e4728f35",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      },
+      {
+        "EntityNameInEditor": "PatryMiddle05",
+        "_entity_id": "ce41892f-d2bb-4868-8066-52914ee5e65b",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      },
+      {
+        "EntityNameInEditor": "PatryMiddle06",
+        "_entity_id": "1e6d769c-a873-4a90-87e0-b50d5510fd61",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      },
+      {
+        "EntityNameInEditor": "PatryMiddle06",
+        "_entity_id": "1e6d769c-a873-4a90-87e0-b50d5510fd61",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      },
+      {
+        "EntityNameInEditor": "PatryMiddle06",
+        "_entity_id": "1e6d769c-a873-4a90-87e0-b50d5510fd61",
+        "SceneAssetGuid": "a1a09e1df84fa8946a545ca9bcb0043e"
+      }
+    ],
+    "Animation": "Walk",
+    "OverrideSpeed": false,
+    "Speed": 5.0,
+    "DisableAvoidance": true,
+    "MoveWithFormation": false,
+    "FormationSpaceFactor": 1.0
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "AssetId": "9f4b8a46c6e7453e915fb7ea8c74e17e",
+  "Data": {
+    "$type": "ce685e563b57ba14b8c03ba1ef90e435, CommandDelay",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "KseniyaUrchenko",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Time": 0.1,
+    "MaxTime": 0.0,
+    "Random": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "AssetId": "ba6f803275a94342a4130ec08f59321e",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_24578a83829b4e0e93898b6d808907e1"
+        ],
+        "m_EndGate": "!bp_3dd336a452744be8bd6169134ed2821b",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_ae71e0506681491b9b2373ea788cbf9d",
+          "!bp_468a1127ff474c16adeda74b474c6f51"
+        ],
+        "m_EndGate": "!bp_3dd336a452744be8bd6169134ed2821b",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": true,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": []
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

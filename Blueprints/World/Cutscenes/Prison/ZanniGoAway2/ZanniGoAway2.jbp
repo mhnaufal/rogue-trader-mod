@@ -1,0 +1,79 @@
+{
+  "AssetId": "fabbde21a7d1458291f619ba117ed66d",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_e52c5cbfc01c47f68344675a19ab629b"
+        ],
+        "m_EndGate": "!bp_651a9ff55fac42cf8f8f502a6de2d5ec",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_7ae5e682e12b47ee83f800023b0b9807",
+          "!bp_635de33131634a0d94ad1ef972b5329b"
+        ],
+        "m_EndGate": "!bp_651a9ff55fac42cf8f8f502a6de2d5ec",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_52bd4d004f0c4463a620a0c471720050"
+        ],
+        "m_EndGate": "!bp_651a9ff55fac42cf8f8f502a6de2d5ec",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": false,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": false,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": []
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

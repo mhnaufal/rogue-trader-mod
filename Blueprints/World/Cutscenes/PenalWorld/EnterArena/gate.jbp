@@ -1,0 +1,102 @@
+{
+  "AssetId": "40cce44595fd462f9650551267e8df4a",
+  "Data": {
+    "$type": "51c5dfefb75a19a49a0dc708f3a2b76e, Gate",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "Барки гладиаторов",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_6d5533a6b5324c82a6a1e3413f1e1cb4"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_7b16e220ca7445ca90130aa98d174d67",
+          "!bp_e846cd2b51974adab57f7f0982d257bd"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_e3e2e967bd7b46749724e7564d557a2d",
+          "!bp_319e3b357ba045f0a5d9dd776610b7d3"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_6d2e8f11704743b5bf2d6aa4b939f8ff",
+          "!bp_558737e0f17f418bb7886a33e60a394f"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
