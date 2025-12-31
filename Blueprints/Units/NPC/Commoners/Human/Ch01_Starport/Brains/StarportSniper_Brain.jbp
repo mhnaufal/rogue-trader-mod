@@ -1,0 +1,91 @@
+{
+  "AssetId": "8100d4b313a3442d9613b62a2b700124",
+  "Data": {
+    "$type": "d0e20ba43f1689d4a964ffe958a5fa1a, BlueprintBrain",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VadimBgatzev",
+    "Comment": "Моб-ренджевик, пользующийся укрытиями.",
+    "ScoreOrder": {
+      "order": [
+        {
+          "type": "StayingAwayScore",
+          "factor": "Default"
+        },
+        {
+          "type": "HideScore",
+          "factor": "Default"
+        },
+        {
+          "type": "ClosinessScore",
+          "factor": "Ignored"
+        },
+        {
+          "type": "EffectiveDistanceScore",
+          "factor": "Ignored"
+        },
+        {
+          "type": "PriorityScore",
+          "factor": "Ignored"
+        },
+        {
+          "type": "EnemyThreatScore",
+          "factor": "Ignored"
+        },
+        {
+          "type": "EnemyCoverScore",
+          "factor": "Ignored"
+        },
+        {
+          "type": "EnemyHPLeftScore",
+          "factor": "Ignored"
+        },
+        {
+          "type": "ThreatsScore",
+          "factor": "Default"
+        }
+      ]
+    },
+    "HatedTargetConditions": [],
+    "m_TargetOthersIfCantReachHated": false,
+    "m_UseOnlyListedAbilities": false,
+    "AbilityPriorityOrder": {
+      "order": [
+        {
+          "Type": "Ability",
+          "m_Ability": "!bp_f0b273646abc44f38ba05031ab1aeacb",
+          "m_Equipment": "!bp_a5130a7096a546bf883574db563c4c57",
+          "m_RandomGroup": []
+        },
+        {
+          "Type": "Equipment",
+          "m_Ability": null,
+          "m_Equipment": "!bp_a5130a7096a546bf883574db563c4c57",
+          "m_RandomGroup": []
+        }
+      ]
+    },
+    "MovementInfluentAbilities": [],
+    "AbilitySettings": [],
+    "HitUnintendedTargetPenalty": 3.0,
+    "IsCarefulShooter": true,
+    "IgnoreAoOForCasting": false,
+    "ResponseToAoOThreat": true,
+    "ResponseToAoOThreatAfterAbilities": false,
+    "MeleeBrainType": "Smart",
+    "BeforeMoveAbilities": [
+      {
+        "Type": "Ability",
+        "m_Ability": "!bp_f0b273646abc44f38ba05031ab1aeacb",
+        "m_Equipment": null,
+        "m_RandomGroup": []
+      }
+    ],
+    "MoveAndCastAbilities": [],
+    "AfterMoveAbilities": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

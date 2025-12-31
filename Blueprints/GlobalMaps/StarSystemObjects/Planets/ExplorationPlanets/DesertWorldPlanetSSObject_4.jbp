@@ -1,0 +1,86 @@
+{
+  "AssetId": "da17ff7cba954477ad16da6eb4429dd4",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "df95ad1df0844cf8a525f62add206fd3, PointOfInterestLootComponent",
+        "name": "$PointOfInterestLootComponent$137b3caa-59b5-4e95-ab56-90b9df8f628d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_776c49768f7440fe8e7e241c0fbbde5b"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "Odaenathus-XI",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "58274b88d06736741aab900d59148d2b",
+        "stringkey": "ac18a341-f5fa-4490-9433-753da3c87d73"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [
+      {
+        "Resource": "!bp_b9ab9cd20baf49baa0cebd96df45a101",
+        "Count": 2
+      }
+    ],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Sand",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "196b71836e6245e478f44c7169547e83",
+        "stringkey": "23380038-4b66-4902-a915-a6a250fa4895"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "7f070021378656441a514ddcd37af050",
+        "stringkey": "919493f4-de7b-48d5-959d-039a7e277b2e"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "9b4218ced4660c04989664807a444853",
+        "stringkey": "f0c31931-2a1f-4807-b63c-1995c7b66e8d"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "AssetId": "ec029a44dd8142c6b09bf4ad7913eba6",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$155acaa8-cc4a-4568-aa5d-d814825f7ad5",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_0d470ebbfafe485abecd2b034417dc70"
+      }
+    ],
+    "Author": "AlisaSinelnikova",
+    "Comment": "Cranach",
+    "m_DisplayName": {
+      "m_Key": "2e3b7392-902c-4ce1-8b99-aaecba527477",
+      "m_OwnerString": "ec029a44dd8142c6b09bf4ad7913eba6",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\StarSystemObjects\\Planets\\ExplorationPlanets\\PlanetoidPlanetSSObject_1_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Planetoid",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "1dd49ec385cee2c45ba6c275042eb11c",
+        "stringkey": "1f2c0abf-108a-4b21-bdb6-af1ec839c3f4"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "7f070021378656441a514ddcd37af050",
+        "stringkey": "919493f4-de7b-48d5-959d-039a7e277b2e"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "39887fcc365852844909417ab075ce9b",
+        "stringkey": "48819a8a-a483-4e5e-a13c-e5afbcaa37c5"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "AssetId": "e5eeb5a2a70a404da52abe96cc34ce8d",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$856a670a-3d0b-4caa-b9a8-393a17e43dcc",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_0d7e790ef0b54c1a853f2d2488c313da"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$74c30d39-3d29-4609-86c1-c4e4145a2299",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_7e05ac2feccd4c33972fd2a42216097e"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "второй компаньонский квест Ульфара",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "f0f02f570cc648649b2f800a6c8ed26d",
+        "stringkey": "5aca5b22-1594-4676-b127-3ab3ea49cbf6"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Arid",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "4b5df4ab9fd0da6409924a8a4ac86f83",
+        "stringkey": "c71487d1-08a4-49f9-83d9-c9dae27e7c61"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "65dc47bf0bb2ecf4a9b1f7b673fffc95",
+        "stringkey": "edee9e55-cfe4-4074-9b2d-27895522cb61"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "667c0135f5a7dd4429af32740528fba9",
+        "stringkey": "e6c2938c-08b0-42fb-9aca-cfbc45c17096"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

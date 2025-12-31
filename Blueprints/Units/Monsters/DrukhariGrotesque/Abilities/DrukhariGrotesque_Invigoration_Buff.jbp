@@ -1,0 +1,187 @@
+{
+  "AssetId": "0265f1ced1ec4de8bb8409312b7cc937",
+  "Data": {
+    "$type": "618a7e0d54149064ab3ffa5d9057362c, BlueprintBuff",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "6d4d8e393e06464abf749d2b80d67adc, WarhammerBonusMovementPoints",
+        "name": "$WarhammerBonusMovementPoints$4545c0d2-70b5-42cf-b51f-b47fb5743133",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Bonus": 1,
+        "Modifier": 1.0,
+        "SetUpperLimit": false,
+        "UpperLimitValue": 0,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 6,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        }
+      },
+      {
+        "$type": "7c3693f332324ec4f94935a796c848f9, WarhammerOverrideGroupCooldown",
+        "name": "$WarhammerOverrideGroupCooldown$075ba63f-938c-4811-8a83-dbb0cc61d60a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_AffectedGroup": "!bp_1cf206b13141425491c379bc75ef0699",
+        "m_OverrideStrategy": "Reduce",
+        "m_Infinite": false,
+        "m_Value": 1,
+        "LimitedCharges": true,
+        "Charges": {
+          "ValueType": "Simple",
+          "Value": 1,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CostRestricted": false,
+        "MaxActionPointsCost": -1,
+        "RefundActionPointCost": true,
+        "ActionsOnOverride": {
+          "Actions": [
+            {
+              "$type": "120df4726e71c854e95f84b87a99a3c5, ContextActionSpawnFx",
+              "name": "$ContextActionSpawnFx$49e4a859-30a8-4ab3-a6bb-75f5d9262198",
+              "PrefabLink": {
+                "AssetId": "21b3442159b85574daedeaa8f8458c3f"
+              }
+            }
+          ]
+        },
+        "ActionsAfterCharges": {
+          "Actions": []
+        },
+        "ForbidOtherAbilities": false,
+        "m_FilterGroup": null,
+        "OnlyChosenWeapon": false,
+        "OnlyCheapestAbilities": false
+      },
+      {
+        "$type": "428580af48b84509b97be533f03c7759, WarhammerHitChanceModifierInitiator",
+        "name": "$WarhammerHitChanceModifierInitiator$7e7caa64-962b-4381-9d3d-26110bf246f9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Properties": "RighteousFury",
+        "HitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "RighteousFuryChance": {
+          "ValueType": "Simple",
+          "Value": 50,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverPenetrationPercent": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverMagnitude": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AutoCrit": false,
+        "NeverCrit": false
+      }
+    ],
+    "Author": "IlyaPolitko",
+    "Comment": "Глава IV. Локация HaemonculusLab.\nОсновная абилка особого гротеска-приспешника Гемункула, босса локации. Дает +10 MP, 1 дополнительную атаку (+2 AP) и +50% к шансу крита.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "6872d0f967bec1941ab56a3b00325bbe",
+        "stringkey": "d8e6f8a3-9bc3-4a59-91a2-9c7a12b1c4e4"
+      }
+    },
+    "m_Description": {
+      "m_Key": "89142c88-3047-4842-92a4-d07901011dd5",
+      "m_OwnerString": "0265f1ced1ec4de8bb8409312b7cc937",
+      "m_OwnerPropertyPath": "m_Description",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Units\\Monsters\\DrukhariGrotesque\\Abilities\\DrukhariGrotesque_Invigoration_Buff_m_Description.json",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "1c30d7bb062c45f47b82491b6d4e401e",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "m_Flags": 0,
+    "m_SoundTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "m_MuffledTypeSwitch": {
+      "Value": "",
+      "Group": ""
+    },
+    "Stacking": "Replace",
+    "ProlongWhenRankAdded": false,
+    "PriorityProperty": "Value1",
+    "Initiative": "ByCaster",
+    "Ranks": 0,
+    "FxOnStart": {
+      "AssetId": "1e1f0e3190428e0488fe78a78001a78f"
+    },
+    "FxOnRemove": {
+      "AssetId": ""
+    },
+    "m_FXSettings": "!bp_9496a5ab108444ceb4ffdf1bb81819c1",
+    "ResourceAssetIds": [],
+    "PlayOnlyFirstHitSound": false,
+    "m_AbilityGroups": [],
+    "m_Cyclical": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

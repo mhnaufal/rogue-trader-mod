@@ -1,0 +1,86 @@
+{
+  "AssetId": "a4158bbf1f564ab3a1d0d5a3d1314096",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$d960acf2-726b-4bb5-a96b-731b51e03c55",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_12152ee5b73a472f85dba58ad2a42c1f"
+      }
+    ],
+    "Author": "AlisaSinelnikova",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "934ec63c53bf7e641ab393688f838ec5",
+        "stringkey": "f1743daf-8703-4fa8-95de-9805a5dc7d52"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [
+      {
+        "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+        "Count": 4
+      }
+    ],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Snow",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "cfc5d4315d0e8084dacee6576cf805cb",
+        "stringkey": "55f698ff-ea86-45f6-98b6-278729bc5c99"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "73b27863b7bca3646a83cfea46a8a65e",
+        "stringkey": "0da830fa-012a-4a3f-9f82-fa6aae3663c6"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "e0f76e24b7f345146ad8355a4ec21b92",
+        "stringkey": "2a74a482-e24b-4442-b7c5-0999aaf5a1c1"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

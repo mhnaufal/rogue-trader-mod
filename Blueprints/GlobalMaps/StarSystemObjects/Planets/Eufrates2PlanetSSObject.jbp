@@ -1,0 +1,116 @@
+{
+  "AssetId": "8e1b3f5255834bb29bf4379d4c4e8c7f",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$fb954698-02c8-43cf-b014-233aa58054d8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_df5e63d659004f62a6ff8a7526ec7122"
+      },
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$55a37da7-476b-434e-8c00-40ba1366bbdd",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_611c38288f0f41a28a7ca57ede9ef3e4"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$2c70e9d0-d594-4758-92e8-332c1daac550",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_6535dd666f6646c28e09b7eaae5425d5"
+      },
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$11f33ece-07ca-4c68-8736-b51e623481d7",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_b3c609a548cc43a5b5b6111cf76b0488"
+      }
+    ],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "dee65254649d7274e864a2570aa83bbd",
+        "stringkey": "9a54b208-3bdf-4e14-bfec-fffe8223b4a9"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": true,
+    "IsScannedOnStart": true,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [
+      "!bp_b4c535cbdf5b41d8bc18556c1e051fbf"
+    ],
+    "Type": "Rocky",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "975b56c6f76a6524bad6c3eebfdab659",
+        "stringkey": "921f5390-199d-4e1f-9c91-6dfe174d253e"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "368ce1b930cc5d64fbcd83368f384c3a",
+        "stringkey": "58684c83-8775-478c-903d-a4267297523f"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "f1c3a60ddcba25a408b1a22eb08d3f37",
+        "stringkey": "1b07c045-ff92-4c9a-9485-93e58e63b5f5"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

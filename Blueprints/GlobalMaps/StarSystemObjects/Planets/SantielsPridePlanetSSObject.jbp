@@ -1,0 +1,81 @@
+{
+  "AssetId": "326c22ffba1946f888ea790c49ddddc2",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$efb59d09-9307-4f7e-9c52-90ebe7252c8b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_92f8a47920194bbeab319b5f5dc38e60"
+      }
+    ],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "464596ce9c74d57489a19ff8b7bf5302",
+        "stringkey": "5aa1a0a3-90f0-4030-807e-5e121005c6c3"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Burning",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "26a2a87723dad1147b3a81d496bdb0bb",
+        "stringkey": "076cb4e1-0c3e-41b5-9ac6-413782137250"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "990a132b2af56cd4abcfb41a18bc02e2",
+        "stringkey": "fd0c2ede-5e08-48f3-b5d2-ec4a4cda2c83"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "4057909251258ee4893410ba123c5301",
+        "stringkey": "0f9d6c08-a4e6-4259-bb73-0285ff8df2d0"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

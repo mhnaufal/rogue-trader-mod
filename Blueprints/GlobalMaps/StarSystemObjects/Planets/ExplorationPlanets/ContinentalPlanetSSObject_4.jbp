@@ -1,0 +1,81 @@
+{
+  "AssetId": "fd510c7e7cc042c6baa508f4e915797c",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$57c92bc3-34da-4b3c-a71c-fe11e7c31ddc",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_1b06bd18cc4445059c234dd0d3b9513c"
+      }
+    ],
+    "Author": "AlisaSinelnikova",
+    "Comment": "Litoribum Maledicta",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "12e94e42f7b9082459ba49622c6db2c4",
+        "stringkey": "29cd1976-9c92-4524-b6c5-7256f2137d91"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Continental",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "cfc5d4315d0e8084dacee6576cf805cb",
+        "stringkey": "55f698ff-ea86-45f6-98b6-278729bc5c99"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "73b27863b7bca3646a83cfea46a8a65e",
+        "stringkey": "0da830fa-012a-4a3f-9f82-fa6aae3663c6"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "e74fd3c7262b8bf449c3eb9e57b71099",
+        "stringkey": "ca584ca7-efb8-4022-b7a7-25405327da63"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

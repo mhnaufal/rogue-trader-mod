@@ -1,0 +1,81 @@
+{
+  "AssetId": "482d6c173cf94f389aba90e3775c10ed",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "4f324ffc72045b540951232a1cc0f7db, PointOfInterestColonyTraitComponent",
+        "name": "$PointOfInterestColonyTraitComponent$ee4ccb9d-e2ed-44d2-8efa-742871813352",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_51b385eb788e476a9b76dc23aabcbe06"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "52d24544f0135fa4abd6fadf9a1ed114",
+        "stringkey": "a8e62905-9166-4396-a22d-b581b76b833d"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Tropical",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "cfc5d4315d0e8084dacee6576cf805cb",
+        "stringkey": "55f698ff-ea86-45f6-98b6-278729bc5c99"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "73b27863b7bca3646a83cfea46a8a65e",
+        "stringkey": "0da830fa-012a-4a3f-9f82-fa6aae3663c6"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "3b8052489318c7340aee23301ebbd631",
+        "stringkey": "98ba0495-4982-4da9-8d76-2218db005ab7"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

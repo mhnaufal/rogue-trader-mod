@@ -1,0 +1,88 @@
+{
+  "AssetId": "63337036a51a4cc184b10bd7ebce6f1a",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$8305e5bc-33cc-44e4-842e-8aee16706030",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_0c29d8f0e6664afd840f80f5034716ca"
+      }
+    ],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "f0f02f570cc648649b2f800a6c8ed26d",
+        "stringkey": "5aca5b22-1594-4676-b127-3ab3ea49cbf6"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [
+      {
+        "Resource": "!bp_b9ab9cd20baf49baa0cebd96df45a101",
+        "Count": 3
+      }
+    ],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [
+      "!bp_60bdb63f77a543449d388c73c5de30cf"
+    ],
+    "Type": "Frozen",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "f43844565ca141d4390863451213a34b",
+        "stringkey": "398b9642-038f-45ca-bd37-6a509a4e2f8c"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "65dc47bf0bb2ecf4a9b1f7b673fffc95",
+        "stringkey": "edee9e55-cfe4-4074-9b2d-27895522cb61"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "9d72ac8f518552c40bca0c0ab5d0feb4",
+        "stringkey": "481eee4b-1659-41fb-a1b7-69c67123cd57"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

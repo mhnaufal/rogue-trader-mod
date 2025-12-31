@@ -1,0 +1,86 @@
+{
+  "AssetId": "b68d60e6c9a044c293fde59a0c555ee7",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$cdc0a218-0f26-4f32-854b-49b082ce64e9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_4b493e22f53c4ca3a050ee84edc7670e"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "22b5faf6b03066c4daef1fb5c8bf4007",
+        "stringkey": "f470356f-1bd6-475e-9de2-cf98f54084cb"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [
+      {
+        "Resource": "!bp_b9ab9cd20baf49baa0cebd96df45a101",
+        "Count": 5
+      }
+    ],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Rocky",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "1dd49ec385cee2c45ba6c275042eb11c",
+        "stringkey": "1f2c0abf-108a-4b21-bdb6-af1ec839c3f4"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "7f070021378656441a514ddcd37af050",
+        "stringkey": "919493f4-de7b-48d5-959d-039a7e277b2e"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "ed6e2f9f9a34105479b04f111fba4a28",
+        "stringkey": "630a8d68-af13-4dfa-93e9-63095ab4284f"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

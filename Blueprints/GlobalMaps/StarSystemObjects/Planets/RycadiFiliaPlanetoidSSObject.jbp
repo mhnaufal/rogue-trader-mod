@@ -1,0 +1,83 @@
+{
+  "AssetId": "b3959d66a72142c8bee178a1642ecec0",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$InteractionEnterPointComponent$2e3cf58c-b649-4006-8e17-1ddb64f0ea2c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_e0973c4e9231406d8a3d9ae2d926f4df"
+      }
+    ],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "783f5029890dc3a4fbb3119cab5569bf",
+        "stringkey": "7efc47d6-86e5-40e5-bc3f-6c4a0dabf1b0"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": true,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [
+      "!bp_8250d8a565c84dcdba6bf3064211cdf9"
+    ],
+    "Type": "Rocky",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "562bd4eef144302459c1cb3808c0e1f2",
+        "stringkey": "537d6d99-0664-4002-8017-e8d0ab184f48"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "65dc47bf0bb2ecf4a9b1f7b673fffc95",
+        "stringkey": "edee9e55-cfe4-4074-9b2d-27895522cb61"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "97fa6a09cd9e7e540a2030aa8e18ec3b",
+        "stringkey": "163dda22-26ff-4b45-a95c-974983767f0b"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "AssetId": "40f4c706e95b4be19d32f3f472aae5f3",
+  "Data": {
+    "$type": "da11db195c86e0d4dae17a2c03a4ba9a, BlueprintAbility",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "e627a85beb904bf2bd6608ecdbcbadbc, AbilityCustomMoveToTarget",
+        "name": "$AbilityCustomMoveToTarget$e5e2aa75-8525-4f0a-a691-abd94341e293",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_OverrideMaxSpeed": true,
+        "m_MaxSpeedOverride": 10.0,
+        "m_ActionsOnTargetAfterMoved": {
+          "Actions": [
+            {
+              "$type": "2208984b829b49fd878da37b3413ce46, CastSpell",
+              "name": "$CastSpell$9a98fdc41f7e4298983e509741511ac5",
+              "Caster": {
+                "$type": "56703b87cc0c36347937d201cc076a6d, CasterUnit",
+                "name": "$CasterUnit$eabeff9f5660426b9b2723c1e763a5ef"
+              },
+              "CasterPosition": null,
+              "TargetEntity": {
+                "$type": "56703b87cc0c36347937d201cc076a6d, CasterUnit",
+                "name": "$CasterUnit$0f5db9a447b340a2ad9189c1f78518d7"
+              },
+              "TargetPoint": null,
+              "m_Ability": "!bp_791b139fa14848a1a9dc6e3e8d942895",
+              "HitPolicy": "AutoHit",
+              "DisableLog": false
+            }
+          ]
+        },
+        "m_ActionsAfterMoved": {
+          "Actions": []
+        },
+        "DisableAttacksOfOpportunity": false,
+        "DisableOnlyIfHasFact": false,
+        "m_PassThroughAllUnits": false,
+        "m_CasterMustStandInTarget": false,
+        "m_CasterMustStandNearTarget": true,
+        "IgnoreObstacles": false,
+        "AllowNotStraightMovement": false,
+        "m_CheckedFact": null
+      },
+      {
+        "$type": "939084ae6cfa48999bcf13aea11aa067, AbilityIgnoreLineOfSight",
+        "name": "$AbilityIgnoreLineOfSight$badd9e08-eb5a-4a70-a453-c6eeb8b57537",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": null,
+          "name": null
+        },
+        "m_Overrides": []
+      }
+    ],
+    "Author": "LeonidTolochenko",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "Type": "Spell",
+    "Range": "Unlimited",
+    "CustomRange": 0,
+    "MinRange": 0,
+    "ActionPointCost": 1,
+    "AbilityParamsSource": "None",
+    "PsychicPower": "Minor",
+    "VeilThicknessPointsToAdd": 1,
+    "ParamsSkill": "SkillAthletics",
+    "CooldownRounds": 0,
+    "CanTargetPoint": false,
+    "CanTargetEnemies": true,
+    "CanTargetFriends": false,
+    "CanTargetSelf": false,
+    "Hidden": false,
+    "DisableBestShootingPosition": true,
+    "NeedEquipWeapons": false,
+    "NotOffensive": false,
+    "ShowInDialogue": false,
+    "IsStarshipAbility": false,
+    "EffectOnAlly": "None",
+    "EffectOnEnemy": "None",
+    "m_Parent": null,
+    "Animation": "Directional",
+    "CastInOffHand": false,
+    "UseOnMechadendrite": false,
+    "UsedMechadendrite": "Utility",
+    "m_TargetMapObjects": false,
+    "IsFreeAction": true,
+    "ShouldTurnToTarget": false,
+    "m_IsStratagem": false,
+    "UsingInThreateningArea": "CanUseWithoutAOO",
+    "UsingInOverwatchArea": "WillNotCauseAttack",
+    "CombatStateRestriction": "NoRestriction",
+    "m_AbilityGroups": [],
+    "MaterialComponent": {
+      "m_Item": null,
+      "Count": 1
+    },
+    "DisableLog": true,
+    "ResourceAssetIds": [],
+    "m_FXSettings": null,
+    "m_AbilityTag": "None",
+    "m_CombatHudCommandsOverride": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

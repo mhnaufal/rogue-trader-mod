@@ -1,0 +1,112 @@
+{
+  "AssetId": "a9ec3e8bb95348faa1245df58750d777",
+  "Data": {
+    "$type": "d0e20ba43f1689d4a964ffe958a5fa1a, BlueprintBrain",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "GeorgiiDoronin",
+    "Comment": "",
+    "ScoreOrder": {
+      "order": [
+        {
+          "type": "EffectiveDistanceScore",
+          "factor": "Default"
+        },
+        {
+          "type": "EnemyThreatScore",
+          "factor": "Default"
+        },
+        {
+          "type": "EnemyCoverScore",
+          "factor": "Default"
+        },
+        {
+          "type": "PriorityScore",
+          "factor": "Default"
+        },
+        {
+          "type": "EnemyHPLeftScore",
+          "factor": "Default"
+        },
+        {
+          "type": "StayingAwayScore",
+          "factor": "Default"
+        },
+        {
+          "type": "ThreatsScore",
+          "factor": "Default"
+        },
+        {
+          "type": "ClosinessScore",
+          "factor": "Default"
+        },
+        {
+          "type": "HideScore",
+          "factor": "Ignored"
+        }
+      ]
+    },
+    "HatedTargetConditions": [],
+    "AbilityPriorityOrder": {
+      "order": []
+    },
+    "MovementInfluentAbilities": [],
+    "AbilitySettings": [
+      {
+        "AbilitySource": {
+          "Type": "Ability",
+          "m_Ability": "!bp_1fec8e96460d4a078c3a79cb29025d74",
+          "m_Equipment": null,
+          "m_RandomGroup": []
+        },
+        "ValidTargetConditions": [],
+        "HasMovePointsLimit": false,
+        "MovePointsLimit": 0,
+        "IsAOE": false,
+        "MustHitTargetsCount": 1,
+        "CountTargetConditions": [],
+        "HighPriorityTargetConditions": [
+          {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "d04a8b4d1fec4545b9e4d90b81ce2498, HasFactGetter",
+                "name": "$HasFactGetter$94f8d5b3-7552-4cdd-97bb-e42583401457",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "m_Fact": "!bp_a2c8d30542b84a84bcc6480cf374c516",
+                "Target": "CurrentTarget"
+              }
+            ]
+          }
+        ],
+        "LowPriorityTargetConditions": [],
+        "MinDifficultySetting": "Story",
+        "CantCastUntilRound": 0
+      }
+    ],
+    "HitUnintendedTargetPenalty": 0.0,
+    "IsCarefulShooter": false,
+    "IgnoreAoOForCasting": false,
+    "ResponseToAoOThreat": true,
+    "ResponseToAoOThreatAfterAbilities": false,
+    "MeleeBrainType": "Smart",
+    "BeforeMoveAbilities": [],
+    "MoveAndCastAbilities": [],
+    "AfterMoveAbilities": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

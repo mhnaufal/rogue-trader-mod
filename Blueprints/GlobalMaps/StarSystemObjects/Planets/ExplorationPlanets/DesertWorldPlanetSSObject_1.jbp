@@ -1,0 +1,86 @@
+{
+  "AssetId": "60f20d84ff2c46b28475429f4e3299d6",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "df95ad1df0844cf8a525f62add206fd3, PointOfInterestLootComponent",
+        "name": "$PointOfInterestLootComponent$a40e1cd8-27ed-4181-b97c-100939bc3d7b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_a97b9ab9bd744d7a85c1be8809d0a3bb"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "Silence of Mer-Segrit",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "58274b88d06736741aab900d59148d2b",
+        "stringkey": "ac18a341-f5fa-4490-9433-753da3c87d73"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [
+      {
+        "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+        "Count": 4
+      }
+    ],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Sand",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "cfc5d4315d0e8084dacee6576cf805cb",
+        "stringkey": "55f698ff-ea86-45f6-98b6-278729bc5c99"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "73b27863b7bca3646a83cfea46a8a65e",
+        "stringkey": "0da830fa-012a-4a3f-9f82-fa6aae3663c6"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "1af2a548192fb1d468f9c664ff3c219c",
+        "stringkey": "075da896-3571-44bb-99b2-b61d16116e65"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

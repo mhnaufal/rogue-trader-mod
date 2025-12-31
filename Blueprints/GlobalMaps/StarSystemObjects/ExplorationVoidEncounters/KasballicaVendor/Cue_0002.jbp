@@ -1,0 +1,141 @@
+{
+  "AssetId": "922e77be772b43d8b5b731f8711628e7",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "VeronikaLarionova",
+    "Comment": "когда сливаем последний кусок информации",
+    "ParentAsset": "f2cc0526fcdf4a9b9f71cf297f104154",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "fcc336266b98019488d20a50d120e05c, FlagUnlocked",
+          "name": "$FlagUnlocked$fdb8d4df2fae48d89472521f467ac816",
+          "Not": false,
+          "m_ConditionFlag": "!bp_c3484106c1ec4b7ca7e767ea0cfc42d9",
+          "ExceptSpecifiedValues": false,
+          "SpecifiedValues": [
+            3
+          ]
+        }
+      ]
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "9d73af54-b0ea-4756-8330-2f95ebcbc454",
+      "m_OwnerString": "922e77be772b43d8b5b731f8711628e7",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\GlobalMaps\\StarSystemObjects\\ExplorationVoidEncounters\\KasballicaVendor\\Cue_0002_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": null,
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": [
+        {
+          "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+          "name": "$AddItemToPlayer$c80d02b8f6cf4605a09050ae72fab09c",
+          "m_ItemToGive": "!bp_da2efe5ac9214abcb8ebab17ce6fcde9",
+          "Silent": false,
+          "Quantity": 1,
+          "Identify": false,
+          "Equip": false,
+          "EquipOn": null,
+          "PreferredWeaponSet": 0,
+          "m_Hand": "Any",
+          "ForceEquip": false,
+          "ErrorIfDidNotEquip": true
+        },
+        {
+          "$type": "0c999ae67aa244d183f40f6aeff494e1, GainFactionReputation",
+          "name": "$GainFactionReputation$65c4a812a265450e8b23e786371152e6",
+          "Reputation": 1500,
+          "Faction": "Kasballica"
+        },
+        {
+          "$type": "31abd123cda0b4147b509219dbb097a0, SetObjectiveStatus",
+          "name": "$SetObjectiveStatus$8c786100-ee47-4ddb-986c-8b93a8acdc27",
+          "Status": "Complete",
+          "m_Objective": "!bp_b4689960d96548609e31f9d301b38daf",
+          "StartObjectiveIfNone": false
+        },
+        {
+          "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+          "name": "$HideMapObject$2d15c95c-71d0-4089-b70e-1c815ca112cd",
+          "MapObject": {
+            "$type": "194956a0b3d319f4483778c51d2b3d10, StarSystemObjectOnScene",
+            "name": "$StarSystemObjectOnScene$da5920e4-700c-4e19-825a-fd3c909dce21",
+            "StarSystemObject": {
+              "EntityNameInEditor": "VENDOR_KASBALLICA",
+              "_entity_id": "58dcb4d8-cc17-4c90-94dc-07cfa5bb610c",
+              "SceneAssetGuid": "ca4bb9d50003a984396e8db5ce9c2d77"
+            }
+          },
+          "Unhide": false
+        }
+      ]
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

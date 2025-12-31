@@ -1,0 +1,29 @@
+{
+  "AssetId": "56bfc23ba20d45f9bb611ff0dc6a05a7",
+  "Data": {
+    "$type": "b9ea3359b1204b798a61750d6cb4e723, ConditionsHolder",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlisaSinelnikova",
+    "Comment": "Если отсканирована любая из Бернинг планет (тогда количество планет >0 и условие True)",
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "fcc336266b98019488d20a50d120e05c, FlagUnlocked",
+          "name": "$FlagUnlocked$c28ec2c5d1aa4bafb0ab3cf2e14d32aa",
+          "Not": true,
+          "m_ConditionFlag": "!bp_9941f784d0784b3a949c7e7979fca760",
+          "ExceptSpecifiedValues": false,
+          "SpecifiedValues": [
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

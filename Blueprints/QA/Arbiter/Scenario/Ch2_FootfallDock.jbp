@@ -1,0 +1,188 @@
+{
+  "AssetId": "916ce0e3bdbc4bf7823ace804fce7740",
+  "Data": {
+    "$type": "3d109802e28d417c9caeda4b45e572e9, BlueprintArbiterInstruction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "61a12f3449764a98bbb3774f0e76c3f2, AreaCheckerComponent",
+        "name": "$AreaCheckerComponent$7c487185-779b-407b-bb71-d231ac820e9c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Area": "!bp_a205c2b285744f819733426738657cfc",
+        "OverrideAreaPreset": "!bp_9ffe51fab5d04186b4344925c9411e3f",
+        "OverrideTimeOfDay": false,
+        "TimeOfDay": "Morning",
+        "MakeMapScreenshot": false,
+        "AreaParts": {
+          "ElementList": [
+            {
+              "$type": "05c1a401230a49719bc119a38d101cfd, AreaCheckerComponentPart",
+              "name": "$AreaCheckerComponentPart$40ea62a6-597e-47e2-8c4f-d7ade1d87d8b",
+              "EnterPoint": "!bp_e1d2bff3ea294d869a6b22902bb1911e",
+              "PointList": {
+                "ElementList": [
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$3590a76e785258a2b4e9c9aef8d80e3d",
+                    "Position": {
+                      "x": 28.2213135,
+                      "y": 1.39281464,
+                      "z": -7.684471
+                    },
+                    "Rotation": 266.456421,
+                    "Zoom": 2.899769E-08
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$86ae3f233f3d58a2a001f2a9528c1246",
+                    "Position": {
+                      "x": 18.0611572,
+                      "y": 1.39281464,
+                      "z": -22.2368851
+                    },
+                    "Rotation": 3.54551148,
+                    "Zoom": 6.74415857E-31
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$68399d2dc535564ca63e0146ce28dc8c",
+                    "Position": {
+                      "x": -3.663971,
+                      "y": 1.39281464,
+                      "z": -23.3708839
+                    },
+                    "Rotation": 349.57132,
+                    "Zoom": 3.672803E-42
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$f9ac4d2738cd5263acf31f3037086648",
+                    "Position": {
+                      "x": -33.4464035,
+                      "y": 1.39281464,
+                      "z": -22.5703964
+                    },
+                    "Rotation": 42.9801826,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$2cc36e583e085ec0ab38a607aa4570fc",
+                    "Position": {
+                      "x": -13.0788345,
+                      "y": 1.39281464,
+                      "z": -4.695442
+                    },
+                    "Rotation": 271.294922,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$026430d957ba54bc86bc4add5b44620b",
+                    "Position": {
+                      "x": -12.70179,
+                      "y": 1.39280951,
+                      "z": 11.9885654
+                    },
+                    "Rotation": 271.294922,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$d020efffb4da530aa3acf0697d1d2009",
+                    "Position": {
+                      "x": 7.128456,
+                      "y": 1.39280987,
+                      "z": 11.1773529
+                    },
+                    "Rotation": 266.946533,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$bc1b48ddd46e55c9a54ad0b0e68ac807",
+                    "Position": {
+                      "x": 26.0215912,
+                      "y": 1.39281178,
+                      "z": 15.5794926
+                    },
+                    "Rotation": 177.535263,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$c36902c427665a9288a2f178fe4b58dd",
+                    "Position": {
+                      "x": 1.38967133,
+                      "y": 1.392808,
+                      "z": 17.8626118
+                    },
+                    "Rotation": 144.045364,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$e9c8a20e32585c73983da9fa0e0f651e",
+                    "Position": {
+                      "x": -18.2675247,
+                      "y": 2.89363384,
+                      "z": 37.762394
+                    },
+                    "Rotation": 174.861969,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$8ef3356bc9515aa685dc38b83c3a3b0f",
+                    "Position": {
+                      "x": -34.8746872,
+                      "y": 1.39281368,
+                      "z": 23.7330837
+                    },
+                    "Rotation": 80.99088,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$ebf08282136559ec91733fa6c53a92ce",
+                    "Position": {
+                      "x": -36.8295021,
+                      "y": 1.39281464,
+                      "z": 3.13645554
+                    },
+                    "Rotation": 90.24506,
+                    "Zoom": 0.0
+                  },
+                  {
+                    "$type": "c5df78d16039466a9c6a8466a9847270, ArbiterPointElement",
+                    "name": "$ArbiterPointElement$8fc2f1097e5756739645fa409277805c",
+                    "Position": {
+                      "x": -4.621681,
+                      "y": 1.39281464,
+                      "z": -6.590744
+                    },
+                    "Rotation": 352.101318,
+                    "Zoom": 1.08438668E-10
+                  }
+                ],
+                "m_ElementTypeGuid": "c5df78d16039466a9c6a8466a9847270"
+              }
+            }
+          ],
+          "m_ElementTypeGuid": "05c1a401230a49719bc119a38d101cfd"
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": ""
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

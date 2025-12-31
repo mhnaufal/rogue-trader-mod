@@ -1,0 +1,92 @@
+{
+  "AssetId": "f447385a896f40308107e4964d1d12fd",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "1c4006c882ae4e7ba377e2718ac005b0, PointOfInterestResourcesComponent",
+        "name": "$PointOfInterestResourcesComponent$f9967869-2b16-4120-8537-3ed253fc0eb5",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_2ec6ede7616c47939776a716e5c2a3a1"
+      },
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$17a928c6-bc7f-4a35-9842-79d797757ca5",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_c9b7848e94744be59c07fae20f727644"
+      }
+    ],
+    "Author": "AlisaSinelnikova",
+    "Comment": "Porta Septentum",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "5de8207bd8c600948897e67c20de7f99",
+        "stringkey": "4085bfa8-faa6-4e3f-95ef-7a04c2fedadf"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Ocean",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "c50e42bb802cb454db3e94b51e9c2ab5",
+        "stringkey": "149cbafb-bc14-4fd2-9b0c-c809fda8f342"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "73b27863b7bca3646a83cfea46a8a65e",
+        "stringkey": "0da830fa-012a-4a3f-9f82-fa6aae3663c6"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "b09517b1125675a448a9de460df9d927",
+        "stringkey": "b7434eb6-315e-4f41-b0b5-f8dd8c3fc46c"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

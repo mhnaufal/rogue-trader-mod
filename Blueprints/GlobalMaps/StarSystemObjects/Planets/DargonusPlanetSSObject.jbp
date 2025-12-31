@@ -1,0 +1,181 @@
+{
+  "AssetId": "a9c083762b4b4993bb87ce08341327f9",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$InteractionEnterPointComponent$4f7b0a04-4ff1-4f57-b1ad-75d9acd84bb0",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_b1347da8a7f544e3b22aaa4e84060ea2"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$628a8d48-8467-400e-8d2c-8ef0a8ab384e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_9aaf3a76026641be8d60996951fc7acf"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$a30402e1-1a81-42fe-9645-1e67b8ae4f46",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_55d0d9900e5c4d259568c4682be60f66"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$373e0618-60ff-4ba6-aa41-970885251a06",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_8ce3a37cd11045b3a5e69b3eaa4b162d"
+      },
+      {
+        "$type": "1ff28703109a4697bd8e35b30aeda286, ColonyComponent",
+        "name": "$ColonyComponent$0633d5b7-1f92-409f-8dd3-284bd18c6f09",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "ColonyBlueprint": "!bp_e433f1613297486cb6ddec834f37dd95"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$0a3de8cb-98a9-4d5c-83ed-c0f7cfb63a8c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_8a3f81be929941b1b0c1d70153d6e20d"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$125bd60c-e1b2-40fa-987f-2958c5ddaa31",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_1a0d541db65b4470ab9bd351c470720d"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$b3a34334-c565-4127-9311-939b50a98add",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_857af67678a0468fae49ff064184393f"
+      },
+      {
+        "$type": "a677a7e8e4b042cbbfca23e53e3007fd, PointOfInterestGroundOperationComponent",
+        "name": "$PointOfInterestGroundOperationComponent$b80fe7a8-2404-49ce-888e-e8b81dfd720d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_171e6753a0ac4d5eb1bd04d19f2e1759"
+      }
+    ],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "81e5dbfd12ca6ef468565ae1dc635f25",
+        "stringkey": "a3676728-2f4a-4f85-ab22-911b2d2aaece"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "0fd94b30be1781b4eace67bb657ef17f",
+        "stringkey": ""
+      }
+    },
+    "m_Icon": null,
+    "IsQuestObject": true,
+    "IsScannedOnStart": true,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [
+      "!bp_be6db75d9f6e4498bfa4531f58dcfb4a",
+      "!bp_52850e064bf647c1815a47c686afac23",
+      "!bp_8814e44b66b147bdaa9cdd9ca0716cc7",
+      "!bp_48cdcd77ce194f07bb55003797f321d3",
+      "!bp_48e7bfd48f5c437d9f593be624981918",
+      "!bp_0c9e3edb667c403a89fca816f6c0ce31",
+      "!bp_45b5b7a6e09b4e9c88d82f49b52da5e6",
+      "!bp_02e31edd59054fd79a12ea0293f30660"
+    ],
+    "Type": "Continental",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "e21d5b935cf961f4e9bd1b0cd05c2827",
+        "stringkey": "e048d762-75f1-4bb5-b517-06f651b8d0a4"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "990a132b2af56cd4abcfb41a18bc02e2",
+        "stringkey": "fd0c2ede-5e08-48f3-b5d2-ec4a4cda2c83"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "15a084a92aef76740baf8376509b277f",
+        "stringkey": "3095079f-f0b1-4286-9d3d-ae3ecc11e273"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

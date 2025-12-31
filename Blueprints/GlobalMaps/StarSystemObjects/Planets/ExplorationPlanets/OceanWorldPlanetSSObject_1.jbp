@@ -1,0 +1,81 @@
+{
+  "AssetId": "bbe16326cefc4e69909e8aaf2c4e1a6c",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "df95ad1df0844cf8a525f62add206fd3, PointOfInterestLootComponent",
+        "name": "$PointOfInterestLootComponent$1300c8ca-b485-4301-ae29-5cc5e1e8ecea",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_c9bd23d5f2b7472fa204958caa662d23"
+      }
+    ],
+    "Author": "VadimBgatzev",
+    "Comment": "System Speculo",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "5de8207bd8c600948897e67c20de7f99",
+        "stringkey": "4085bfa8-faa6-4e3f-95ef-7a04c2fedadf"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Ocean",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "4c9f60ed3ef294c4e92f4cd09236c0d7",
+        "stringkey": "198ddb66-5824-40e1-b2bf-4d3243e9804d"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "65dc47bf0bb2ecf4a9b1f7b673fffc95",
+        "stringkey": "edee9e55-cfe4-4074-9b2d-27895522cb61"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "38ab6b44568882d40b7db9685310e343",
+        "stringkey": "5e0fa84d-7f42-4ff7-b8c7-4928d920cb4e"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

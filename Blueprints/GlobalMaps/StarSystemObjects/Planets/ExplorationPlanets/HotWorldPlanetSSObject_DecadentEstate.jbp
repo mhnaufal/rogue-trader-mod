@@ -1,0 +1,117 @@
+{
+  "AssetId": "a8660c16ee8d4b63be9e88de5da8caa7",
+  "Data": {
+    "$type": "38a57f27bb1e46e7a1d0200ffbbe1319, BlueprintPlanet",
+    "PrototypeLink": "",
+    "m_Overrides": [
+      "$PointOfInterestBookEventComponent$945ae0a0-dd2a-46dd-ab03-e6b0c5bbac6a"
+    ],
+    "Components": [
+      {
+        "$type": "a43ec46b34714baeadccaffda2641bb8, PointOfInterestBookEventComponent",
+        "name": "$PointOfInterestBookEventComponent$945ae0a0-dd2a-46dd-ab03-e6b0c5bbac6a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_PointBlueprint": "!bp_513a8d009cb245acafd6954c60728867"
+      },
+      {
+        "$type": "fbf24398eea844fab0cfa40166a129c2, ScanStarSystemObjectActions",
+        "name": "$ScanStarSystemObjectActions$15123d26-5cd2-4915-990b-2579716dd62c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Conditions": {
+          "Operation": "And",
+          "Conditions": []
+        },
+        "AdditionalActions": {
+          "Actions": [
+            {
+              "$type": "f4ef63ec9a4741d4bae871a91255f89a, IncrementFlagValue",
+              "name": "$IncrementFlagValue$9522b02f2c1b4b2e8396c16beca5b730",
+              "m_Flag": "!bp_9941f784d0784b3a949c7e7979fca760",
+              "Value": {
+                "$type": "9054151c7eb2e854ca7109522b1c3dde, IntConstant",
+                "name": "$IntConstant$980826efc887483db0ae1c47a3c4e26e",
+                "Value": 1
+              },
+              "UnlockIfNot": true
+            }
+          ]
+        }
+      }
+    ],
+    "Author": "AlisaSinelnikova",
+    "Comment": "",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "e182918b90e832f4fa15b7043b93ab2a",
+        "stringkey": "86c689fb-865b-422c-bbdf-b094e1843368"
+      }
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "IsQuestObject": false,
+    "IsScannedOnStart": false,
+    "Resources": [
+      {
+        "Resource": "!bp_38515cd3010244aa909141163d5ea75d",
+        "Count": 7
+      }
+    ],
+    "BarkBanterList": null,
+    "m_ConnectedAreas": [],
+    "Type": "Savannah",
+    "DontShowWorldType": false,
+    "WorldType": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "196b71836e6245e478f44c7169547e83",
+        "stringkey": "23380038-4b66-4902-a915-a6a250fa4895"
+      }
+    },
+    "TitheGrade": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "7f070021378656441a514ddcd37af050",
+        "stringkey": "919493f4-de7b-48d5-959d-039a7e277b2e"
+      }
+    },
+    "Aestimare": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "fba4dc1d01af42a498569c4ea29d92a1",
+        "stringkey": "c4086696-99b9-4d61-bb40-3e8033d9f751"
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
