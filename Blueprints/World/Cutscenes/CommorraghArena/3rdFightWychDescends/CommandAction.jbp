@@ -1,0 +1,53 @@
+{
+  "AssetId": "3f9f74dc2fe3477ea350452df6dd3996",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "0652c1b85291c994f8411a22deb2b6ec, Spawn",
+          "name": "$Spawn$56c8afee7e214331b4afc243e4b9d397",
+          "Spawners": [
+            {
+              "EntityNameInEditor": "Incubus_01",
+              "_entity_id": "636cb88e-6eab-488e-a982-ba6be8ee2d01",
+              "SceneAssetGuid": "8203b09560aa1c24d967e868131324da"
+            },
+            {
+              "EntityNameInEditor": "Wych_01",
+              "_entity_id": "0a468686-03ca-47f4-b3d1-3ca66305a57d",
+              "SceneAssetGuid": "8203b09560aa1c24d967e868131324da"
+            },
+            {
+              "EntityNameInEditor": "Wych_02",
+              "_entity_id": "b018c077-7a68-414a-ac37-ef00c0f7c3aa",
+              "SceneAssetGuid": "8203b09560aa1c24d967e868131324da"
+            },
+            {
+              "EntityNameInEditor": "Wych_03",
+              "_entity_id": "1b42a51f-8f97-4801-b4b7-09976489b81d",
+              "SceneAssetGuid": "8203b09560aa1c24d967e868131324da"
+            }
+          ],
+          "ActionsOnSpawn": {
+            "Actions": []
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "AssetId": "5639cda7918e4eeb9a0d621c54777641",
+  "Data": {
+    "$type": "de5b317dc48ef484193a356ca566cb7e, CommandBarkUnit",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Text": "",
+    "SharedText": null,
+    "Unit": {
+      "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+      "name": "$PlayerCharacter$09d0978adc154a43b55c226a0d453604"
+    },
+    "BarkDurationByText": true,
+    "AwaitFinish": true,
+    "CommandDurationShift": 0.0,
+    "ControlsUnit": true,
+    "IsSubText": false,
+    "OverrideBarkDuration": false,
+    "BarkDuration": 0.0,
+    "IsUnitOptional": false,
+    "m_SpeakerName": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

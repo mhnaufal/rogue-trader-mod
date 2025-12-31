@@ -1,0 +1,39 @@
+{
+  "AssetId": "f024620a93474b84b7226cf590b71bf8",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "4ba3c72bb22d4da7857a6fbcdfd82f46, SwitchFaction",
+          "name": "$SwitchFaction$607a0a2a6fc94b53a4fe58c5bb31197f",
+          "Target": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$7a57c96c34ca4949bd330efd23bdd42e",
+            "Spawner": {
+              "EntityNameInEditor": "BrassWhisper",
+              "_entity_id": "dbecdc92-aabf-4c3b-86b0-740c03bdaf74",
+              "SceneAssetGuid": "1b73a5db9415769468cf17aaf51b2763"
+            }
+          },
+          "m_Faction": "!bp_d64258e86eeb1d8479f35a9b16f6590a",
+          "IncludeGroup": true
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "AssetId": "fc52f3fe47f24c4b8682c1b408b6d41d",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": null,
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": null,
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "b416216a964543c4e89e50cd51b22cf7, SetSoundState",
+          "name": "$SetSoundState$a3358fc2-b01e-4802-ab4b-9a4120d96076",
+          "m_State": {
+            "Value": "None",
+            "Group": "NARR_AgriWorldTown_DefaultWallaMute_ForeGreetingsCutscene"
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

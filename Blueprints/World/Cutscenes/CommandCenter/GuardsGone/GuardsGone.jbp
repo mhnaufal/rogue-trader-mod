@@ -1,0 +1,81 @@
+{
+  "AssetId": "291ae25ff45d4309a10464591b3eb219",
+  "Data": {
+    "$type": "96610525fc0cf8c41bfef88a84117024, Cutscene",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_89d78ea31ee04f1bbbe8c375039608d4"
+        ],
+        "m_EndGate": "!bp_61f6f1e71428473bb4d976135cc119bd",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_cefaf84a4ac04a82bebfc37bf6609b4d"
+        ],
+        "m_EndGate": "!bp_d8edcc8c253d483583d2ac6cc3877393",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false,
+    "Priority": "Patrol",
+    "NonSkippable": false,
+    "ForbidDialogs": true,
+    "ForbidRandomIdles": true,
+    "IsBackground": false,
+    "Freezeless": false,
+    "Sleepless": false,
+    "AllowCopies": false,
+    "LockControl": false,
+    "ShowPets": false,
+    "ShowOverlay": false,
+    "AllowRoaming": false,
+    "Anchors": [],
+    "MarkedUnitHandling": "Pause",
+    "DefaultParameters": {
+      "Parameters": []
+    },
+    "OnStopped": {
+      "Actions": []
+    },
+    "OnFinished": {
+      "Actions": [
+        {
+          "$type": "507aef8c6c6218c49aaf0987b355f400, PlayCutscene",
+          "name": "$PlayCutscene$0413b2cb9a294968a1c939008dfe1a12",
+          "m_Cutscene": "!bp_1253b751246d4cd0b3a165a809954964",
+          "PutInQueue": false,
+          "CheckExistence": true,
+          "Parameters": {
+            "Parameters": []
+          }
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

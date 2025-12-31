@@ -1,0 +1,51 @@
+{
+  "AssetId": "3e5eff4647c44c1294afc083105f2503",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AntonKharybin",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "abb0dcfdb51f3594ab0d2b1d28ecc782, Kill",
+          "name": "$Kill$c6ca0331008c5a7f9dfbaf8770f538aa",
+          "Target": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$d7a1934b09fb5cb4b76124e3a7153f30",
+            "Spawner": {
+              "EntityNameInEditor": "WildKhymera_02",
+              "_entity_id": "6f1b4849-3bad-4de5-bfd8-189156d695e4",
+              "SceneAssetGuid": "Assets/Scenes/Chapter_3/CommorraghArena/CommorraghArena_Mechanics.unity"
+            }
+          },
+          "Killer": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$953fb6474b5a555e8a8edbd7d5cbbb92",
+            "Spawner": {
+              "EntityNameInEditor": "WildKhymera_02",
+              "_entity_id": "6f1b4849-3bad-4de5-bfd8-189156d695e4",
+              "SceneAssetGuid": "Assets/Scenes/Chapter_3/CommorraghArena/CommorraghArena_Mechanics.unity"
+            }
+          },
+          "ImpulseMultiplier": 1,
+          "Dismember": "InPower",
+          "m_DismemberingAnimation": "LeftHand",
+          "DisableBattleLog": true,
+          "RemoveExp": true
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "AssetId": "d8f3cf49bf934b7f8db65dc9639f3c9c",
+  "Data": {
+    "$type": "51c5dfefb75a19a49a0dc708f3a2b76e, Gate",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_eb9be40566a14c9e88073b2c86297cbd",
+          "!bp_1fec789e4e5f4eb3b0f66c7ea4381898",
+          "!bp_e735b6b4033246d3b85d770c31a5a6f2"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_033ea8f09d654f5595689182b39a23b8",
+          "!bp_6bed73539a3a41a680b2c94bd9ab1947"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_762b1f7851d74965b3fbfa929b51c601"
+        ],
+        "m_EndGate": "!bp_6890c42997074ae99b7e109277048dc7",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

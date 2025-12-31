@@ -1,0 +1,33 @@
+{
+  "AssetId": "1c3b1a29da6b4be494bd5620b7c7b1a0",
+  "Data": {
+    "$type": "dd3e509d1d5d21c4b851a4d373822c4c, CommandCameraFollow",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "IgorDmitriev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Target": {
+      "$type": "ac7da90e77cb5af44b778bfce17bb4aa, UnitPosition",
+      "name": "$UnitPosition$179ee3b867125f8197e9233b6756a1a6",
+      "Unit": {
+        "$type": "9e61684a16394f879f8b2de216fcb960, PetByOwner",
+        "name": "$PetByOwner$c65781e9-e91a-4cd3-82c3-3bb6e2d2e471",
+        "OwnerEvaluator": {
+          "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+          "name": "$PlayerCharacter$ea6ca78c-d72b-4b1f-99e1-8cca5f61e437"
+        }
+      }
+    },
+    "OverrideRubberband": 2.0
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "AssetId": "e44c358e93fa4a9c88aa4bccef955510",
+  "Data": {
+    "$type": "a07b97ed760cca9409b22e2e3ebc622f, CommandAction",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "EntryCondition": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "OnFail": "RemoveTrack",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Action": {
+      "Actions": [
+        {
+          "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+          "name": "$HideMapObject$f29d45985da2417f90e07f04eaf7a043",
+          "MapObject": {
+            "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+            "name": "$MapObjectFromScene$a4a0edb9265e4d60a17eba124d7f141e",
+            "MapObject": {
+              "EntityNameInEditor": "stage_0",
+              "_entity_id": "41ab1870-e301-406d-866c-d7bae452a406",
+              "SceneAssetGuid": "Assets/Scenes/DLC2/EE_FrozenEnclave/EE_FrozenEnclave_DLC2_EE_FrozenEnclave_Static.unity"
+            }
+          },
+          "Unhide": false
+        },
+        {
+          "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+          "name": "$HideMapObject$8e0a267080144f918dfd637afc15eb51",
+          "MapObject": {
+            "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+            "name": "$MapObjectFromScene$532e57e9c28f40e18b485a397d92f1da",
+            "MapObject": {
+              "EntityNameInEditor": "stage_1",
+              "_entity_id": "430f5ad1-fedb-423f-bc8b-5639f1a1778b",
+              "SceneAssetGuid": "Assets/Scenes/DLC2/EE_FrozenEnclave/EE_FrozenEnclave_DLC2_EE_FrozenEnclave_Static.unity"
+            }
+          },
+          "Unhide": true
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

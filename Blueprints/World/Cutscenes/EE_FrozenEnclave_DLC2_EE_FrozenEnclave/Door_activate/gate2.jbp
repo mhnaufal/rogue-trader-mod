@@ -1,0 +1,38 @@
+{
+  "AssetId": "595f5f7c600e46a8b2d6e7f25eba61ac",
+  "Data": {
+    "$type": "51c5dfefb75a19a49a0dc708f3a2b76e, Gate",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_5c39a97ad172422eafb244235562c26e",
+          "!bp_40e5502a82ee4670ba2636e7aa6f331e"
+        ],
+        "m_EndGate": null,
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

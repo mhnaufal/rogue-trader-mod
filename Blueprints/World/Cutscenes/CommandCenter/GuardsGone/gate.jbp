@@ -1,0 +1,48 @@
+{
+  "AssetId": "d8edcc8c253d483583d2ac6cc3877393",
+  "Data": {
+    "$type": "51c5dfefb75a19a49a0dc708f3a2b76e, Gate",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "m_EvaluationErrorHandlingPolicy": "Default",
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Tracks": [
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_7d22439ec90744a19beb349216538840"
+        ],
+        "m_EndGate": "!bp_20458dfa4a15447aa069bac741b91399",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      },
+      {
+        "m_EvaluationErrorHandlingPolicy": "Default",
+        "m_Commands": [
+          "!bp_0108908f81e542fe899d0dd294a93c91",
+          "!bp_6df35b8184de4cfa88baf503fa567cd3"
+        ],
+        "m_EndGate": "!bp_20458dfa4a15447aa069bac741b91399",
+        "m_Repeat": false,
+        "Comment": "",
+        "IsCollapsed": false
+      }
+    ],
+    "m_Op": "And",
+    "m_ActivationMode": "AllTracks",
+    "WhenTrackIsSkipped": "DoNotSignalGate",
+    "PauseForOneFrame": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
