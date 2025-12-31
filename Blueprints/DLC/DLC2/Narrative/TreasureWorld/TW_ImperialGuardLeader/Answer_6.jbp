@@ -1,0 +1,132 @@
+{
+  "AssetId": "faf94358487448968ef288cacb3a0069",
+  "Data": {
+    "$type": "df78945bb9f434e40b897758499cb714, BlueprintAnswer",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "",
+    "ParentAsset": "49f5cbbdd0f84be69f5f8bba40e2c9ba",
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "318b13fc-88a3-4663-9f42-e7206a9273fd",
+      "m_OwnerString": "faf94358487448968ef288cacb3a0069",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\DLC\\DLC2\\Narrative\\TreasureWorld\\TW_ImperialGuardLeader\\Answer_6_Text.json",
+      "Shared": null
+    },
+    "NextCue": {
+      "Cues": [
+        "!bp_3cddc184c5b24899970d20d46a526f2b"
+      ],
+      "Strategy": "First"
+    },
+    "ShowOnce": true,
+    "ShowOnceCurrentDialog": false,
+    "ShowCheck": {
+      "Type": "Unknown",
+      "Difficulty": "Custom",
+      "DC": 0
+    },
+    "OnCheckSuccess": {
+      "Actions": []
+    },
+    "OnCheckFail": {
+      "Actions": []
+    },
+    "DebugMode": false,
+    "CharacterSelection": {
+      "SelectionType": "Clear",
+      "ComparisonStats": []
+    },
+    "ShowConditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$fdddebe6-3cb6-43f6-b5e6-ae9d1611f810",
+          "Not": false,
+          "m_Etude": "!bp_43fbc71c50084afcafa433b290dccccd",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": true,
+          "CompletionInProgress": false,
+          "Completed": false
+        }
+      ]
+    },
+    "SelectConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "RequireValidCue": false,
+    "AddToHistory": true,
+    "OnSelect": {
+      "Actions": [
+        {
+          "$type": "0c996f778c13abb408bdd05f7f6fe317, AttachBuff",
+          "name": "$AttachBuff$bbbd4cb4a20a48dd95e86edee8379762",
+          "m_Buff": "!bp_52d8c8fa44a047318f02f546bbd66ffa",
+          "Target": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$829e22b6e7294b239de2cf47224b0c35",
+            "Spawner": {
+              "EntityNameInEditor": "Spawner [TreasureWorld_FeralGuard_Leader]_Dialog",
+              "_entity_id": "17ba39c2-e5f1-46c1-b7ad-62dbdcd5bf59",
+              "SceneAssetGuid": "8598faba60bb88e4b943f3472cf68257"
+            }
+          },
+          "Duration": {
+            "$type": "9054151c7eb2e854ca7109522b1c3dde, IntConstant",
+            "name": "$IntConstant$8e1079ff10a250948dd44209d55b2073",
+            "Value": 100
+          },
+          "UseEndCondition": true,
+          "EndCondition": "CombatEnd",
+          "AddFactSource": false
+        }
+      ]
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "FakeChecks": [],
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

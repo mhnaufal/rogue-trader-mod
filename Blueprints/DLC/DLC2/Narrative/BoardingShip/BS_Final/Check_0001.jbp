@@ -1,0 +1,39 @@
+{
+  "AssetId": "dfe2f5be39094399ab7c1c3a01a70417",
+  "Data": {
+    "$type": "ab803aaa7a173f84e9172870c15e7493, BlueprintCheck",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "",
+    "ParentAsset": "",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Type": "WarhammerWeaponSkill",
+    "Hidden": false,
+    "Difficulty": "Normal",
+    "DC": 0,
+    "DCModifiers": [],
+    "m_Success": null,
+    "m_Fail": "!bp_cd2e428bdd204d4592fc9a4faad0d6db",
+    "OnCheckSuccessActions": {
+      "Actions": []
+    },
+    "OnCheckFailActions": {
+      "Actions": []
+    },
+    "m_UnitEvaluator": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "AssetId": "a07328410ea84afbb4d0b4563c159174",
+  "Data": {
+    "$type": "df78945bb9f434e40b897758499cb714, BlueprintAnswer",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "",
+    "ParentAsset": "59acd6249828475ea48186374ee7f206",
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "d8800762-71a0-43b5-be5a-74d3e98e1509",
+      "m_OwnerString": "a07328410ea84afbb4d0b4563c159174",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\DLC\\DLC2\\Narrative\\BoardingShip\\BS_Final\\Answer_8_Text.json",
+      "Shared": null
+    },
+    "NextCue": {
+      "Cues": [
+        "!bp_40b2dd67bd734793be85a23bc1e7c86a"
+      ],
+      "Strategy": "First"
+    },
+    "ShowOnce": true,
+    "ShowOnceCurrentDialog": false,
+    "ShowCheck": {
+      "Type": "Unknown",
+      "Difficulty": "Custom",
+      "DC": 0
+    },
+    "OnCheckSuccess": {
+      "Actions": []
+    },
+    "OnCheckFail": {
+      "Actions": []
+    },
+    "DebugMode": false,
+    "CharacterSelection": {
+      "SelectionType": "Clear",
+      "ComparisonStats": []
+    },
+    "ShowConditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+          "name": "$EtudeStatus$a2c9ba61f0b54f7bac8cdae43c1ce2e7",
+          "Not": false,
+          "m_Etude": "!bp_57658c516b99466da87edf82acdfa370",
+          "NotStarted": false,
+          "Started": false,
+          "Playing": true,
+          "CompletionInProgress": false,
+          "Completed": false
+        }
+      ]
+    },
+    "SelectConditions": {
+      "Operation": "And",
+      "Conditions": []
+    },
+    "RequireValidCue": false,
+    "AddToHistory": true,
+    "OnSelect": {
+      "Actions": [
+        {
+          "$type": "0c996f778c13abb408bdd05f7f6fe317, AttachBuff",
+          "name": "$AttachBuff$bfd42164bfed4308b936cb5c02b85e84",
+          "m_Buff": "!bp_8b185e518c30407bac141a6c6fc889b1",
+          "Target": {
+            "$type": "da45a98792587f244901f1020d4b35b1, UnitFromSpawner",
+            "name": "$UnitFromSpawner$d6f646c190774c0991a4a7e14d5d9a33",
+            "Spawner": {
+              "EntityNameInEditor": "Boss",
+              "_entity_id": "9c5cbea0-ad34-4578-9254-650b427ba8cb",
+              "SceneAssetGuid": "1ab2bebaf59621f42b10eae5e4d5a6f5"
+            }
+          },
+          "Duration": {
+            "$type": "9054151c7eb2e854ca7109522b1c3dde, IntConstant",
+            "name": "$IntConstant$bd13f9e0f0b843e78ce59752dd91cee2",
+            "Value": 100
+          },
+          "UseEndCondition": true,
+          "EndCondition": "CombatEnd",
+          "AddFactSource": false
+        }
+      ]
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "FakeChecks": [],
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "AssetId": "327c628f303d40deb2f83d508cee487f",
+  "Data": {
+    "$type": "8eee9d45ddcfa614d99610c1892993e3, BlueprintCue",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": 0,
+    "Comment": "",
+    "ParentAsset": "ee29204725be40b8a7859e29702a5a27",
+    "ShowOnce": false,
+    "ShowOnceCurrentDialog": false,
+    "Conditions": {
+      "Operation": "And",
+      "Conditions": [
+        {
+          "$type": "1d392c8d9feed78408fbcb18f9468fb9, OrAndLogic",
+          "name": "$OrAndLogic$3358ac3ceb5b4cc08ba2169b6347dece",
+          "Not": true,
+          "Comment": "",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+                "name": "$EtudeStatus$479a3851-5d2c-40c7-a998-25b0a2548aea",
+                "Not": true,
+                "m_Etude": "!bp_4efccc2addf5409aab102a174c849431",
+                "NotStarted": false,
+                "Started": false,
+                "Playing": true,
+                "CompletionInProgress": false,
+                "Completed": false
+              },
+              {
+                "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+                "name": "$EtudeStatus$989bea8a-2fbf-4e3e-91d8-d1a7b0235dc0",
+                "Not": false,
+                "m_Etude": "!bp_7c85e7b1bb064baba9c63720a712bb44",
+                "NotStarted": false,
+                "Started": false,
+                "Playing": true,
+                "CompletionInProgress": false,
+                "Completed": false
+              }
+            ]
+          }
+        },
+        {
+          "$type": "1d392c8d9feed78408fbcb18f9468fb9, OrAndLogic",
+          "name": "$OrAndLogic$e3efc84dbc6f480dbc91d2ff7f27b280",
+          "Not": true,
+          "Comment": "",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+                "name": "$EtudeStatus$8262b345-e7ed-40dc-80e9-56fe5eebc1be",
+                "Not": false,
+                "m_Etude": "!bp_4efccc2addf5409aab102a174c849431",
+                "NotStarted": false,
+                "Started": false,
+                "Playing": true,
+                "CompletionInProgress": false,
+                "Completed": false
+              },
+              {
+                "$type": "ea981728db8a5f84888ecba390671a05, EtudeStatus",
+                "name": "$EtudeStatus$03eae62d-b001-4361-ba3f-efbf03d51bc5",
+                "Not": true,
+                "m_Etude": "!bp_7c85e7b1bb064baba9c63720a712bb44",
+                "NotStarted": false,
+                "Started": false,
+                "Playing": true,
+                "CompletionInProgress": false,
+                "Completed": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "m_EditorComment": {
+      "m_EditorComment": "",
+      "m_Foldout": false
+    },
+    "Text": {
+      "m_Key": "e597d52d-a9e8-42ff-ba3d-1098ca3fbbd5",
+      "m_OwnerString": "327c628f303d40deb2f83d508cee487f",
+      "m_OwnerPropertyPath": "Text",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\DLC\\DLC2\\Narrative\\TreasureWorld\\TW_Servitor\\Cue_0011_Text.json",
+      "Shared": null
+    },
+    "SoulMarkRequirement": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Speaker": {
+      "m_Blueprint": "!bp_948abdeffc744794589d6b3f59a1cd0f",
+      "MoveCamera": true,
+      "NotRevealInFoW": false,
+      "NoSpeaker": false,
+      "DoNotReplaceSpeakerWithErrorSpeaker": false,
+      "m_SpeakerPortrait": null
+    },
+    "TurnSpeaker": true,
+    "IsNarratorText": false,
+    "Animation": "None",
+    "m_Listener": null,
+    "OnShow": {
+      "Actions": []
+    },
+    "OnStop": {
+      "Actions": []
+    },
+    "Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "SoulMarkShift": {
+      "Direction": "None",
+      "Value": 0,
+      "CheckByRank": false,
+      "Rank": 0,
+      "Description": {
+        "m_Key": "",
+        "m_OwnerString": "",
+        "m_OwnerPropertyPath": "",
+        "m_JsonPath": "",
+        "Shared": null
+      }
+    },
+    "Answers": [],
+    "Continue": {
+      "Cues": [],
+      "Strategy": "First"
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
