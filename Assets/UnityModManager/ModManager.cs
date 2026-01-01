@@ -1221,8 +1221,7 @@ namespace UnityModManagerNet
             #if UNITY_EDITOR
             gameVersion = new Version(1, 0, 0);
             return;
-            #endif
-
+            #else
             try
             {
                 gameVersion = ParseVersion(passedGameVersion);
@@ -1238,6 +1237,7 @@ namespace UnityModManagerNet
                 PFLog.UnityModManager.Exception(e, "while parsing game version");
                 OpenUnityFileLog();
             }
+            #endif
         }
         
         private static bool GetValueFromMember(Type cls, ref object instance, string name, bool _static)

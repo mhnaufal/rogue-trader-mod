@@ -105,7 +105,7 @@ namespace UnityModManagerNet
                     LegacyInputDisabled = false;
                 }
             }
-            catch (Exception e)
+            catch (Exception /* e */)
             {
                 LegacyInputDisabled = true;
                 PFLog.UnityModManager.Log($"Legacy Input is disabled.");

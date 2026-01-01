@@ -107,7 +107,7 @@ namespace UnityModManagerNet
         private static IEnumerator DownloadString(string url, UnityAction<string, string> handler)
         {
             var www = UnityWebRequest.Get(url);
-            yield return www.Send();
+            yield return www.SendWebRequest();
 
             MethodInfo isError;
             var ver = ParseVersion(Application.unityVersion);
@@ -130,8 +130,10 @@ namespace UnityModManagerNet
 
         private static IEnumerator DownloadString_5_3(string url, UnityAction<string, string> handler)
         {
-            var www = new WWW(url);
-            yield return www;
+            // var www = new WWW(url);
+            // yield return www;
+            var www = UnityWebRequest.Get(url);
+            yield return www.SendWebRequest();
 
             if (!string.IsNullOrEmpty(www.error))
             {
@@ -140,7 +142,8 @@ namespace UnityModManagerNet
                 yield break;
             }
 
-            handler(www.text, url);
+            // handler(www.text, url);
+            handler(www.downloadHandler.text, url);
         }
     }
 }

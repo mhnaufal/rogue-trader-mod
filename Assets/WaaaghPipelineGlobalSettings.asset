@@ -24,6 +24,105 @@ MonoBehaviour:
   - rid: 6021885573120655366
   - rid: 6021885573120655367
   - rid: 6021885573120655368
+  - rid: 6021885582511702210
+  - rid: 6021885582511702211
+  - rid: 6021885582511702212
+  - rid: 6021885582511702213
+  - rid: 6021885582511702214
+  - rid: 6021885582511702215
+  - rid: 6021885582511702216
+  - rid: 6021885582511702217
+  - rid: 6021885582511702218
+  - rid: 6021885582511702219
+  - rid: 6021885582511702220
+  - rid: 6021885582511702221
+  - rid: 6021885582511702222
+  - rid: 6021885582511702223
+  - rid: 6021885582511702224
+  - rid: 6021885582511702225
+  - rid: 6021885582511702226
+  - rid: 6021885582511702227
+  - rid: 6021885582511702228
+  - rid: 6021885582511702229
+  - rid: 6021885582511702230
+  - rid: 6021885582511702231
+  - rid: 6021885582511702232
+  - rid: 6021885582511702233
+  - rid: 6021885582511702234
+  - rid: 6021885582511702235
+  - rid: 6021885582511702236
+  - rid: 6021885582511702237
+  - rid: 6021885582511702238
+  - rid: 6021885582511702239
+  - rid: 6021885582511702240
+  - rid: 6021885582511702241
+  - rid: 6021885582511702242
+  - rid: 6021885582511702243
+  - rid: 6021885582511702244
+  - rid: 6021885582511702245
+  - rid: 6021885582511702246
+  - rid: 6021885582511702247
+  - rid: 6021885582511702248
+  - rid: 6021885582511702249
+  - rid: 6021885582511702250
+  - rid: 6021885582511702251
+  - rid: 6021885582511702252
+  - rid: 6021885582511702253
+  - rid: 6021885582511702254
+  - rid: 6021885582511702255
+  - rid: 6021885582511702256
+  - rid: 6021885582511702257
+  - rid: 6021885582511702258
+  - rid: 6021885582511702259
+  - rid: 6021885582511702260
+  - rid: 6021885582511702261
+  - rid: 6021885582511702262
+  - rid: 6021885582511702263
+  - rid: 6021885582511702264
+  - rid: 6021885582511702265
+  - rid: 6021885582511702266
+  - rid: 6021885582511702267
+  - rid: 6021885582511702268
+  - rid: 6021885582511702269
+  - rid: 6021885582511702270
+  - rid: 6021885582511702271
+  - rid: 6021885582511702272
+  - rid: 6021885582511702273
+  - rid: 6021885582511702274
+  - rid: 6021885582511702275
+  - rid: 6021885582511702276
+  - rid: 6021885582511702277
+  - rid: 6021885582511702278
+  - rid: 6021885582511702279
+  - rid: 6021885582511702280
+  - rid: 6021885582511702281
+  - rid: 6021885582511702282
+  - rid: 6021885582511702283
+  - rid: 6021885582511702284
+  - rid: 6021885582511702285
+  - rid: 6021885582511702286
+  - rid: 6021885582511702287
+  - rid: 6021885582511702288
+  - rid: 6021885582511702289
+  - rid: 6021885582511702290
+  - rid: 6021885582511702291
+  - rid: 6021885582511702292
+  - rid: 6021885582511702293
+  - rid: 6021885582511702294
+  - rid: 6021885582511702295
+  - rid: 6021885582511702296
+  - rid: 6021885582511702297
+  - rid: 6021885582511702298
+  - rid: 6021885582511702299
+  - rid: 6021885582511702300
+  - rid: 6021885582511702301
+  - rid: 6021885582511702302
+  - rid: 6021885582511702303
+  - rid: 6021885582511702304
+  - rid: 6021885582511702305
+  - rid: 6021885582511702306
+  - rid: 6021885582511702307
+  - rid: 6021885582511702308
   SupportRuntimeDebugDisplay: 0
   references:
     version: 2
@@ -90,6 +189,743 @@ MonoBehaviour:
         m_ShaderVariantLogLevel: 0
         m_StripRuntimeDebugShaders: 1
     - rid: 6021885573120655368
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702210
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702211
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702212
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702213
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702214
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702215
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702216
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702217
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702218
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702219
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702220
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702221
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702222
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702223
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702224
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702225
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702226
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702227
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702228
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702229
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702230
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702231
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702232
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702233
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702234
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702235
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702236
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702237
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702238
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702239
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702240
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702241
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702242
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702243
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702244
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702245
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702246
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702247
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702248
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702249
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702250
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702251
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702252
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702253
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702254
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702255
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702256
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702257
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702258
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702259
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702260
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702261
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702262
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702263
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702264
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702265
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702266
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702267
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702268
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702269
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702270
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702271
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702272
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702273
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702274
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702275
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702276
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702277
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702278
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702279
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702280
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702281
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702282
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702283
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702284
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702285
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702286
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702287
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702288
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702289
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702290
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702291
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702292
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702293
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702294
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702295
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702296
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702297
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702298
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702299
+      type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_setupCS: {fileID: 0}
+        m_preTaaCS: {fileID: 0}
+        m_taaCS: {fileID: 0}
+    - rid: 6021885582511702300
+      type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_EnableCompilationCaching: 1
+        m_EnableValidityChecks: 1
+    - rid: 6021885582511702301
+      type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeBlendStatesCS: {fileID: 0}
+        probeVolumeUploadDataCS: {fileID: 0}
+        probeVolumeUploadDataL2CS: {fileID: 0}
+    - rid: 6021885582511702302
+      type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+        m_IncludeReferencedInScenes: 0
+        m_IncludeAssetsByLabel: 0
+        m_LabelToInclude: 
+    - rid: 6021885582511702303
+      type: {class: ProbeVolumeBakingResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        dilationShader: {fileID: 0}
+        subdivideSceneCS: {fileID: 0}
+        voxelizeSceneShader: {fileID: 0}
+        traceVirtualOffsetCS: {fileID: 0}
+        traceVirtualOffsetRT: {fileID: 0}
+        skyOcclusionCS: {fileID: 0}
+        skyOcclusionRT: {fileID: 0}
+        renderingLayerCS: {fileID: 0}
+        renderingLayerRT: {fileID: 0}
+    - rid: 6021885582511702304
+      type: {class: ProbeVolumeDebugResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        probeVolumeDebugShader: {fileID: 0}
+        probeVolumeFragmentationDebugShader: {fileID: 0}
+        probeVolumeSamplingDebugShader: {fileID: 0}
+        probeVolumeOffsetDebugShader: {fileID: 0}
+        probeSamplingDebugMesh: {fileID: 0}
+        numbersDisplayTex: {fileID: 0}
+    - rid: 6021885582511702305
+      type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util,
+        asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_CoreCopyPS: {fileID: 0}
+    - rid: 6021885582511702306
+      type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_ProbeVolumeDisableStreamingAssets: 0
+    - rid: 6021885582511702307
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 1
+    - rid: 6021885582511702308
       type: {class: STP/RuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_setupCS: {fileID: 0}
