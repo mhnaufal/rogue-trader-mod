@@ -3,7 +3,7 @@
 --- !u!30 &1
 GraphicsSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 15
+  serializedVersion: 16
   m_Deferred:
     m_Mode: 1
     m_Shader: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
@@ -119,13 +119,12 @@ GraphicsSettings:
   m_FogKeepExp: 0
   m_FogKeepExp2: 0
   m_AlbedoSwatchInfos: []
+  m_RenderPipelineGlobalSettingsMap:
+    Owlcat.Runtime.Visual.Waaagh.WaaaghPipeline: {fileID: 11400000, guid: cf7c198f7f078504c8286f81bdeda0fc,
+      type: 2}
   m_LightsUseLinearIntensity: 0
   m_LightsUseColorTemperature: 1
-  m_DefaultRenderingLayerMask: 1
   m_LogWhenShaderIsCompiled: 0
-  m_SRPDefaultSettings:
-    Owlcat.Runtime.Visual.Waaagh.WaaaghPipeline: {fileID: 11400000, guid: 4e9c4d8b433a24c4e9965a4436230b36,
-      type: 2}
   m_LightProbeOutsideHullStrategy: 0
   m_CameraRelativeLightCulling: 0
   m_CameraRelativeShadowCulling: 0

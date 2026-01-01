@@ -32,6 +32,8 @@ MonoBehaviour:
       type: 3}
     DeferredLightingShader: {fileID: 4800000, guid: 78f71836d3546cf43864ab867344dee0,
       type: 3}
+    DeferredLightingCS: {fileID: 7200000, guid: 594c60c1a4befa44aad22e219c219d6f,
+      type: 3}
     BlitShader: {fileID: 4800000, guid: 259802a8cd002854f8072d178ddc897d, type: 3}
     ColorPyramidShader: {fileID: 4800000, guid: ce0bc8b5268850e45994257a603b3c22,
       type: 3}
@@ -62,3 +64,5 @@ MonoBehaviour:
       type: 3}
   PostProcessData: {fileID: 11400000, guid: 795b8953b9da402478af321b6954d177, type: 2}
   m_TileSize: 16
+  m_DeferredLightingMode: 0
+  m_DeferredLightingComputeDispatchTileSize: 16
