@@ -157,14 +157,32 @@ namespace Kingmaker.Editor.Validation
         };
 
         static ReferenceGraph m_ReferenceGraph;
-        
-        
+
+        #region MicroPatches
+        //static ReferenceGraph()
+        //{
+        //    BlueprintsDatabase.OnPreSave += id => Graph?.CleanReferencesInBlueprintWithId(id);
+        //    BlueprintsDatabase.OnSavedId += id => Graph?.ParseFileWithId(id);
+        //    IsReferenceTrackingSuppressed = EditorPreferences.Instance.SuppressReferenceTracking;
+        //}
+
         static ReferenceGraph()
         {
-	        BlueprintsDatabase.OnPreSave +=  Graph.CleanReferencesInBlueprintWithId;
-	        BlueprintsDatabase.OnSavedId += Graph.ParseFileWithId;
+	        BlueprintsDatabase.OnPreSave += id => Graph?.CleanReferencesInBlueprintWithId(id);
+	        BlueprintsDatabase.OnSavedId += id => Graph?.ParseFileWithId(id);
             IsReferenceTrackingSuppressed = EditorPreferences.Instance.SuppressReferenceTracking;
         }
+
+        [InitializeOnLoadMethod]
+        static void InitGraph()
+        {
+            if (!File.Exists("references.xml"))
+            {
+                Debug.LogWarning("references.xml does not exist. Creating reference graph.");
+                CollectMenu();
+            }
+        }
+        #endregion
 
         public static ReferenceGraph Graph
         {

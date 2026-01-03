@@ -3,8 +3,13 @@ using Kingmaker.Localization;
 using Kingmaker.Utility.Serialization;
 using Newtonsoft.Json;
 using OwlcatModification.Editor.Utility;
+
+using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
@@ -82,27 +87,83 @@ namespace Code.GameCore.Editor.Mods
             var newGuid = ScriptsGuidUtil.GetScriptGuid(typeof(SharedStringAsset));
             var newFileId = FileIDUtil.Compute(typeof(SharedStringAsset));
 
-            var oldMetaString = $"fileID: {OldSharedStringScriptFileId}, guid: {OldSharedStringScriptGuid}";
-            var newMetaString = $"fileID: {newFileId}, guid: {newGuid}";
+            #region MicroPatches
+            //var oldMetaString = $"fileID: {OldSharedStringScriptFileId}, guid: {OldSharedStringScriptGuid}";
+            //var newMetaString = $"fileID: {newFileId}, guid: {newGuid}";
 
             PFLog.Mods.Log($"New SharedStringAssets guid {newGuid}, fileId {newFileId}");
 
-            Parallel.ForEach(files, 
-                file =>
-                {
-                    try
-                    {
-                        RepairConfig(file, oldMetaString, newMetaString);
-                    }
-                    catch(DirectoryNotFoundException e)
-                    {
-                        PFLog.Mods.Error($"Skipping {file} due to long file path");
-                    }
-                });
-        }
+            AssetDatabase.ReleaseCachedFileHandles();
+            AssetDatabase.StartAssetEditing();
 
-        private static void RepairConfig(string filePath, string oldMeta, string newMeta)
+            var progressid = Progress.Start("Repairing SharedStringAssets");
+
+            try
+            {
+                var count = 0;
+
+                Parallel.ForEach(files,
+                    file =>
+                    {
+                        //RepairConfig(file, oldMetaString, newMetaString);
+                        RepairConfig(file, newFileId.ToString(), newGuid);
+                        Interlocked.Increment(ref count);
+                        Progress.Report(progressid, ((float)count) / ((float)files.Count));
+                    });
+            }
+            finally
+            {
+                AssetDatabase.StopAssetEditing();
+                Progress.Finish(progressid);
+            }
+
+            AssetDatabase.Refresh();
+
+            if (UnknownGuids.Count > 0)
+            {
+                //PFLog.Mods.Error("Unknown asset guids:\n" + string.Join("\n", UnknownGuids.Select(t => t.Item1).Distinct()));
+                var dict = new Dictionary<string, string[]>();
+
+                foreach (var guid in UnknownGuids.GroupBy(t => t.Item1))
+                {
+                    dict.Add(guid.Key, guid.Select(t => Path.GetRelativePath(Path.GetFullPath("."), t.Item2).Replace(@"\", "/")).ToArray());
+                }
+
+                File.WriteAllText("Assets/Mechanics/Blueprints/UnknownGUIDs.json", JsonConvert.SerializeObject(dict, Formatting.Indented));
+            }
+            #endregion
+        }
+        #region MicroPatches
+        static ConcurrentBag<(string, string)> UnknownGuids = new();
+
+        //private static void RepairConfig(string filePath, string oldMeta, string newMeta)
+        //{
+        //    var contents = File.ReadAllText(filePath);
+        //    if (string.IsNullOrEmpty(contents))
+        //    {
+        //        PFLog.Mods.Error($"Error while reading contents of {filePath}");
+        //        return;
+        //    }
+
+        //    contents = contents.Replace(oldMeta, newMeta);
+        //    File.WriteAllText(filePath, contents);
+        //}
+
+        static readonly string[] KnownSharedStringAssetGuids = new[]
         {
+            "e91caa81884d28a438cca4933d34ec1e",
+            "36baaa8bdcb9d8b49b9199833965d2c3"
+        };
+
+        static readonly Regex MonoScriptPropertyString = new Regex(@"m_Script:\s+\{fileID:\s+(?<fileID>\-?\d+)\s*,\s+guid:\s+(?<guid>[0-9a-f]{32})\b.*\}");
+
+        private static void RepairConfig(string filePath, string newFileID, string newGuid)
+        {
+            filePath = Path.GetFullPath(filePath);
+
+            if (filePath.Length > 260 && !filePath.StartsWith(@"\\?\"))
+                filePath = $@"\\?\{filePath}";
+
             var contents = File.ReadAllText(filePath);
             if (string.IsNullOrEmpty(contents))
             {
@@ -110,9 +171,42 @@ namespace Code.GameCore.Editor.Mods
                 return;
             }
 
-            contents = contents.Replace(oldMeta, newMeta);
+            var matches = MonoScriptPropertyString.Matches(contents);
+
+            if (matches.Count != 1)
+                return;
+
+            var match = matches[0];
+
+            if (match.Groups["fileID"].Value != "11500000")
+                return;
+
+            var guid = match.Groups["guid"].Value;
+
+            if (!KnownSharedStringAssetGuids.Contains(guid))
+            {
+                //PFLog.Mods.Error($"Unkown MonoScript guid '{guid}'");
+                UnknownGuids.Add((guid, filePath));
+                return;
+            }
+
+            static (int index, int length) location(Group group) => group.Success ? (group.Index, group.Length) : default;
+            static string replaceRange(string source, int index, int length, string replacement)
+            {
+                var left = source.Substring(0, index);
+                var right = source.Substring(index + length);
+
+                return left + replacement + right;
+            }
+
+            var fileIDLocation = location(match.Groups["fileID"]);
+            var guidLocation = location(match.Groups["guid"]);
+
+            contents = replaceRange(contents, guidLocation.index, guidLocation.length, newGuid);
+            contents = replaceRange(contents, fileIDLocation.index, fileIDLocation.length, newFileID);
+
             File.WriteAllText(filePath, contents);
         }
-
+        #endregion
     }
 }

@@ -112,10 +112,12 @@ namespace Assets.Editor
 
         public static void Ping(SimpleBlueprint bp)
         {
-            if(bp==null)
+            #region MicroPatches
+            if (bp==null || Event.current == null)
                 return;
 
-            if (Event.current != null && Event.current.control)
+            if (Event.current.control)
+            #endregion
             {
                 Selection.activeObject = BlueprintEditorWrapper.Wrap(bp);
             }

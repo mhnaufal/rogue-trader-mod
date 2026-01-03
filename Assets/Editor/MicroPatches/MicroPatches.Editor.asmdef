@@ -1,0 +1,20 @@
+{
+    "name": "MicroPatches.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Mods.Editor",
+        "RogueTrader.Blueprints.Editor",
+        "MicroPatches.Editor.GameServices"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

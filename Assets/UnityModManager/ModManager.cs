@@ -6,7 +6,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 using UnityEngine;
-using dnlib.DotNet;
+//using dnlib.DotNet;
 using Kingmaker;
 
 namespace UnityModManagerNet
@@ -31,7 +31,7 @@ namespace UnityModManagerNet
         /// </summary>
         public static Version version { get; private set; } = new(0, 25, 0);
 
-        private static ModuleDefMD thisModuleDef = ModuleDefMD.Load(typeof(UnityModManager).Module);
+        //private static ModuleDefMD thisModuleDef = ModuleDefMD.Load(typeof(UnityModManager).Module);
 
         private static bool forbidDisableMods;
 
@@ -354,58 +354,60 @@ namespace UnityModManagerNet
             bool mActive = false;
             public bool Active {
                 get => mActive;
-                set {
-                    if (value && !Loaded)
-                    {
-                        var stopwatch = System.Diagnostics.Stopwatch.StartNew();
-                        Load();
-                        Logger.NativeLog($"Loading time {(stopwatch.ElapsedMilliseconds / 1000f):f2} s.");
-                        return;
-                    }
+                set
+                {
+                    throw new NotSupportedException();
+                    //if (value && !Loaded)
+                    //{
+                    //    var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+                    //    Load();
+                    //    Logger.NativeLog($"Loading time {(stopwatch.ElapsedMilliseconds / 1000f):f2} s.");
+                    //    return;
+                    //}
 
-                    if (!mStarted || mErrorOnLoading)
-                        return;
+                    //if (!mStarted || mErrorOnLoading)
+                    //    return;
 
-                    try
-                    {
-                        if (value)
-                        {
-                            if (mActive)
-                                return;
+                    //try
+                    //{
+                    //    if (value)
+                    //    {
+                    //        if (mActive)
+                    //            return;
 
-                            if (OnToggle == null || OnToggle(this, true))
-                            {
-                                mActive = true;
-                                this.Logger.Log($"Active.");
-                                // GameScripts.OnModToggle(this, true);
-                            }
-                            else
-                            {
-                                this.Logger.Log($"Unsuccessfully.");
-                                this.Logger.NativeLog($"OnToggle(true) failed.");
-                            }
-                        }
-                        else if (!forbidDisableMods)
-                        {
-                            if (!mActive)
-                                return;
+                    //        if (OnToggle == null || OnToggle(this, true))
+                    //        {
+                    //            mActive = true;
+                    //            this.Logger.Log($"Active.");
+                    //            // GameScripts.OnModToggle(this, true);
+                    //        }
+                    //        else
+                    //        {
+                    //            this.Logger.Log($"Unsuccessfully.");
+                    //            this.Logger.NativeLog($"OnToggle(true) failed.");
+                    //        }
+                    //    }
+                    //    else if (!forbidDisableMods)
+                    //    {
+                    //        if (!mActive)
+                    //            return;
 
-                            if (OnToggle != null && OnToggle(this, false))
-                            {
-                                mActive = false;
-                                this.Logger.Log($"Inactive.");
-                                // GameScripts.OnModToggle(this, false);
-                            }
-                            else if (OnToggle != null)
-                            {
-                                this.Logger.NativeLog($"OnToggle(false) failed.");
-                            }
-                        }
-                    }
-                    catch (Exception e)
-                    {
-                        this.Logger.LogException("OnToggle", e);
-                    }
+                    //        if (OnToggle != null && OnToggle(this, false))
+                    //        {
+                    //            mActive = false;
+                    //            this.Logger.Log($"Inactive.");
+                    //            // GameScripts.OnModToggle(this, false);
+                    //        }
+                    //        else if (OnToggle != null)
+                    //        {
+                    //            this.Logger.NativeLog($"OnToggle(false) failed.");
+                    //        }
+                    //    }
+                    //}
+                    //catch (Exception e)
+                    //{
+                    //    this.Logger.LogException("OnToggle", e);
+                    //}
                 }
             }
 
@@ -442,431 +444,431 @@ namespace UnityModManagerNet
 
             public bool Load()
             {
-                if (Loaded)
-                    return !mErrorOnLoading;
+                //if (Loaded)
+                //    return !mErrorOnLoading;
 
-                mErrorOnLoading = false;
+                //mErrorOnLoading = false;
 
-                this.Logger.Log($"Version '{Info.Version}'. Loading.");
-                if (string.IsNullOrEmpty(Info.AssemblyName))
-                {
-                    mErrorOnLoading = true;
-                    this.Logger.Error($"{nameof(Info.AssemblyName)} is null.");
-                }
+                //this.Logger.Log($"Version '{Info.Version}'. Loading.");
+                //if (string.IsNullOrEmpty(Info.AssemblyName))
+                //{
+                //    mErrorOnLoading = true;
+                //    this.Logger.Error($"{nameof(Info.AssemblyName)} is null.");
+                //}
 
-                if (string.IsNullOrEmpty(Info.EntryMethod))
-                {
-                    mErrorOnLoading = true;
-                    this.Logger.Error($"{nameof(Info.EntryMethod)} is null.");
-                }
+                //if (string.IsNullOrEmpty(Info.EntryMethod))
+                //{
+                //    mErrorOnLoading = true;
+                //    this.Logger.Error($"{nameof(Info.EntryMethod)} is null.");
+                //}
 
-                if (!string.IsNullOrEmpty(Info.ManagerVersion))
-                {
-                    if (ManagerVersion > GetVersion())
-                    {
-                        mErrorOnLoading = true;
-                        this.Logger.Error($"Mod Manager must be version '{Info.ManagerVersion}' or higher.");
-                    }
-                }
+                //if (!string.IsNullOrEmpty(Info.ManagerVersion))
+                //{
+                //    if (ManagerVersion > GetVersion())
+                //    {
+                //        mErrorOnLoading = true;
+                //        this.Logger.Error($"Mod Manager must be version '{Info.ManagerVersion}' or higher.");
+                //    }
+                //}
 
-                if (!string.IsNullOrEmpty(Info.GameVersion))
-                {
-                    if (gameVersion != VER_0 && GameVersion > gameVersion)
-                    {
-                        mErrorOnLoading = true;
-                        this.Logger.Error($"Game must be version '{Info.GameVersion}' or higher.");
-                    }
-                }
+                //if (!string.IsNullOrEmpty(Info.GameVersion))
+                //{
+                //    if (gameVersion != VER_0 && GameVersion > gameVersion)
+                //    {
+                //        mErrorOnLoading = true;
+                //        this.Logger.Error($"Game must be version '{Info.GameVersion}' or higher.");
+                //    }
+                //}
 
-                if (Requirements.Count > 0)
-                {
-                    foreach (var item in Requirements)
-                    {
-                        var id = item.Key;
-                        var mod = FindMod(id);
-                        if (mod == null)
-                        {
-                            mErrorOnLoading = true;
-                            this.Logger.Error($"Required mod '{id}' missing.");
-                            continue;
-                        }
-                        else if (item.Value != null && item.Value > mod.Version)
-                        {
-                            mErrorOnLoading = true;
-                            this.Logger.Error($"Required mod '{id}' must be version '{item.Value}' or higher.");
-                            continue;
-                        }
+                //if (Requirements.Count > 0)
+                //{
+                //    foreach (var item in Requirements)
+                //    {
+                //        var id = item.Key;
+                //        var mod = FindMod(id);
+                //        if (mod == null)
+                //        {
+                //            mErrorOnLoading = true;
+                //            this.Logger.Error($"Required mod '{id}' missing.");
+                //            continue;
+                //        }
+                //        else if (item.Value != null && item.Value > mod.Version)
+                //        {
+                //            mErrorOnLoading = true;
+                //            this.Logger.Error($"Required mod '{id}' must be version '{item.Value}' or higher.");
+                //            continue;
+                //        }
 
-                        if (!mod.Active)
-                        {
-                            mod.Enabled = true;
-                            mod.Active = true;
-                            if (!mod.Active)
-                                this.Logger.Log($"Required mod '{id}' inactive.");
-                        }
-                    }
-                }
+                //        if (!mod.Active)
+                //        {
+                //            mod.Enabled = true;
+                //            mod.Active = true;
+                //            if (!mod.Active)
+                //                this.Logger.Log($"Required mod '{id}' inactive.");
+                //        }
+                //    }
+                //}
 
-                if (LoadAfter.Count > 0)
-                {
-                    foreach (var id in LoadAfter)
-                    {
-                        var mod = FindMod(id);
-                        if (mod == null)
-                        {
-                            this.Logger.Log($"Optional mod '{id}' not found.");
-                            continue;
-                        }
+                //if (LoadAfter.Count > 0)
+                //{
+                //    foreach (var id in LoadAfter)
+                //    {
+                //        var mod = FindMod(id);
+                //        if (mod == null)
+                //        {
+                //            this.Logger.Log($"Optional mod '{id}' not found.");
+                //            continue;
+                //        }
 
-                        if (!mod.Active && mod.Enabled)
-                        {
-                            mod.Active = true;
-                            if (!mod.Active)
-                                this.Logger.Log($"Optional mod '{id}' enabled, but inactive.");
-                        }
-                    }
-                }
+                //        if (!mod.Active && mod.Enabled)
+                //        {
+                //            mod.Active = true;
+                //            if (!mod.Active)
+                //                this.Logger.Log($"Optional mod '{id}' enabled, but inactive.");
+                //        }
+                //    }
+                //}
 
-                if (mErrorOnLoading)
-                    return false;
+                //if (mErrorOnLoading)
+                //    return false;
 
-                string assemblyPath = System.IO.Path.Combine(Path, Info.AssemblyName);
-                string pdbPath = assemblyPath.Replace(".dll", ".pdb");
+                //string assemblyPath = System.IO.Path.Combine(Path, Info.AssemblyName);
+                //string pdbPath = assemblyPath.Replace(".dll", ".pdb");
 
-                var replacedAssemblyPath = string.Empty;
-                var commandArgs = Environment.GetCommandLineArgs();
-                var idx = Array.IndexOf(commandArgs, $"--umm-{Info.Id}-assembly-path");
-                if (idx != -1 && commandArgs.Length > idx + 1)
-                {
-                    replacedAssemblyPath = assemblyPath = commandArgs[idx + 1];
-                }
+                //var replacedAssemblyPath = string.Empty;
+                //var commandArgs = Environment.GetCommandLineArgs();
+                //var idx = Array.IndexOf(commandArgs, $"--umm-{Info.Id}-assembly-path");
+                //if (idx != -1 && commandArgs.Length > idx + 1)
+                //{
+                //    replacedAssemblyPath = assemblyPath = commandArgs[idx + 1];
+                //}
 
-                if (File.Exists(assemblyPath))
-                {
-                    if (!string.IsNullOrEmpty(replacedAssemblyPath))
-                    {
-                        try
-                        {
-                            mAssembly = Assembly.LoadFile(assemblyPath);
-                            mFirstLoading = false;
-                        }
-                        catch (Exception exception)
-                        {
-                            mErrorOnLoading = true;
-                            this.Logger.Error($"Error loading file '{assemblyPath}'.");
-                            this.Logger.LogException(exception);
-                            return false;
-                        }
-                    }
-                    else
-                    {
-                        try
-                        {
-                            var assemblyCachePath = assemblyPath;
-                            var pdbCachePath = pdbPath;
-                            var cacheExists = false;
+                //if (File.Exists(assemblyPath))
+                //{
+                //    if (!string.IsNullOrEmpty(replacedAssemblyPath))
+                //    {
+                //        try
+                //        {
+                //            mAssembly = Assembly.LoadFile(assemblyPath);
+                //            mFirstLoading = false;
+                //        }
+                //        catch (Exception exception)
+                //        {
+                //            mErrorOnLoading = true;
+                //            this.Logger.Error($"Error loading file '{assemblyPath}'.");
+                //            this.Logger.LogException(exception);
+                //            return false;
+                //        }
+                //    }
+                //    else
+                //    {
+                //        try
+                //        {
+                //            var assemblyCachePath = assemblyPath;
+                //            var pdbCachePath = pdbPath;
+                //            var cacheExists = false;
 
-                            if (mFirstLoading)
-                            {
-                                var fi = new FileInfo(assemblyPath);
-                                var hash = (ushort)((long)fi.LastWriteTimeUtc.GetHashCode() + version.GetHashCode() + ManagerVersion.GetHashCode()).GetHashCode();
-                                assemblyCachePath = assemblyPath + $".{hash}.cache";
-                                pdbCachePath = assemblyCachePath + ".pdb";
-                                cacheExists = File.Exists(assemblyCachePath);
+                //            if (mFirstLoading)
+                //            {
+                //                var fi = new FileInfo(assemblyPath);
+                //                var hash = (ushort)((long)fi.LastWriteTimeUtc.GetHashCode() + version.GetHashCode() + ManagerVersion.GetHashCode()).GetHashCode();
+                //                assemblyCachePath = assemblyPath + $".{hash}.cache";
+                //                pdbCachePath = assemblyCachePath + ".pdb";
+                //                cacheExists = File.Exists(assemblyCachePath);
 
-                                if (!cacheExists)
-                                {
-                                    foreach (var filepath in Directory.GetFiles(Path, "*.cache*"))
-                                    {
-                                        try
-                                        {
-                                            File.Delete(filepath);
-                                        }
-                                        catch (Exception)
-                                        {
-                                        }
-                                    }
-                                }
-                            }
+                //                if (!cacheExists)
+                //                {
+                //                    foreach (var filepath in Directory.GetFiles(Path, "*.cache*"))
+                //                    {
+                //                        try
+                //                        {
+                //                            File.Delete(filepath);
+                //                        }
+                //                        catch (Exception)
+                //                        {
+                //                        }
+                //                    }
+                //                }
+                //            }
 
-                            if (ManagerVersion >= VER_0_13)
-                            {
-                                if (mFirstLoading)
-                                {
-                                    if (!cacheExists)
-                                    {
-                                        bool hasChanges = false;
-                                        var modDef = ModuleDefMD.Load(File.ReadAllBytes(assemblyPath));
-                                        foreach (var item in modDef.GetAssemblyRefs())
-                                        {
-                                            if (item.FullName.StartsWith("0Harmony, Version=1."))
-                                            {
-                                                item.Name = "0Harmony-1.2";
-                                                hasChanges = true;
-                                            }
-                                        }
-                                        if (hasChanges)
-                                        {
-                                            modDef.Write(assemblyCachePath);
-                                        }
-                                        else
-                                        {
-                                            File.Copy(assemblyPath, assemblyCachePath, true);
-                                        }
-                                        if (File.Exists(pdbPath))
-                                        {
-                                            File.Copy(pdbPath, pdbCachePath, true);
-                                        }
-                                    }
+                //            if (ManagerVersion >= VER_0_13)
+                //            {
+                //                if (mFirstLoading)
+                //                {
+                //                    if (!cacheExists)
+                //                    {
+                //                        bool hasChanges = false;
+                //                        var modDef = ModuleDefMD.Load(File.ReadAllBytes(assemblyPath));
+                //                        foreach (var item in modDef.GetAssemblyRefs())
+                //                        {
+                //                            if (item.FullName.StartsWith("0Harmony, Version=1."))
+                //                            {
+                //                                item.Name = "0Harmony-1.2";
+                //                                hasChanges = true;
+                //                            }
+                //                        }
+                //                        if (hasChanges)
+                //                        {
+                //                            modDef.Write(assemblyCachePath);
+                //                        }
+                //                        else
+                //                        {
+                //                            File.Copy(assemblyPath, assemblyCachePath, true);
+                //                        }
+                //                        if (File.Exists(pdbPath))
+                //                        {
+                //                            File.Copy(pdbPath, pdbCachePath, true);
+                //                        }
+                //                    }
 
-                                    mAssembly = Assembly.LoadFile(assemblyCachePath);
+                //                    mAssembly = Assembly.LoadFile(assemblyCachePath);
 
-                                    foreach (var type in mAssembly.GetTypes())
-                                    {
-                                        if (type.GetCustomAttributes(typeof(EnableReloadingAttribute), true).Any())
-                                        {
-                                            CanReload = true;
-                                            break;
-                                        }
-                                    }
-                                }
-                                else
-                                {
-                                    var modDef = ModuleDefMD.Load(File.ReadAllBytes(assemblyPath));
-                                    modDef.Assembly.Name += ++mReloaderCount;
+                //                    foreach (var type in mAssembly.GetTypes())
+                //                    {
+                //                        if (type.GetCustomAttributes(typeof(EnableReloadingAttribute), true).Any())
+                //                        {
+                //                            CanReload = true;
+                //                            break;
+                //                        }
+                //                    }
+                //                }
+                //                else
+                //                {
+                //                    var modDef = ModuleDefMD.Load(File.ReadAllBytes(assemblyPath));
+                //                    modDef.Assembly.Name += ++mReloaderCount;
 
-                                    using (var buf = new MemoryStream())
-                                    {
-                                        modDef.Write(buf);
-                                        if (File.Exists(pdbPath))
-                                        {
-                                            mAssembly = Assembly.Load(buf.ToArray(), File.ReadAllBytes(pdbPath));
-                                        }
-                                        else
-                                        {
-                                            mAssembly = Assembly.Load(buf.ToArray());
-                                        }
-                                    }
-                                }
-                            }
-                            else
-                            {
-                                //var asmDef = AssemblyDefinition.ReadAssembly(assemblyPath);
-                                //var modDef = asmDef.MainModule;
-                                //if (modDef.TryGetTypeReference("UnityModManagerNet.UnityModManager", out var typeRef))
-                                //{
-                                //    var managerAsmRef = new AssemblyNameReference("UnityModManager", version);
-                                //    if (typeRef.Scope is AssemblyNameReference asmNameRef)
-                                //    {
-                                //        typeRef.Scope = managerAsmRef;
-                                //        modDef.AssemblyReferences.Add(managerAsmRef);
-                                //        asmDef.Write(assemblyCachePath);
-                                //    }
-                                //}
-                                if (!cacheExists)
-                                {
-                                    bool hasChanges = false;
-                                    var modDef = ModuleDefMD.Load(File.ReadAllBytes(assemblyPath));
-                                    foreach (var item in modDef.GetTypeRefs())
-                                    {
-                                        if (item.FullName == "UnityModManagerNet.UnityModManager")
-                                        {
-                                            item.ResolutionScope = new AssemblyRefUser(thisModuleDef.Assembly);
-                                            hasChanges = true;
-                                        }
-                                    }
-                                    foreach (var item in modDef.GetMemberRefs().Where(member => member.IsFieldRef))
-                                    {
-                                        if (item.Name == "modsPath" && item.Class.FullName == "UnityModManagerNet.UnityModManager")
-                                        {
-                                            item.Name = "OldModsPath";
-                                            hasChanges = true;
-                                        }
-                                    }
-                                    foreach (var item in modDef.GetAssemblyRefs())
-                                    {
-                                        if (item.FullName.StartsWith("0Harmony, Version=1."))
-                                        {
-                                            item.Name = "0Harmony-1.2";
-                                            hasChanges = true;
-                                        }
-                                    }
-                                    if (hasChanges)
-                                    {
-                                        modDef.Write(assemblyCachePath);
-                                    }
-                                    else
-                                    {
-                                        File.Copy(assemblyPath, assemblyCachePath, true);
-                                    }
-                                }
-                                mAssembly = Assembly.LoadFile(assemblyCachePath);
-                            }
+                //                    using (var buf = new MemoryStream())
+                //                    {
+                //                        modDef.Write(buf);
+                //                        if (File.Exists(pdbPath))
+                //                        {
+                //                            mAssembly = Assembly.Load(buf.ToArray(), File.ReadAllBytes(pdbPath));
+                //                        }
+                //                        else
+                //                        {
+                //                            mAssembly = Assembly.Load(buf.ToArray());
+                //                        }
+                //                    }
+                //                }
+                //            }
+                //            else
+                //            {
+                //                //var asmDef = AssemblyDefinition.ReadAssembly(assemblyPath);
+                //                //var modDef = asmDef.MainModule;
+                //                //if (modDef.TryGetTypeReference("UnityModManagerNet.UnityModManager", out var typeRef))
+                //                //{
+                //                //    var managerAsmRef = new AssemblyNameReference("UnityModManager", version);
+                //                //    if (typeRef.Scope is AssemblyNameReference asmNameRef)
+                //                //    {
+                //                //        typeRef.Scope = managerAsmRef;
+                //                //        modDef.AssemblyReferences.Add(managerAsmRef);
+                //                //        asmDef.Write(assemblyCachePath);
+                //                //    }
+                //                //}
+                //                if (!cacheExists)
+                //                {
+                //                    bool hasChanges = false;
+                //                    var modDef = ModuleDefMD.Load(File.ReadAllBytes(assemblyPath));
+                //                    foreach (var item in modDef.GetTypeRefs())
+                //                    {
+                //                        if (item.FullName == "UnityModManagerNet.UnityModManager")
+                //                        {
+                //                            item.ResolutionScope = new AssemblyRefUser(thisModuleDef.Assembly);
+                //                            hasChanges = true;
+                //                        }
+                //                    }
+                //                    foreach (var item in modDef.GetMemberRefs().Where(member => member.IsFieldRef))
+                //                    {
+                //                        if (item.Name == "modsPath" && item.Class.FullName == "UnityModManagerNet.UnityModManager")
+                //                        {
+                //                            item.Name = "OldModsPath";
+                //                            hasChanges = true;
+                //                        }
+                //                    }
+                //                    foreach (var item in modDef.GetAssemblyRefs())
+                //                    {
+                //                        if (item.FullName.StartsWith("0Harmony, Version=1."))
+                //                        {
+                //                            item.Name = "0Harmony-1.2";
+                //                            hasChanges = true;
+                //                        }
+                //                    }
+                //                    if (hasChanges)
+                //                    {
+                //                        modDef.Write(assemblyCachePath);
+                //                    }
+                //                    else
+                //                    {
+                //                        File.Copy(assemblyPath, assemblyCachePath, true);
+                //                    }
+                //                }
+                //                mAssembly = Assembly.LoadFile(assemblyCachePath);
+                //            }
 
-                            mFirstLoading = false;
-                        }
-                        catch (Exception exception)
-                        {
-                            mErrorOnLoading = true;
-                            this.Logger.Error($"Error loading file '{assemblyPath}'.");
-                            this.Logger.LogException(exception);
-                            return false;
-                        }
-                    }
-                    try
-                    {
-                        object[] param = new object[] { this };
-                        Type[] types = new Type[] { typeof(ModEntry) };
-                        if (FindMethod(Info.EntryMethod, types, false) == null)
-                        {
-                            param = null;
-                            types = null;
-                        }
+                //            mFirstLoading = false;
+                //        }
+                //        catch (Exception exception)
+                //        {
+                //            mErrorOnLoading = true;
+                //            this.Logger.Error($"Error loading file '{assemblyPath}'.");
+                //            this.Logger.LogException(exception);
+                //            return false;
+                //        }
+                //    }
+                //    try
+                //    {
+                //        object[] param = new object[] { this };
+                //        Type[] types = new Type[] { typeof(ModEntry) };
+                //        if (FindMethod(Info.EntryMethod, types, false) == null)
+                //        {
+                //            param = null;
+                //            types = null;
+                //        }
 
-                        if (!Invoke(Info.EntryMethod, out var result, param, types) || result != null && (bool)result == false)
-                        {
-                            mErrorOnLoading = true;
-                            this.Logger.Log($"Not loaded.");
-                        }
-                    }
-                    catch (Exception e)
-                    {
-                        mErrorOnLoading = true;
-                        this.Logger.Log(e.ToString());
-                        return false;
-                    }
+                //        if (!Invoke(Info.EntryMethod, out var result, param, types) || result != null && (bool)result == false)
+                //        {
+                //            mErrorOnLoading = true;
+                //            this.Logger.Log($"Not loaded.");
+                //        }
+                //    }
+                //    catch (Exception e)
+                //    {
+                //        mErrorOnLoading = true;
+                //        this.Logger.Log(e.ToString());
+                //        return false;
+                //    }
 
-                    mStarted = true;
+                //    mStarted = true;
 
-                    if (!mErrorOnLoading)
-                    {
-                        Active = true;
-                        return true;
-                    }
-                }
-                else
-                {
-                    mErrorOnLoading = true;
-                    this.Logger.Error($"File '{assemblyPath}' not found.");
-                }
+                //    if (!mErrorOnLoading)
+                //    {
+                //        Active = true;
+                //        return true;
+                //    }
+                //}
+                //else
+                //{
+                //    mErrorOnLoading = true;
+                //    this.Logger.Error($"File '{assemblyPath}' not found.");
+                //}
 
                 return false;
             }
 
             internal void Reload()
             {
-                if (!mStarted || !CanReload)
-                    return;
+                //if (!mStarted || !CanReload)
+                //    return;
 
-                if (OnSaveGUI != null)
-                    OnSaveGUI.Invoke(this);
+                //if (OnSaveGUI != null)
+                //    OnSaveGUI.Invoke(this);
 
-                this.Logger.Log("Reloading...");
+                //this.Logger.Log("Reloading...");
 
-                if (Toggleable)
-                {
-                    var b = forbidDisableMods;
-                    forbidDisableMods = false;
-                    Active = false;
-                    forbidDisableMods = b;
-                }
-                else
-                {
-                    mActive = false;
-                }
+                //if (Toggleable)
+                //{
+                //    var b = forbidDisableMods;
+                //    forbidDisableMods = false;
+                //    Active = false;
+                //    forbidDisableMods = b;
+                //}
+                //else
+                //{
+                //    mActive = false;
+                //}
 
-                try
-                {
-                    if (!Active && (OnUnload == null || OnUnload.Invoke(this)))
-                    {
-                        mCache.Clear();
-                        var AccessCacheType = typeof(HarmonyLib.Traverse).Assembly.GetType("HarmonyLib.AccessCache");
-                        var accessCache = typeof(HarmonyLib.Traverse).GetField("Cache", BindingFlags.Static | BindingFlags.NonPublic).GetValue(null);
-                        string[] fields = { "declaredFields", "declaredProperties", "declaredMethods", "inheritedFields", "inheritedProperties", "inheritedMethods" };
-                        foreach (var field in fields)
-                        {
-                            var accessCacheDict = (System.Collections.IDictionary)AccessCacheType.GetField(field, BindingFlags.Instance | BindingFlags.NonPublic).GetValue(accessCache);
-                            accessCacheDict.Clear();
-                        }
+                //try
+                //{
+                //    if (!Active && (OnUnload == null || OnUnload.Invoke(this)))
+                //    {
+                //        mCache.Clear();
+                //        var AccessCacheType = typeof(HarmonyLib.Traverse).Assembly.GetType("HarmonyLib.AccessCache");
+                //        var accessCache = typeof(HarmonyLib.Traverse).GetField("Cache", BindingFlags.Static | BindingFlags.NonPublic).GetValue(null);
+                //        string[] fields = { "declaredFields", "declaredProperties", "declaredMethods", "inheritedFields", "inheritedProperties", "inheritedMethods" };
+                //        foreach (var field in fields)
+                //        {
+                //            var accessCacheDict = (System.Collections.IDictionary)AccessCacheType.GetField(field, BindingFlags.Instance | BindingFlags.NonPublic).GetValue(accessCache);
+                //            accessCacheDict.Clear();
+                //        }
 
-                        var oldAssembly = Assembly;
-                        mAssembly = null;
-                        mStarted = false;
-                        mErrorOnLoading = false;
+                //        var oldAssembly = Assembly;
+                //        mAssembly = null;
+                //        mStarted = false;
+                //        mErrorOnLoading = false;
 
-                        OnToggle = null;
-                        OnGUI = null;
-                        OnFixedGUI = null;
-                        OnShowGUI = null;
-                        OnHideGUI = null;
-                        OnSaveGUI = null;
-                        OnUnload = null;
-                        OnUpdate = null;
-                        OnFixedUpdate = null;
-                        OnLateUpdate = null;
-                        CustomRequirements = null;
+                //        OnToggle = null;
+                //        OnGUI = null;
+                //        OnFixedGUI = null;
+                //        OnShowGUI = null;
+                //        OnHideGUI = null;
+                //        OnSaveGUI = null;
+                //        OnUnload = null;
+                //        OnUpdate = null;
+                //        OnFixedUpdate = null;
+                //        OnLateUpdate = null;
+                //        CustomRequirements = null;
 
-                        if (Load())
-                        {
-                            var allTypes = oldAssembly.GetTypes();
-                            foreach (var type in allTypes)
-                            {
-                                var t = Assembly.GetType(type.FullName);
-                                if (t != null)
-                                {
-                                    foreach (var field in type.GetFields(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic))
-                                    {
-                                        if (field.GetCustomAttributes(typeof(SaveOnReloadAttribute), true).Any())
-                                        {
-                                            var f = t.GetField(field.Name);
-                                            if (f != null)
-                                            {
-                                                this.Logger.Log($"Copying field '{field.DeclaringType.Name}.{field.Name}'");
-                                                try
-                                                {
-                                                    if (field.FieldType != f.FieldType)
-                                                    {
-                                                        if (field.FieldType.IsEnum && f.FieldType.IsEnum)
-                                                        {
-                                                            f.SetValue(null, Convert.ToInt32(field.GetValue(null)));
-                                                        }
-                                                        else if (field.FieldType.IsClass && f.FieldType.IsClass)
-                                                        {
-                                                            //f.SetValue(null, Convert.ChangeType(field.GetValue(null), f.FieldType));
-                                                        }
-                                                        else if (field.FieldType.IsValueType && f.FieldType.IsValueType)
-                                                        {
-                                                            //f.SetValue(null, Convert.ChangeType(field.GetValue(null), f.FieldType));
-                                                        }
-                                                    }
-                                                    else
-                                                    {
-                                                        f.SetValue(null, field.GetValue(null));
-                                                    }
-                                                }
-                                                catch (Exception ex)
-                                                {
-                                                    this.Logger.Error(ex.ToString());
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        return;
-                    }
-                    else if (Active)
-                    {
-                        this.Logger.Log("Must be deactivated.");
-                    }
-                }
-                catch (Exception e)
-                {
-                    this.Logger.Error(e.ToString());
-                }
+                //        if (Load())
+                //        {
+                //            var allTypes = oldAssembly.GetTypes();
+                //            foreach (var type in allTypes)
+                //            {
+                //                var t = Assembly.GetType(type.FullName);
+                //                if (t != null)
+                //                {
+                //                    foreach (var field in type.GetFields(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic))
+                //                    {
+                //                        if (field.GetCustomAttributes(typeof(SaveOnReloadAttribute), true).Any())
+                //                        {
+                //                            var f = t.GetField(field.Name);
+                //                            if (f != null)
+                //                            {
+                //                                this.Logger.Log($"Copying field '{field.DeclaringType.Name}.{field.Name}'");
+                //                                try
+                //                                {
+                //                                    if (field.FieldType != f.FieldType)
+                //                                    {
+                //                                        if (field.FieldType.IsEnum && f.FieldType.IsEnum)
+                //                                        {
+                //                                            f.SetValue(null, Convert.ToInt32(field.GetValue(null)));
+                //                                        }
+                //                                        else if (field.FieldType.IsClass && f.FieldType.IsClass)
+                //                                        {
+                //                                            //f.SetValue(null, Convert.ChangeType(field.GetValue(null), f.FieldType));
+                //                                        }
+                //                                        else if (field.FieldType.IsValueType && f.FieldType.IsValueType)
+                //                                        {
+                //                                            //f.SetValue(null, Convert.ChangeType(field.GetValue(null), f.FieldType));
+                //                                        }
+                //                                    }
+                //                                    else
+                //                                    {
+                //                                        f.SetValue(null, field.GetValue(null));
+                //                                    }
+                //                                }
+                //                                catch (Exception ex)
+                //                                {
+                //                                    this.Logger.Error(ex.ToString());
+                //                                }
+                //                            }
+                //                        }
+                //                    }
+                //                }
+                //            }
+                //        }
+                //        return;
+                //    }
+                //    else if (Active)
+                //    {
+                //        this.Logger.Log("Must be deactivated.");
+                //    }
+                //}
+                //catch (Exception e)
+                //{
+                //    this.Logger.Error(e.ToString());
+                //}
 
-                this.Logger.Log("Reloading canceled.");
+                //this.Logger.Log("Reloading canceled.");
             }
 
             public bool Invoke(string namespaceClassnameMethodname, out object result, object[] param = null, Type[] types = null)
@@ -1104,116 +1106,116 @@ namespace UnityModManagerNet
 
         private static void _Start(string passedGameVersion)
         {
-            if (!Initialize())
-            {
-                PFLog.UnityModManager.Log($"Cancel start due to an error.");
-                OpenUnityFileLog();
-                return;
-            }
-            if (started)
-            {
-                PFLog.UnityModManager.Log($"Cancel start. Already started.");
-                return;
-            }
-            started = true;
+            //if (!Initialize())
+            //{
+            //    PFLog.UnityModManager.Log($"Cancel start due to an error.");
+            //    OpenUnityFileLog();
+            //    return;
+            //}
+            //if (started)
+            //{
+            //    PFLog.UnityModManager.Log($"Cancel start. Already started.");
+            //    return;
+            //}
+            //started = true;
 
-            ParseGameVersion(passedGameVersion);
+            //ParseGameVersion(passedGameVersion);
 
-            if (Directory.Exists(ModsPath))
-            {
-                PFLog.UnityModManager.Log($"Parsing mods.");
+            //if (Directory.Exists(ModsPath))
+            //{
+            //    PFLog.UnityModManager.Log($"Parsing mods.");
 
-                Dictionary<string, ModEntry> mods = new Dictionary<string, ModEntry>();
+            //    Dictionary<string, ModEntry> mods = new Dictionary<string, ModEntry>();
 
-                int countMods = 0;
+            //    int countMods = 0;
 
-                foreach (string dir in Directory.GetDirectories(ModsPath))
-                {
-                    string jsonPath = Path.Combine(dir, Config.ModInfo);
-                    if (!File.Exists(Path.Combine(dir, Config.ModInfo)))
-                    {
-                        jsonPath = Path.Combine(dir, Config.ModInfo.ToLower());
-                    }
-                    if (File.Exists(jsonPath))
-                    {
-                        countMods++;
-                        PFLog.UnityModManager.Log($"Reading file '{jsonPath}'.");
-                        try
-                        {
-                            //ModInfo modInfo = JsonUtility.FromJson<ModInfo>(File.ReadAllText(jsonPath));
-                            ModInfo modInfo = TinyJson.JSONParser.FromJson<ModInfo>(File.ReadAllText(jsonPath));
-                            if (string.IsNullOrEmpty(modInfo.Id))
-                            {
-                                PFLog.UnityModManager.Error($"Id is null.");
-                                continue;
-                            }
-                            if (mods.ContainsKey(modInfo.Id))
-                            {
-                                PFLog.UnityModManager.Error($"Id '{modInfo.Id}' already uses another mod.");
-                                continue;
-                            }
-                            if (string.IsNullOrEmpty(modInfo.AssemblyName))
-                                modInfo.AssemblyName = modInfo.Id + ".dll";
+            //    foreach (string dir in Directory.GetDirectories(ModsPath))
+            //    {
+            //        string jsonPath = Path.Combine(dir, Config.ModInfo);
+            //        if (!File.Exists(Path.Combine(dir, Config.ModInfo)))
+            //        {
+            //            jsonPath = Path.Combine(dir, Config.ModInfo.ToLower());
+            //        }
+            //        if (File.Exists(jsonPath))
+            //        {
+            //            countMods++;
+            //            PFLog.UnityModManager.Log($"Reading file '{jsonPath}'.");
+            //            try
+            //            {
+            //                //ModInfo modInfo = JsonUtility.FromJson<ModInfo>(File.ReadAllText(jsonPath));
+            //                ModInfo modInfo = TinyJson.JSONParser.FromJson<ModInfo>(File.ReadAllText(jsonPath));
+            //                if (string.IsNullOrEmpty(modInfo.Id))
+            //                {
+            //                    PFLog.UnityModManager.Error($"Id is null.");
+            //                    continue;
+            //                }
+            //                if (mods.ContainsKey(modInfo.Id))
+            //                {
+            //                    PFLog.UnityModManager.Error($"Id '{modInfo.Id}' already uses another mod.");
+            //                    continue;
+            //                }
+            //                if (string.IsNullOrEmpty(modInfo.AssemblyName))
+            //                    modInfo.AssemblyName = modInfo.Id + ".dll";
 
-                            ModEntry modEntry = new ModEntry(modInfo, dir + Path.DirectorySeparatorChar);
-                            mods.Add(modInfo.Id, modEntry);
-                        }
-                        catch (Exception exception)
-                        {
-                            PFLog.UnityModManager.Error($"Error parsing file '{jsonPath}'.");
-                            Debug.LogException(exception);
-                        }
-                    }
-                    else
-                    {
-                        PFLog.UnityModManager.Log($"File not found {jsonPath}");
-                    }
-                }
-                if (mods.Count > 0)
-                {
-                    PFLog.UnityModManager.Log($"Sorting mods.");
-                    TopoSort(mods);
+            //                ModEntry modEntry = new ModEntry(modInfo, dir + Path.DirectorySeparatorChar);
+            //                mods.Add(modInfo.Id, modEntry);
+            //            }
+            //            catch (Exception exception)
+            //            {
+            //                PFLog.UnityModManager.Error($"Error parsing file '{jsonPath}'.");
+            //                Debug.LogException(exception);
+            //            }
+            //        }
+            //        else
+            //        {
+            //            PFLog.UnityModManager.Log($"File not found {jsonPath}");
+            //        }
+            //    }
+            //    if (mods.Count > 0)
+            //    {
+            //        PFLog.UnityModManager.Log($"Sorting mods.");
+            //        TopoSort(mods);
 
-                    Params.ReadModParams();
+            //        Params.ReadModParams();
 
-                    PFLog.UnityModManager.Log($"Loading mods.");
-                    foreach (var mod in ModEntries)
-                    {
-                        if (!mod.Enabled)
-                        {
-                            mod.Logger.Log("To skip (disabled).");
-                        }
-                        else
-                        {
-                            mod.Active = true;
-                        }
-                    }
-                }
+            //        PFLog.UnityModManager.Log($"Loading mods.");
+            //        foreach (var mod in ModEntries)
+            //        {
+            //            if (!mod.Enabled)
+            //            {
+            //                mod.Logger.Log("To skip (disabled).");
+            //            }
+            //            else
+            //            {
+            //                mod.Active = true;
+            //            }
+            //        }
+            //    }
 
-                PFLog.UnityModManager.Log($"Finish. Successful loaded {ModEntries.Count(x => !x.ErrorOnLoading)}/{countMods} mods.".ToUpper());
+            //    PFLog.UnityModManager.Log($"Finish. Successful loaded {ModEntries.Count(x => !x.ErrorOnLoading)}/{countMods} mods.".ToUpper());
 
-                var assemblies = AppDomain.CurrentDomain.GetAssemblies().Where(x => x.ManifestModule.Name == "UnityModManager.dll");
-                if (assemblies.Count() > 1)
-                {
-                    PFLog.UnityModManager.Error($"Detected extra copies of UMM.");
-                    foreach (var ass in assemblies)
-                    {
-                        PFLog.UnityModManager.Log($"- {ass.CodeBase}");
-                    }
-                }
-            }
-            else
-            {
-                PFLog.UnityModManager.Log($"Directory '{ModsPath}' not exists.");
-            }
+            //    var assemblies = AppDomain.CurrentDomain.GetAssemblies().Where(x => x.ManifestModule.Name == "UnityModManager.dll");
+            //    if (assemblies.Count() > 1)
+            //    {
+            //        PFLog.UnityModManager.Error($"Detected extra copies of UMM.");
+            //        foreach (var ass in assemblies)
+            //        {
+            //            PFLog.UnityModManager.Log($"- {ass.CodeBase}");
+            //        }
+            //    }
+            //}
+            //else
+            //{
+            //    PFLog.UnityModManager.Log($"Directory '{ModsPath}' not exists.");
+            //}
 
-            // GameScripts.OnAfterLoadMods();
+            //// GameScripts.OnAfterLoadMods();
 
-            if (!UI.Load())
-            {
-                Debug.LogError("UMM can't load UI");
-                PFLog.UnityModManager.Error($"Can't load UI.");
-            }
+            //if (!UI.Load())
+            //{
+            //    Debug.LogError("UMM can't load UI");
+            //    PFLog.UnityModManager.Error($"Can't load UI.");
+            //}
         }
 
         private static void ParseGameVersion(string passedGameVersion)
@@ -1221,7 +1223,8 @@ namespace UnityModManagerNet
             #if UNITY_EDITOR
             gameVersion = new Version(1, 0, 0);
             return;
-            #else
+            #endif
+
             try
             {
                 gameVersion = ParseVersion(passedGameVersion);
@@ -1237,7 +1240,6 @@ namespace UnityModManagerNet
                 PFLog.UnityModManager.Exception(e, "while parsing game version");
                 OpenUnityFileLog();
             }
-            #endif
         }
         
         private static bool GetValueFromMember(Type cls, ref object instance, string name, bool _static)

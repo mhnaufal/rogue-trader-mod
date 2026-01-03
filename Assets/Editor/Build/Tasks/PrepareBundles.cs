@@ -7,9 +7,12 @@ using Kingmaker.Utility.DotNetExtensions;
 using OwlcatModification.Editor.Build.Context;
 using RogueTrader.SharedTypes;
 using UnityEditor;
+using UnityEditor.Build.Content;
 using UnityEditor.Build.Pipeline;
 using UnityEditor.Build.Pipeline.Injector;
 using UnityEditor.Build.Pipeline.Interfaces;
+using UnityEditor.Build.Pipeline.Tasks;
+
 using UnityEngine;
 
 namespace OwlcatModification.Editor.Build.Tasks
@@ -42,7 +45,6 @@ namespace OwlcatModification.Editor.Build.Tasks
 
 		public ReturnCode Run()
 		{
-			
 			var buildContent = m_BundleBuildContent;
 			var layout = new Dictionary<string, List<GUID>>();
 			// bundle name -> [material guid]
@@ -54,7 +56,9 @@ namespace OwlcatModification.Editor.Build.Tasks
 				string bundleName = m_LayoutManager.GetBundleForAssetPath(assetPath, m_ModificationParameters.TargetFolderName);
 				if (bundleName == null)
 				{
-					continue;
+                    #region MicroPatches
+                    bundleName = DefaultBundleLayoutManager.GetFullBundleName(m_ModificationParameters.TargetFolderName, BuilderConsts.DefaultBundleName);
+					#endregion
 				}
 
 				if (!m_Tracker.UpdateInfo(assetPath))
@@ -111,7 +115,27 @@ namespace OwlcatModification.Editor.Build.Tasks
 				containerAsset.Materials = materialsList
 					.Select(i => AssetDatabase.LoadAssetAtPath<Material>(AssetDatabase.GUIDToAssetPath(i)))
 					.ToArray();
-				
+
+                #region MicroPatches
+                foreach (var m in containerAsset.Materials)
+				{
+					var shaderPath = AssetDatabase.GetAssetPath(m.shader);
+					var shaderGuid =  new GUID(AssetDatabase.AssetPathToGUID(shaderPath));
+
+                    if (buildContent.Assets.Contains(shaderGuid))
+						continue;
+
+                    if (!layout.TryGetValue("shaders", out var sBundle))
+						sBundle = layout["shaders"] = new();
+
+					if (!sBundle.Contains(shaderGuid))
+                        sBundle.Add(shaderGuid);
+
+                    buildContent.Assets.Add(shaderGuid);
+					buildContent.Addresses[shaderGuid] = shaderPath;
+                }
+				#endregion
+
 				EditorUtility.SetDirty(containerAsset);
 				AssetDatabase.SaveAssets();
 
@@ -125,11 +149,17 @@ namespace OwlcatModification.Editor.Build.Tasks
 					bundle.Add(guid);
 				}
 			}
-
-			foreach (var bundle in layout)
+            #region MicroPatches
+            foreach (var bundle in layout)
 			{
-				buildContent.BundleLayout[Path.Combine(BuilderConsts.OutputBundles, bundle.Key)] = bundle.Value;
+				var bundlePath = bundle.Key;
+
+                if (bundle.Key != "shaders")
+                    bundlePath = Path.Combine(BuilderConsts.OutputBundles, bundle.Key);
+
+                buildContent.BundleLayout[bundlePath] = bundle.Value;
 			}
+			#endregion
 
 			CopyLayout(layout, m_ModificationSettings.Settings.BundlesLayout);
 			

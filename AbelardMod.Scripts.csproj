@@ -435,10 +435,6 @@
       <HintPath>Assets\RogueTraderAssemblies\Kingmaker.UI.Models.Log.ContextFlag.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="0Harmony">
-      <HintPath>Assets\RogueTraderAssemblies\0Harmony.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="NonConvexColliderRuntimeAPI">
       <HintPath>Assets\RogueTraderAssemblies\NonConvexColliderRuntimeAPI.dll</HintPath>
       <Private>False</Private>
@@ -679,10 +675,6 @@
       <HintPath>Assets\RogueTraderAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="dnlib">
-      <HintPath>Assets\Libs\dnlib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
       <HintPath>Assets\RogueTraderAssemblies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
       <Private>False</Private>
@@ -727,6 +719,10 @@
       <HintPath>Assets\RogueTraderAssemblies\UnityEngine.ContentLoadModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="MicroPatches">
+      <HintPath>Assets\Editor\MicroPatches\MicroPatches.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="AK.Wwise.Unity.MonoBehaviour">
       <HintPath>Assets\RogueTraderAssemblies\AK.Wwise.Unity.MonoBehaviour.dll</HintPath>
       <Private>False</Private>
@@ -757,6 +753,10 @@
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
       <HintPath>Assets\RogueTraderAssemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ZstdSharp">
+      <HintPath>Assets\Editor\MicroPatches\ZstdSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Services.Core.Scheduler">
@@ -979,10 +979,6 @@
       <HintPath>Assets\RogueTraderAssemblies\UnityEngine.SharedInternalsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Kingmaker.RuleSystem.Enum">
       <HintPath>Assets\RogueTraderAssemblies\Kingmaker.RuleSystem.Enum.dll</HintPath>
       <Private>False</Private>
@@ -1023,6 +1019,10 @@
       <HintPath>Assets\RogueTraderAssemblies\StateHasher.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>Assets\RogueTraderAssemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Assets\RogueTraderAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
       <Private>False</Private>
@@ -1041,6 +1041,10 @@
     </Reference>
     <Reference Include="Unity.ProBuilder">
       <HintPath>Assets\RogueTraderAssemblies\Unity.ProBuilder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>Assets\Editor\MicroPatches\SharpCompress.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Kingmaker.Controllers.Interfaces">
@@ -1261,6 +1265,10 @@
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>Assets\RogueTraderAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnitLogic.Alignments.Enums">

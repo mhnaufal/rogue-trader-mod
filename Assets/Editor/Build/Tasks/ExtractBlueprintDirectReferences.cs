@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+
+using Kingmaker;
 using Kingmaker.Localization;
 using Newtonsoft.Json.Linq;
 using OwlcatModification.Editor.Build.Context;
@@ -41,8 +43,11 @@ namespace OwlcatModification.Editor.Build.Tasks
                 m_ModificationParameters.TargetFolderName + "_" +
                 Kingmaker.Modding.OwlcatModification.BlueprintDirectReferencesBundleName);
 
-            string[] blueprints = Directory.GetFiles(m_ModificationParameters.BlueprintsPath);
-            foreach (string blueprintPath in blueprints)
+            #region MicroPatches
+            //string[] blueprints = Directory.GetFiles(m_ModificationParameters.BlueprintsPath);
+            foreach (string blueprintPath in
+                Directory.GetFiles(m_ModificationParameters.BlueprintsPath, "*.*", SearchOption.AllDirectories))
+            #endregion
             {
                 if (!blueprintPath.EndsWith(".jbp") 
                     && !blueprintPath.EndsWith(".patch")
@@ -55,7 +60,16 @@ namespace OwlcatModification.Editor.Build.Tasks
                 using (var fs = File.Open(blueprintPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                 using (var sr = new StreamReader(fs))
                 {
-                    root = JObject.Parse(sr.ReadToEnd());
+                    try
+                    {
+                        root = JObject.Parse(sr.ReadToEnd());
+                    }
+                    catch (Exception ex)
+                    {
+                        PFLog.Mods.Error($"Error reading blueprint or patch file: {blueprintPath}");
+                        PFLog.Mods.Exception(ex);
+                        continue;
+                    }
                 }
 
                 var allObjs = root.DescendantsAndSelf().OfType<JObject>();

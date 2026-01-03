@@ -39,10 +39,11 @@ namespace OwlcatModification.Editor.Build.Context
 				return GetFullBundleName(prefix, BuilderConsts.DefaultBundleName);
 			}
 
-			return null;
-		}
-
-		private static string GetFullBundleName(string prefix, string name)
+            return null;
+        }
+		#region MicroPatches
+		public static string GetFullBundleName(string prefix, string name)
+		#endregion
 		{
 			StringBuilder.Clear();
 			StringBuilder.Append(prefix);
