@@ -576,6 +576,10 @@ namespace Kingmaker.Editor.Blueprints.ProjectView
             if (!args.acceptedRename)
                 return;
 
+            // NOTE: Unity error where everytime Editor is opened, it will try to rename blueprint files.
+            // https://discord.com/channels/645948717400064030/791053285657542666/1285681366930948160
+            return;
+
             bool wasError;
             if (args.itemID >= 0)
             {

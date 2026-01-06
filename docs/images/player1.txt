@@ -1,0 +1,696 @@
+Mono path[0] = 'C:/Program Files (x86)/GOG Galaxy/Games/Warhammer 40,000 Rogue Trader/WH40KRT_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/GOG Galaxy/Games/Warhammer 40,000 Rogue Trader/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.52f1 (9e4086222921)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/GOG Galaxy/Games/Warhammer 40,000 Rogue Trader/WH40KRT_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.8180
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 22.943 seconds
+- Finished resetting the current domain, in  0.012 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Found startup.json at C:/Program Files (x86)/GOG Galaxy/Games/Warhammer 40,000 Rogue Trader\startup.json
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+UnloadTime: 6.240300 ms
+dataPath: C:/Program Files (x86)/GOG Galaxy/Games/Warhammer 40,000 Rogue Trader/WH40KRT_Data
+persistentDataPath: C:/Users/LENOVO/AppData/LocalLow/Owlcat Games/Warhammer 40000 Rogue Trader
+temporaryCachePath: C:/Users/LENOVO/AppData/Local/Temp/Owlcat Games/Warhammer 40000 Rogue Trader
+streamingAssetsPath: C:/Program Files (x86)/GOG Galaxy/Games/Warhammer 40,000 Rogue Trader/WH40KRT_Data/StreamingAssets
+DevelopmentDataPath: C:\Users\LENOVO\AppData\LocalLow\Owlcat Games\Warhammer 40000 Rogue Trader
+LogsDir: C:\Users\LENOVO\AppData\LocalLow\Owlcat Games\Warhammer 40000 Rogue Trader
+WwiseUnity: Wwise(R) SDK Version 2022.1.19 Build 8584.
+WwiseUnity: Setting Plugin DLL path to: C:/Program Files (x86)/GOG Galaxy/Games/Warhammer 40,000 Rogue Trader/WH40KRT_Data\Plugins\x86_64
+WwiseUnity: Sound engine initialized successfully.
+[MonoSingleton] There is no object of type Kingmaker.Utility.UnityExtensions.CoroutineRunner. Creating new.
+[MonoSingleton] There is no object of type Kingmaker.Settings.Graphics.ApplicationFocusObserver. Creating new.
+[MonoSingleton] There is no object of type Kingmaker.Settings.Graphics.TexturesQualityController. Creating new.
+[MonoSingleton] There is no object of type ToyBox.SharedStringAssetPool. Creating new.
+ASU 1: Load RogTradHarMod
+ASU 1: Load RogTradHarMod
+ASU 2: Toggle RogTradHarMod
+ASU 2: Toggle RogTradHarMod
+VMCHAR TEST
+Unable to open archive file: 
+Failed to read data for the AssetBundle ''.
+Serialization depth limit 10 exceeded at 'ClipSettings.ClipWrapper'. There may be an object composition cycle in one or more of your serialized classes. Consider rearranging data or use `[SerializeReference]`. 
+
+Serialization hierarchy:
+11: ClipSettings.ClipWrapper
+10: AttackVariantSettings.Ready
+9: AlternativeAttackVariantSettings.Settings
+8: AttackVariantSettings.AlternativeAnimations
+7: AlternativeAttackVariantSettings.Settings
+6: AttackVariantSettings.AlternativeAnimations
+5: AlternativeAttackVariantSettings.Settings
+4: AttackVariantSettings.AlternativeAnimations
+3: AlternativeAttackVariantSettings.Settings
+2: AttackVariantSettings.AlternativeAnimations
+1: WeaponStyleSettings.Single
+0: Kingmaker.Visual.Animation.Kingmaker.Actions::WarhammerUnitAnimationActionHandAttack.m_Settings
+Serialization depth limit 10 exceeded at 'AttackVariantSettings.Ready'. There may be an object composition cycle in one or more of your serialized classes. Consider rearranging data or use `[SerializeReference]`. 
+
+Serialization hierarchy:
+11: AttackVariantSettings.Ready
+10: AlternativeAttackVariantSettings.Settings
+9: AttackVariantSettings.AlternativeAnimations
+8: AlternativeAttackVariantSettings.Settings
+7: AttackVariantSettings.AlternativeAnimations
+6: AlternativeAttackVariantSettings.Settings
+5: AttackVariantSettings.AlternativeAnimations
+4: AlternativeAttackVariantSettings.Settings
+3: AttackVariantSettings.AlternativeAnimations
+2: AlternativeAttackVariantSettings.Settings
+1: AttackVariantSettings.AlternativeAnimations
+0: WeaponStyleSettings.Single
+Serialization depth limit 10 exceeded at 'AttackVariantSettings.Ready'. There may be an object composition cycle in one or more of your serialized classes. Consider rearranging data or use `[SerializeReference]`. 
+
+Serialization hierarchy:
+11: AttackVariantSettings.Ready
+10: AlternativeAttackVariantSettings.Settings
+9: AttackVariantSettings.AlternativeAnimations
+8: AlternativeAttackVariantSettings.Settings
+7: AttackVariantSettings.AlternativeAnimations
+6: AlternativeAttackVariantSettings.Settings
+5: AttackVariantSettings.AlternativeAnimations
+4: AlternativeAttackVariantSettings.Settings
+3: AttackVariantSettings.AlternativeAnimations
+2: AlternativeAttackVariantSettings.Settings
+1: AttackVariantSettings.AlternativeAnimations
+0: AlternativeAttackVariantSettings.Settings
+The referenced script on this Behaviour (Game Object '') is missing!
+Galaxy SDK was initialized
+Couldn't create a Convex Mesh from source mesh, within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. Source mesh name: Shield
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+Material 'FX_UI_Loading_Glitch' with Shader 'UI/FX/FX_UI_Loading_Glitch' doesn't have a texture property '_MainTex'
+ASU 3: Postfix
+Unloading 4 Unused Serialized files (Serialized files now loaded: 199)
+Unloading 266814 unused Assets to reduce memory usage. Loaded Objects now: 127422.
+Total: 235.452500 ms (FindLiveObjects: 14.612000 ms CreateObjectMapping: 27.191400 ms MarkObjects: 117.003700 ms  DeleteObjects: 76.644700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 204)
+Unloading 3511 unused Assets to reduce memory usage. Loaded Objects now: 124841.
+Total: 188.800600 ms (FindLiveObjects: 5.890900 ms CreateObjectMapping: 6.584500 ms MarkObjects: 174.659800 ms  DeleteObjects: 1.664700 ms)
+
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script (Kingmaker.CoverSceneObject) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+The referenced script on this Behaviour (Game Object 'CoverSceneObject_STATIC_FULL') is missing!
+SteamUserStats.GetStats for 12_TooFastToDie: 26
+SteamUserStats.GetStats for 13_TheDoomTrader: 19
+SteamUserStats.GetStats for 19_TheVoidWolf: 0
+SteamUserStats.GetStats for 21_PreciseDefense: 0
+SteamUserStats.GetStats for 26_MasterOfTheTrade: 0
+Couldn't create a Convex Mesh from source mesh, within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. Source mesh name: core
+[CANDLES] VFXOwlcatMultiplePositionBinder setup completed. particlesCount:1010, particleSystemBounds:(Center: (6.36, 2.02, -1.38), Extents: (47.59, 4.33, 49.15))
+[CANDLES] VFXOwlcatMultiplePositionBinder setup completed. particlesCount:589, particleSystemBounds:(Center: (132.40, 2.20, 0.96), Extents: (37.07, 3.09, 27.76))
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Adding null Transform to TransformAccessArray will result in degraded performance.
+Material 'FXUIOvertipGlitchMaterialPortraitContent' with Shader 'UI/FX/FX_UI_Overtip_Glitch' doesn't have a texture property '_MainTex'
+[MonoSingleton] There is no object of type Owlcat.Runtime.Visual.Effects.ParticleSumEmitter.ParticleSystemCustomSubEmitterDelegate. Creating new.
+Value of name 'System_BoundsSize' was not found
+Value of name 'System_BoundsSize' was not found
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Culling group was not disposed. You have to call Dispose explicitly from the main thread. This will likely result in a crash.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
